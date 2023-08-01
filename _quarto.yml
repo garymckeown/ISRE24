@@ -2,8 +2,9 @@ project:
   type: website
 
 website:
-  title: "ISRE24Website"
+  title: "ISRE 2024"
   navbar:
+    logo: "images/logo.png"
     left:
       - href: index.qmd
         text: Home
@@ -12,9 +13,12 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      - simplex
+      - custom.scss
     toc: true
+    page-layout: full
+    
 
 editor: visual
 

@@ -1,3 +1,19 @@
 ---
 title: "ISRE 2024"
 ---
+
+::: column-page
+![](images/Belfast/QUB_300119_7777.jpg){fig-alt="A view of Belfast City  at dusk with Belfast City Hall in the foreground" fig-align="center"}
+:::
+
+# About the Conference
+
+We are happy to announce that the International Society for Research on Emotion (ISRE) conference will take place in-person on July 17-20, 2024 at Queen's University Belfast, Northern Ireland.
+
+The ISRE conference is an exciting opportunity to meet international colleagues, present your work, and stay up-to-date with the latest developments in emotion research. ISRE members study emotions from a wide range of disciplines including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology and sociology.
+
+# Event Sponsors
+
+::: {layout-ncol=3}
+![](images/VisitBelfast/Belfast%20Starburst%20Logo%20(purple).jpg){fig-alt="Belfast Starburst Logo" width="100"} ![](images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png){fig-alt="Tourism Northern Ireland Logo" width="150"} ![](images/VisitBelfast/Visit_Belfast_Logo_(Purple).jpg){fig-alt="Visit Belfast Logo" width="150"}
+:::

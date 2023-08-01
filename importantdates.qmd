@@ -2,8 +2,20 @@
 title: "Important Dates"
 ---
 
-About this site
+**All deadlines are as of 11:59 PM Pacific Time.**
 
-```{r}
-1 + 1
-```
+Main Conference submissions due.
+
+November 30, 2023 11:59 PM Pre-Conference submissions due.
+
+Early December, 2023 Pre-Conference decisions announced.
+
+February 4, 2024 Main Conference decisions announced.
+
+February 4, 2024 REGISTRATION IS OPEN!
+
+March 6, 2024 Travel Award submission deadline.
+
+March 11, 2024 March 18, 2022 Early Bird registration deadline EXTENDED!
+
+April 1, 2024  (anywhere on Earth) Dissertation Award deadline.
