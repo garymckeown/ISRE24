@@ -1,0 +1,14 @@
+---
+title: "Belfast City Council"
+image: ../../images/VisitBelfast/Belfast_Starburst_Logo(purple).jpg
+# open-graph:
+#   description: "Belfast"
+#   image: ../../images/VisitBelfast/Belfast_Starburst_Logo(purple).jpg
+# twitter-card:
+#   description: "Belfast"
+#   image: ../../images/VisitBelfast/Belfast_Starburst_Logo(purple).jpg
+---
+
+![](../../images/VisitBelfast/Belfast_Starburst_Logo(purple).jpg){fig-align="left" fig-alt="The Tourism Northern Ireland Logo." width=20%}
+
+---

@@ -3,13 +3,23 @@ project:
 
 website:
   title: "ISRE 2024"
+  twitter-card: true
+  open-graph: true
   navbar:
     logo: "images/logo.png"
     left:
       - href: index.qmd
         text: Home
       - importantdates.qmd
-      - invitedkeynotes.qmd
+      - keynotes/index.qmd
+      - sponsorspage/index.qmd
+      - program/index.qmd
+      - location/index.qmd
+      - accommodation/index.qmd
+      - registration/index.qmd
+      - preconference/index.qmd
+      - safetyatQUB/index.qmd
+      - contactus/index.qmd
 
 format:
   html:

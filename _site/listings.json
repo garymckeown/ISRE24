@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/sponsorspage/sponsors/belfast_starburst.html",
+      "/sponsorspage/sponsors/tourism_ni.html",
+      "/sponsorspage/sponsors/visit_belfast.html"
+    ]
+  },
+  {
+    "listing": "/sponsorspage/index.html",
+    "items": [
+      "/sponsorspage/sponsors/belfast_starburst.html",
+      "/sponsorspage/sponsors/tourism_ni.html",
+      "/sponsorspage/sponsors/visit_belfast.html"
+    ]
+  }
+]

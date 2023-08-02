@@ -1,0 +1,18 @@
+---
+title: "Tourism Northern Ireland"
+image: ../../images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png
+# open-graph:
+#   description: "Tourism Northern Ireland"
+#   image: ../../images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png
+# twitter-card:
+#   description: "Tourism Northern Ireland"
+#   image: ../../images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png
+---
+
+![](../../images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png){fig-align="left" fig-alt="The Tourism Northern Ireland Logo." width=20%}
+
+
+```{=html}
+<iframe width="900" height="700" src="https://www.tourismni.com/" title="Tourism Northern Ireland Website"></iframe>
+```
+---

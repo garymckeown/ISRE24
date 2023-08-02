@@ -1,9 +1,28 @@
 ---
 title: "ISRE 2024"
+format:
+  html:
+    page-layout: full
+listing:
+  - id: invited-keynotes
+    contents: keynotes/speakers
+    type: default
+    max-items: 3
+    sort: 
+      - "date desc"
+      - "title asc"
+  - id: event-sponsors
+    contents: sponsorspage/sponsors
+    type: grid
+    max-items: 6
+    grid-columns: 3
+    sort: 
+      - "date desc"
+      - "title asc"
 ---
 
 ::: column-page
-![](images/Belfast/QUB_300119_7777.jpg){fig-alt="A view of Belfast City  at dusk with Belfast City Hall in the foreground" fig-align="center"}
+![](images/Belfast/QUB_300119_7777.jpg){fig-alt="A view of Belfast City  at dusk with Belfast City Hall in the foreground" fig-align="center" width="80%"}
 :::
 
 # About the Conference
@@ -12,8 +31,32 @@ We are happy to announce that the International Society for Research on Emotion 
 
 The ISRE conference is an exciting opportunity to meet international colleagues, present your work, and stay up-to-date with the latest developments in emotion research. ISRE members study emotions from a wide range of disciplines including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology and sociology.
 
-# Event Sponsors
+<!-- # Event Sponsors -->
 
-::: {layout-ncol=3}
-![](images/VisitBelfast/Belfast%20Starburst%20Logo%20(purple).jpg){fig-alt="Belfast Starburst Logo" width="100"} ![](images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png){fig-alt="Tourism Northern Ireland Logo" width="150"} ![](images/VisitBelfast/Visit_Belfast_Logo_(Purple).jpg){fig-alt="Visit Belfast Logo" width="150"}
+<!-- ::: {layout-"\[\[70,30\], \[100\]\]"} ![](images/VisitBelfast/Belfast%20Starburst%20Logo%20(purple).jpg){fig-alt="Belfast Starburst Logo"} -->
+
+<!-- ![](images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png){fig-alt="Tourism Northern Ireland Logo"} -->
+
+<!-- ![](images/VisitBelfast/Visit_Belfast_Logo_(Purple).jpg){fig-alt="Visit Belfast Logo"}  -->
+
+<!-- ::: -->
+
+::: grid
+::: {.g-col-12 .g-col-lg-6 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
+## Invited Keynotes
+
+Click [here](keynotes/index.qmd) to see the invited keynote speakers.
+
+::: {#invited-keynotes}
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-12 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
+## Event Sponsors
+
+Click [here](sponsorspage/index.qmd) to see the event sponsors.
+
+::: {#event-sponsors}
+:::
+:::
 :::

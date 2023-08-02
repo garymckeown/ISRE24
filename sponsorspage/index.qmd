@@ -1,0 +1,11 @@
+---
+title: "Sponsors"
+listing:
+  - id: sponsors
+    contents: sponsors
+---
+
+:::{#sponsors .animate__animated .animate__bounceInUp .animate__duration-faster}
+
+:::
+---
