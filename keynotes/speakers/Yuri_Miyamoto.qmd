@@ -2,8 +2,5 @@
 title: "Yuri Miyamoto"
 ---
 
-```{=html}
-<iframe width="900" height="700" src="https://www.miyamotoyuri.com" title="Prof. Yuri Miyamoto"></iframe>
-```
 
 ------------------------------------------------------------------------
