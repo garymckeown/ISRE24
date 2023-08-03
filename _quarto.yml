@@ -19,7 +19,7 @@ website:
       - accommodation/index.qmd
       - registration/index.qmd
       - preconference/index.qmd
-      - safetyatQUB/index.qmd
+      # - safetyatQUB/index.qmd
       - contactus/index.qmd
 
 format:
