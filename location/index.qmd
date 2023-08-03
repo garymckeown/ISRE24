@@ -1,3 +1,13 @@
 ---
 title: "Location"
 ---
+
+
+::: column-page
+![](../images/Queens/QUB_170919-1456.jpg){fig-alt="A view of Queen's University Belfast's Lanyon Building" fig-align="center" width="80%"}
+:::
+
+::: column-page
+![](../images/Queens/QUB_140414_1503.jpg){fig-alt="A view of Queen's University Belfast's Quad" fig-align="center" width="80%"}
+:::
+---
