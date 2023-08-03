@@ -1,0 +1,9 @@
+---
+title: "Yuri Miyamoto"
+---
+
+```{=html}
+<iframe width="900" height="700" src="https://psych.wisc.edu/staff/miyamoto-yuri/" title="Prof. Yuri Miyamoto"></iframe>
+```
+
+---
