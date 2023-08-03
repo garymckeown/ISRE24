@@ -1,3 +1,7 @@
 ---
 title: "Invited Keynotes"
 ---
+
+::: {##invited-keynotes .animate__animated .animate__bounceInUp .animate__duration-faster}
+:::
+---

@@ -5,7 +5,7 @@ listing:
     contents: sponsors
 ---
 
-:::{#sponsors .animate__animated .animate__bounceInUp .animate__duration-faster}
-
+::: {#sponsors .animate__animated .animate__bounceInUp .animate__duration-faster}
 :::
----
+
+------------------------------------------------------------------------
