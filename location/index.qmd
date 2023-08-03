@@ -1,13 +1,18 @@
 ---
 title: "Location"
+filters:
+   - lightbox
+lightbox: auto
 ---
 
+## Queen's University Belfast
 
-::: column-page
-![](../images/Queens/QUB_170919-1456.jpg){fig-alt="A view of Queen's University Belfast's Lanyon Building" fig-align="center" width="80%"}
-:::
+::: grid
+::: {.g-col-12 .g-col-lg-4}
+![](../images/Queens/QUB_170919-1456.jpg){fig-alt="A View of Queen's University Belfast's Lanyon Building" fig-align="center" width="80%" group="my-gallery"}
 
-::: column-page
-![](../images/Queens/QUB_140414_1503.jpg){fig-alt="A view of Queen's University Belfast's Quad" fig-align="center" width="80%"}
+![](../images/Queens/QUB_140414_1503.jpg){fig-alt="A View of Queen's University Belfast's Quad" fig-align="center" width="80%" group="my-gallery"}
+
+![](../images/Queens/QUB_020415_4398.jpg){fig-alt="Inside Queen's University Belfast's Graduate School" fig-align="center" width="80%" group="my-gallery"}
+::: 
 :::
----

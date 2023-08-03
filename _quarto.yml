@@ -30,6 +30,8 @@ format:
     toc: true
     page-layout: full
     
-
+filters:
+   - lightbox
+   
 editor: visual
 
