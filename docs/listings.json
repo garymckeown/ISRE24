@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/keynotes/index.html",
+    "items": [
+      "/keynotes/speakers/Terry_Maroney.html",
+      "/keynotes/speakers/Yuri_Miyamoto.html"
+    ]
+  },
+  {
     "listing": "/sponsorspage/index.html",
     "items": [
       "/sponsorspage/sponsors/belfast_starburst.html",

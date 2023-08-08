@@ -3,11 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "ISRE 2024"
+  title: ""
   twitter-card: true
   open-graph: true
   navbar:
-    logo: "images/logo.png"
+    logo: "images/ISREStarburstTextWhiteNavBar.png"
+    logo-alt: "ISRE 2024 Belfast Logo"
     left:
       - href: index.qmd
         text: Home
@@ -25,7 +26,7 @@ website:
 format:
   html:
     theme: 
-      - simplex
+      - cerulean
       - custom.scss
     toc: true
     page-layout: full
