@@ -1,8 +1,7 @@
 ---
 title: "People"
 page-layout: full
-execute:
-  freeze: auto
+css: styles.css
 filters:
    - lightbox
 lightbox: 
@@ -10,64 +9,114 @@ lightbox:
   effect: fade
   desc-position: left
   css-class: "lightwidth"
-comments: false
 format:
   html:
     code-link: true
     include-in-header:
-      text: "<script src='js/anime_photos.js, js/background.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js' ></script>"
+      text: "<script src='assets/js/anime_photos.js, assets/js/background.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js' ></script>"
 ---
+
+```{=html}
 <style>
-  body {
-  background: linear-gradient(to right, #000428, #004e92);
+section#conference-chairs.level1 h1{
+color: #D6000D;
 }
-
-section#academic-advisors.level1 h1{
-color: white;
-}
-
-nav#TOC.toc-active h2#toc-title, nav#TOC.toc-active ul{
-color: white;
-}
-
 </style>
+```
+# Conference Chairs {style="color: transparent;"}
 
- 
+::: container
+<header class="header show-on-scroll">
 
+<h1 class="heading" style="color: #D6000D;">
 
-# Conference Chairs  {style="color: transparent;"}
+Conference Chairs
 
-<div class="container">
-  <header class="header show-on-scroll">
-    <h1 class="heading" style="color: white;"> Conference Chairs </h1>
-  </header>
-</div>
+</h1>
 
+</header>
+:::
 
 <hr>
 
 ```{=HTML}
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
 <section id="container">
     <div class="user-container">
-
-        <!-- Card Two-->
-        <a href="../team/team/simon_munzert/simonmunzert.html">
-        <div id="simonmunzert" class="card_team inline-photo3 show-on-scroll">
-          <div class="hover_esp_team"> Simon Munzert</div>
+    
+        <!-- Card Conference Chairs-->
+        <a href="https://go.qub.ac.uk/mckeown">
+        <div id="garymckeown" class="card_team inline-photo3 show-on-scroll">
+        <img src="../people/people/gary_mckeown/GaryMcKeown.jpeg" alt="Gary McKeown" style="width:100%">
+          <div class="hover_esp_team"> Gary McKeown</div>
         </div>
         </a>
         
-                <!-- Card Two-->
-        <a href="../team/team/huy_dang/huydang.html">
-        <div id="huydang" class="card_team inline-photo3 show-on-scroll">
-          <div class="hover_esp_team"> Huy Dang</div>
+        <!-- Card Conference Chairs-->
+        <a href="https://pure.qub.ac.uk/en/persons/magdalena-rychlowska">
+        <div id="magdarychlowska" class="card_team inline-photo3 show-on-scroll">
+        <div class="hover_esp_team">Magda Rychlowska</div>
+        <img src="../people/people/magda_rychlowska/MagdaRychlowska.jpg" alt="Magda Rychlowska" style="width:100%">
         </div>
         </a>
-
     </div>
 </section>
+```
 
+
+```{=html}
+<style>
+section#local-chairs.level1 h1{
+color: #D6000D;
+}
+</style>
+```
+# Local Chairs {style="color: transparent;"}
+
+::: container
+<header class="header show-on-scroll">
+
+<h1 class="heading" style="color: #D6000D;">
+
+Local Chairs
+
+</h1>
+
+</header>
+:::
+
+<hr>
+
+```{=HTML}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<section id="container">
+    <div class="user-container">
+    
+        <!-- Card Local Chairs-->
+        <a href="https://pure.qub.ac.uk/en/persons/salvador-alvidrez">
+        <div id="salvadoralvidrez" class="card_team inline-photo3 show-on-scroll">
+        <img src="../people/people/salvador_alvidrez/salvadoralvidrez.jpeg" alt="Salvador Alvidrez" style="width:100%">
+          <div class="hover_esp_team">Salvador Alvidrez</div>
+        </div>
+        </a>
+        
+        <!-- Card Local Chairs-->
+        <a href="https://pure.qub.ac.uk/en/persons/bronagh-allison">
+        <div id="bronaghallison" class="card_team inline-photo3 show-on-scroll">
+        <div class="hover_esp_team">Bronagh Allison</div>
+        <img src="../people/people/bronagh_allison/bronaghallison.jpg" alt="Bronagh Allison" style="width:100%">
+        </div>
+        </a>
+    </div>
+</section>
+```
+
+
+
+```{=html}
+<script src='assets/js/anime_photos.js'></script>
 ```

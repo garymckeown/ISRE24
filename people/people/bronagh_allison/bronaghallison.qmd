@@ -1,0 +1,12 @@
+---
+title: "Bronagh Allison"
+page-layout: full
+image: GMcKeownJune2023-head.jpeg
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+  effect: fade
+  desc-position: left
+  css-class: "lightwidth"
+---

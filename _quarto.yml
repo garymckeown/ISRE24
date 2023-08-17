@@ -16,21 +16,32 @@ website:
       - importantdates.qmd
       - keynotes/index.qmd
       - sponsorspage/index.qmd
+      - people/people.qmd
       - program/index.qmd
-      - location/index.qmd
       - accommodation/index.qmd
       - registration/index.qmd
       - preconference/index.qmd
       # - safetyatQUB/index.qmd
+      - text: "Location"
+        menu:
+          - text: "Queen's University Belfast"
+            href: location/index.qmd
+          - text: "Belfast City"
+            href: location/index.qmd
+          - text: "Conference Maps"
+            href: location/index.qmd
       - contactus/index.qmd
-
 format:
   html:
     theme: 
       - cerulean
       - custom.scss
+    smooth-scroll: true
     toc: true
     page-layout: full
+    code-link: true
+    citations-hover: true
+    footnotes-hover: true
     
 filters:
    - lightbox

@@ -1,0 +1,12 @@
+---
+title: "Gary McKeown"
+page-layout: full
+image: garymckeown.jpeg
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+  effect: fade
+  desc-position: left
+  css-class: "lightwidth"
+---

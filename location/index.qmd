@@ -7,7 +7,6 @@ lightbox: auto
 
 ::: grid
 ::: {.g-col-12 .g-col-md-4}
-
 ## Queen's University Belfast
 
 ![](../images/Queens/QUB_170919-1456.jpg){fig-alt="A View of Queen's University Belfast's Lanyon Building" fig-align="center" width="100%" group="my-gallery"}
@@ -15,7 +14,6 @@ lightbox: auto
 ![](../images/Queens/QUB_140414_1503.jpg){fig-alt="A View of Queen's University Belfast's Quad" fig-align="center" width="100%" group="my-gallery"}
 
 ![](../images/Queens/QUB_020415_4398.jpg){fig-alt="Inside Queen's University Belfast's Graduate School" fig-align="center" width="100%" group="my-gallery"}
-
 
 ## Belfast
 
