@@ -22,7 +22,9 @@ listing:
 ---
 
 ::: column-page
+::: {.titlepageimage style="transition: all 0.3s ease-in-out;"}
 ![](images/Belfast/QUB_300119_7777Web.jpg){fig-alt="A view of Belfast City  at dusk with Belfast City Hall in the foreground" fig-align="center" width="70%"}
+:::
 :::
 
 # About the Conference
