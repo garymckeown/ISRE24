@@ -1,3 +1,6 @@
 ---
 title: "Registration"
 ---
+
+Details to follow.
+---

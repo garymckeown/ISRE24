@@ -1,0 +1,26 @@
+---
+title: "Location"
+filters:
+   - lightbox
+lightbox: auto
+---
+
+::: grid
+::: {.g-col-12 .g-col-md-4}
+## Queen's University Belfast
+
+![](../images/Queens/QUB_170919-1456.jpg){fig-alt="A View of Queen's University Belfast's Lanyon Building" fig-align="center" width="100%" group="my-gallery"}
+
+![](../images/Queens/QUB_140414_1503.jpg){fig-alt="A View of Queen's University Belfast's Quad" fig-align="center" width="100%" group="my-gallery"}
+
+![](../images/Queens/QUB_020415_4398.jpg){fig-alt="Inside Queen's University Belfast's Graduate School" fig-align="center" width="100%" group="my-gallery"}
+
+## Belfast
+
+![](../images/ISRE_1_reduced.jpg){fig-alt="Belfast Cranes Logo" fig-align="center" width="100%"}
+
+![](../images/Belfast/QUB_230522_1153.jpg){fig-alt="A View of Belfast City Hall" fig-align="center" width="100%" group="my-gallery2"}
+
+![](../images/Belfast/QUB_010612_5792.jpg){fig-alt="A View of Titanic Belfast, The Banquet Venue" fig-align="center" width="100%" group="my-gallery2"}
+:::
+:::

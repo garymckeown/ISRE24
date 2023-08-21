@@ -25,11 +25,11 @@ website:
       - text: "Location"
         menu:
           - text: "Queen's University Belfast"
-            href: location/index.qmd
+            href: location/Queens.qmd
           - text: "Belfast City"
-            href: location/index.qmd
-          - text: "Conference Maps"
-            href: location/index.qmd
+            href: location/Belfast.qmd
+          - text: "Banquet"
+            href: location/TitanicBelfast.qmd
       - contactus/index.qmd
 format:
   html:
