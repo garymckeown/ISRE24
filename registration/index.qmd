@@ -2,5 +2,4 @@
 title: "Registration"
 ---
 
-Details to follow.
----
+## Details to follow.
