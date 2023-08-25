@@ -5,8 +5,13 @@ project:
 website:
   title: ""
   favicon: favicon.png
-  twitter-card: true
-  open-graph: true
+  twitter-card:
+    title: "ISRE 2024 Belfast"
+    creator: "@gmckeown"
+  open-graph:
+    site-name: "ISRE 2024 Belfast"
+  google-analytics: "G-33PP5XPV1R"
+  site-url: https://isre2024.org
   navbar:
     logo: "images/ISREStarburstTextWhiteNavBar.png"
     logo-alt: "ISRE 2024 Belfast Logo"
