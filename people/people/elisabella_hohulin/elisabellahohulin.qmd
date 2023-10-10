@@ -1,0 +1,12 @@
+---
+title: "Elisabella Hohulin"
+page-layout: full
+image: elisabellahohulin.jpg
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+  effect: fade
+  desc-position: left
+  css-class: "lightwidth"
+---

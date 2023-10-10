@@ -1,0 +1,12 @@
+---
+title: "Yasemin Erbas"
+page-layout: full
+image: yaseminerbas.jpg
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+  effect: fade
+  desc-position: left
+  css-class: "lightwidth"
+---

@@ -1,0 +1,12 @@
+---
+title: "Kristina Sparemblek"
+page-layout: full
+image: kristinasparemblek.jpg
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+  effect: fade
+  desc-position: left
+  css-class: "lightwidth"
+---
