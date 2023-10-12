@@ -1,0 +1,121 @@
+---
+title: "Submissions"
+format:
+  html:
+    embed-resources: true
+---
+
+If you would like to present your research at ISRE 2024, submissions will be accepted for two categories: **abstracts,** which may be accepted as an oral or poster presentation, that describe an individual research project; and abstracts for **symposia** that consist of four to five oral presentations on a single research theme. The program committee will make the final determination on the presentation format of abstracts for oral or poster presentation. If your submission for a symposium is accepted, you will give an oral presentation.
+
+As ISRE 2024 is an in-person conference, we expect all presenters to attend the conference to present in person.
+
+**LIMIT ON NUMBER OF SUBMISSIONS:** In order to encourage a diversity of speakers and research perspectives, ISRE limits participants to one oral presentation per first author. Attendees can be listed as a co-author on multiple presentations, and speakers can also participate separately in symposia as a discussant.
+
+**All submissions must be written in English** and will be subject to **double-blind** peer review by an international scientific committee. In order to facilitate the review process, submissions should indicate one or more keywords that describe the work. A list of keywords can be found [here](#SubmissionKeywords).
+
+## Abstract submission guidelines
+
+The first author should submit abstracts. Abstracts must include the name, email address, and affiliation of all co-authors. They must also have a title no longer than 15 words, and an abstract no longer than 250 words. The abstract should be anonymized in order to avoid revealing either the authors' identities or institutions. Please see the anonymization instructions [here](#AnonymizationInstructions).
+
+Accepted abstracts will be published in the conference program. Abstracts that are accepted for oral presentation will be allocated 15 minutes for presentation plus three minutes for questions. Posters will be assigned to dedicated sessions and will stay up for one day.
+
+[Detailed submission instructions](#DetailedSubmissionInstructions)
+
+## Symposium submission guidelines
+
+Symposium sessions consist of a number of presenters discussing a common topic or theme in a manner that brings new insights to the subject. Submissions are welcome from scholars in all relevant disciplines for symposia of up to four talks and one discussant or five talks without a discussant. Submissions that include multiple disciplines are particularly encouraged in order to facilitate cross-disciplinary exchange. Each presenter in a symposium will be allocated 15 minutes plus three minutes for questions. Symposia presentations can involve co-authors, who will be listed in the printed program.
+
+In order to propose a symposium, the lead proposer will need the name and affiliation of the symposium presenters, co-authors, and discussant, if one is used. They will also need a symposium abstract no longer than 250 words explaining why the talks should be linked, and each presenter 's abstract, which should be a maximum of 250 words. An individual can present only once at the conference as first-author but can be a co-author or discussant on multiple submissions.
+
+In order to support the **double-blind** review process, you will need to prepare a **PDF file** that includes the symposium's contents but **excludes presenter names.** The PDF file should contain the symposium title and description (250 words max), followed by a title and abstract for each individual talk (250 words max). If a discussant is involved, the PDF should explicitly include this statement: "This symposium includes a discussant."  The submission should be appropriately anonymized in order to avoid revealing either the authors' identity or institution. Please see anonymization instructions [here](#AnonymizationInstructions).
+
+## Detailed Submission Instructions {#DetailedSubmissionInstructions}
+
+To upload your submissions, visit the [**SUBMISSION SITE**](https://cmt3.research.microsoft.com/User/Login). Abstracts should be submitted by the first author. Symposia should be submitted by the lead symposia proposer. The submitting author should **create a new CMT account** and use that to submit one submission at most, unless they are submitting a symposia in the role of a dissussant. Once you have created an account, you will be taken to the author console page, where you can enter your submission.
+
+Step 1: In the author console click on the "'+ Create new submission" button (see @fig-NewSubmission). Enter the title in the text box marked "Title." The person submitting the abstract should paste the 250-word abstract in the text box marked "Abstract" (see @fig-TitleAbstract). Symposia presenters should leave the abstract field empty. You will upload a PDF file at a later stage.
+
+![Create a new submission in the Author Console](../images/author-console-create-new-submission-button.png){#fig-NewSubmission}
+
+![Input the title and Abstact (Syposia only need a title)](../images/create-new-submission-page-title-abstract.png){#fig-TitleAbstract}
+
+Step 2: Enter the email address of the first author. The first author's first name, last name, and organization fields will populate automatically (see @fig-AddFirstAuthor). Add the email address of the first co-author and fill in their first name, last name, organization, and country; you will need to click the blue "+Add" button to confirm their details (see @fig-CoauthorNotFound). If they already have an account, their details will populate automatically. Use the grey "+Add" button to add co-authors. For abstracts, enter the authors in the order that you wish them to appear in the final program. You can use the arrows to the right to change the order. Use the radio button to the left to indicate the primary contact, who should be the intended speaker. For symposia, enter the names of all planned speakers, co-authors, and the discussant, if one is included, in any order. For abstracts and symposia, co-authors should register their email with the CMT platform.
+
+![Add the first author](../images/author-section.png){#fig-AddFirstAuthor}
+
+![Add co-authors (In this case the co-author does not have a CMT account)](../images/coauthor-not-found.png){#fig-CoauthorNotFound}
+
+Step 3: Symposia presenters should now upload the PDF file of their submission. That file should contain an anonymous description of the symposia title and the title/abstract of each presentation. It should be uploaded either by using the drag-and-drop box or by clicking on the "Upload from Computer" button (see @fig-UploadSymposiaPDF).
+
+![Upload the symposia PDF](../images/upload-files.png){#fig-UploadSymposiaPDF}
+
+Step 4: Enter the kind of submission you are making---abstract or symposia---and, for abstracts, your preferred presentation format---oral or poster---and the topic keywords. You may select multiple keywords, which will be used to match your submission to reviewers.
+
+**IMPORTANT** Step 5: Review your submission and press "Submit". Your submission will not be completed until you press "Submit." You may have to scroll down to see the submit button. After successfully submitting, you will receive an email confirming your submission. **If you did not receive a confirmation email, your submission may not have been successfully submitted.**
+
+You may review all your submissions by using logging into the author console in CMT.
+
+**NOTE:** Your co-authors will be notified of the submission. It is the submitting author's responsibility to ensure that co-authors have accounts on CMT.
+
+If you have any questions, please [contact us](../contactus/index.qmd).
+
+## Anonymization Instructions {#AnonymizationInstructions}
+
+To prepare an anonymized submission, authors are expected to remove author and institutional identities from the submission. Institution information should also be removed from the body of the text. For instance, use "...participants were recruited from a university campus" instead of "...participants were recruited from Queen's University Belfast campus."
+
+## Early Career Researcher {#EarlyCareerResearcher}
+
+We are interested in knowing whether candidates are early career researchers. In order to define that, we have adapted the definition provided by the UK Research Councils to include PhD students. Those criteria refer to :
+
+-   current PhD students and up to eight years after obtaining their PhD award (this is from the time of the PhD 'viva' oral test), or equivalent professional training;
+
+-   within eight years of their PhD award (this is from the time of the PhD 'viva' oral test), or equivalent professional training;
+
+-   within six years of their first academic appointment, meaning the first full or part-time paid employment contract that lists research or teaching as the primary function.
+
+Those periods exclude any career break that is due to, for example:
+
+-   family care;
+
+-   health reasons;
+
+-   reasons related to COVID-19, such as home schooling or increased teaching load.
+
+## Submission Keywords {#SubmissionKeywords}
+
+In order to facilitate the review process, please indicate the topic of your submission using one or more of the keywords below. They will be used to match your submission to potential reviewers.
+
+| Keywords                           |
+|------------------------------------|
+| Affective computing                |
+| Affective dynamics                 |
+| Aging                              |
+| Animal/Comparative                 |
+| Anthropology                       |
+| Cognition                          |
+| Child and adolescent development   |
+| Clinical/Psychopathology           |
+| Communication/Mass media           |
+| Culture                            |
+| Decision-making/Consumer choice    |
+| Embodiment                         |
+| Emotion Regulation                 |
+| Emotion theory                     |
+| Empathy (interpersonal)            |
+| Evolutionary                       |
+| History                            |
+| Law                                |
+| Learning/Education                 |
+| Morality                           |
+| Neuroscience                       |
+| Nonverbal expression/communication |
+| Personality/Individual differences |
+| Philosophy                         |
+| Positive emotion                   |
+| Psychophysiology                   |
+| Sociology                          |
+| Social Networks                    |
+| Specific Emotions                  |
+| Work                               |
+
+: List of Keywords
