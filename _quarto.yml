@@ -48,6 +48,9 @@ format:
     citations-hover: true
     footnotes-hover: true
     
+resources:
+  - CNAME
+  
 filters:
    - lightbox
    
