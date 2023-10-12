@@ -1,0 +1,12 @@
+---
+title: "Damien Dupré"
+page-layout: full
+image: DamienDupre.jpg
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+  effect: fade
+  desc-position: left
+  css-class: "lightwidth"
+---
