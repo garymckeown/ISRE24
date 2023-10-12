@@ -16,7 +16,7 @@ The ISRE 2024 Banquet will take place in the Titanic Suite located on the top fl
 
 
 ::: {.g-col-12 .g-col-md-4}
-![](../images/TitanicBelfast/TitanicBelfast12.jpg){fig-alt="Titanic Belfast External View" fig-align="center" width="100%"}
+![](../images/TitanicBelfast/TitanicBelfast12.jpg){fig-alt="Titanic Belfast External View" fig-align="center" width="100%" group="my-gallery2"}
 :::
 
 ::: {.g-col-12 .g-col-md-4}
