@@ -64,7 +64,6 @@ Conference Chairs
     </div>
 </section>
 ```
-
 # Program Chairs {style="color: transparent;"}
 
 ::: container
@@ -106,8 +105,6 @@ Program Chairs
     </div>
 </section>
 ```
-
-
 ```{=html}
 <style>
 section#local-chairs.level1 h1{
@@ -115,7 +112,6 @@ color: #D6000D;
 }
 </style>
 ```
-
 # Local Chairs {style="color: transparent;"}
 
 ::: container
@@ -160,7 +156,6 @@ Local Chairs
 ```{=html}
 <script src='assets/js/anime_photos.js'></script>
 ```
-
 # Early Career Team {style="color: transparent;"}
 
 ::: container
@@ -168,7 +163,7 @@ Local Chairs
 
 <h1 class="heading" style="color: #D6000D;">
 
-Early Career Team 
+Early Career Team
 
 </h1>
 
@@ -202,8 +197,47 @@ Early Career Team
     </div>
 </section>
 ```
+```{=html}
+<style>
+section#local-chairs.level1 h1{
+color: #D6000D;
+}
+</style>
+```
+# Webmaster {style="color: transparent;"}
 
+::: container
+<header class="header show-on-scroll">
 
+<h1 class="heading" style="color: #D6000D;">
+
+Webmaster
+
+</h1>
+
+</header>
+:::
+
+<hr>
+
+```{=HTML}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<section id="container">
+    <div class="user-container">
+    
+        <!-- Card EC Team-->
+        <!-- <a href="https://info.constructor.university/leadership/arvid-kappas-dean"> -->
+        <div id="damiendupre" class="card_team inline-photo3 show-on-scroll">
+        <img src="../people/people/damien_dupre/DamienDupre.jpg" alt="Damien Dupré" style="width:100%">
+          <div class="hover_esp_team"> Damien Dupré</div>
+        </div>
+        </a>
+        
+    </div>
+</section>
+```
 ```{=html}
 <style>
 section#local-chairs.level1 h1{
