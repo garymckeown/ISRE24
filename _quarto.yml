@@ -20,11 +20,16 @@ website:
         text: Home
       - importantdates.qmd
       - keynotes/index.qmd
+      - text: "Submit"
+        menu:
+          - text: "Submit"
+            href: submissions/submissions.qmd
+          - text: "Register"
+            href: registration/index.qmd
       - sponsorspage/index.qmd
       - people/people.qmd
       - program/index.qmd
       - accommodation/index.qmd
-      - registration/index.qmd
       - preconference/index.qmd
       # - safetyatQUB/index.qmd
       - text: "Location"
