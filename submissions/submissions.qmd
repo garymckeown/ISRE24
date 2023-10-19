@@ -31,7 +31,7 @@ In order to support the **double-blind** review process, you will need to prepar
 
 ## Detailed Submission Instructions {#DetailedSubmissionInstructions}
 
-To upload your submissions, visit the [**SUBMISSION SITE**](https://cmt3.research.microsoft.com/User/Login). Abstracts should be submitted by the first author. Symposia should be submitted by the lead symposia proposer. The submitting author should **create a new CMT account** and use that to submit one submission at most, unless they are submitting a symposia in the role of a dissussant. Once you have created an account, you will be taken to the author console page, where you can enter your submission.
+To upload your submissions, visit the [**SUBMISSION SITE**](https://cmt3.research.microsoft.com/ISRE2024/). Abstracts should be submitted by the first author. Symposia should be submitted by the lead symposia proposer. The submitting author should **create a new CMT account** and use that to submit one submission at most, unless they are submitting a symposia in the role of a dissussant. Once you have created an account, you will be taken to the author console page, where you can enter your submission.
 
 Step 1: In the author console click on the "'+ Create new submission" button (see @fig-NewSubmission). Enter the title in the text box marked "Title." The person submitting the abstract should paste the 250-word abstract in the text box marked "Abstract" (see @fig-TitleAbstract). Symposia presenters should leave the abstract field empty. You will upload a PDF file at a later stage.
 
