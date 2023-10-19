@@ -2,6 +2,9 @@
 title: "Phoebe Ellsworth"
 ---
 
+![](images/PhoebeScreenshot.png){width=70%}
+
+
 ```{=html}
 <iframe width="900" height="700" src="https://lsa.umich.edu/psych/people/emeriti-faculty/pce.html" title="Phoebe Ellsworth"></iframe>
 ```
