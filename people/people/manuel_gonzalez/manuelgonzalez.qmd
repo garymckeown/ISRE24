@@ -1,0 +1,12 @@
+---
+title: "Manuel Gonzalez (Manny)"
+page-layout: full
+image: manuel_gonzalez.png
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+  effect: fade
+  desc-position: left
+  css-class: "lightwidth"
+---

@@ -2,7 +2,6 @@
 title: "Contact Us"
 ---
 
-
 ```{=html}
 <div id="contact">
   <div id="contact-form">
@@ -24,4 +23,3 @@ title: "Contact Us"
   </div>
 </div>
 ```
-

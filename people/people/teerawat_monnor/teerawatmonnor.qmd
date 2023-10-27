@@ -1,0 +1,12 @@
+---
+title: "Teerawat Monnor"
+page-layout: full
+image: TeerawatMonnor.png
+filters:
+   - lightbox
+lightbox: 
+  match: auto
+  effect: fade
+  desc-position: left
+  css-class: "lightwidth"
+---

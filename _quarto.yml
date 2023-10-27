@@ -4,7 +4,7 @@ project:
 
 website:
   title: ""
-  favicon: favicon.png
+  favicon: images/favicon.png
   twitter-card:
     title: "ISRE 2024 Belfast"
     creator: "@gmckeown"
@@ -16,8 +16,6 @@ website:
     logo: "images/ISREStarburstTextWhiteNavBar.png"
     logo-alt: "ISRE 2024 Belfast Logo"
     left:
-      - href: index.qmd
-        text: Home
       - importantdates.qmd
       - keynotes/index.qmd
       - text: "Submit"
@@ -47,17 +45,8 @@ format:
       - cerulean
       - custom.scss
     smooth-scroll: true
-    toc: true
+    toc: false
     page-layout: full
-    code-link: true
-    citations-hover: true
-    footnotes-hover: true
     
 resources:
   - CNAME
-  
-filters:
-   - lightbox
-   
-editor: visual
-

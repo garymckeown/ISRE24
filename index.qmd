@@ -1,5 +1,4 @@
 ---
-title: "ISRE 2024"
 format:
   html:
     page-layout: full
@@ -8,40 +7,24 @@ listing:
     contents: keynotes/speakers
     type: default
     max-items: 3
-    sort: 
-      - "date desc"
-      - "title asc"
+    sort: "title asc"
   - id: event-sponsors
     contents: sponsorspage/sponsors
     type: grid
-    max-items: 6
     grid-columns: 3
-    sort: 
-      - "date desc"
-      - "title asc"
 ---
 
-::: column-page
-::: {.titlepageimage style="transition: all 0.3s ease-in-out;"}
-![](images/Belfast/QUB_300119_7777Web.jpg){fig-alt="A view of Belfast City  at dusk with Belfast City Hall in the foreground" fig-align="center" width="70%"}
-:::
+::: {.column-page style="transition: all 0.3s ease-in-out; text-align: center;"}
+# Conference of the International Society for Research on Emotion 2024
+
+![](https://cdn.ymaws.com/www.isre.org/resource/resmgr/homepage/isre24_slide.jpg){fig-alt="A view of Belfast City  at dusk with Belfast City Hall in the foreground" fig-align="center" width="100%"}
 :::
 
 # About the Conference
 
-We are happy to announce that the International Society for Research on Emotion (ISRE) conference will take place in-person on July 17-20, 2024 at Queen's University Belfast, Northern Ireland.
+We are happy to announce that the International Society for Research on Emotion (ISRE) conference will take place **in-person on July 17-20, 2024 at Queen's University Belfast, Northern Ireland**.
 
 The ISRE conference is an exciting opportunity to meet international colleagues, present your work, and stay up-to-date with the latest developments in emotion research. ISRE members study emotions from a wide range of disciplines including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology and sociology.
-
-<!-- # Event Sponsors -->
-
-<!-- ::: {layout-"\[\[70,30\], \[100\]\]"} ![](images/VisitBelfast/Belfast%20Starburst%20Logo%20(purple).jpg){fig-alt="Belfast Starburst Logo"} -->
-
-<!-- ![](images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png){fig-alt="Tourism Northern Ireland Logo"} -->
-
-<!-- ![](images/VisitBelfast/Visit_Belfast_Logo_(Purple).jpg){fig-alt="Visit Belfast Logo"}  -->
-
-<!-- ::: -->
 
 ::: grid
 ::: {.g-col-12 .g-col-lg-6 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}

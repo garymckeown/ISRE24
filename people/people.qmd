@@ -1,6 +1,5 @@
 ---
-title: "People"
-page-layout: full
+title: ""
 css: styles.css
 filters:
    - lightbox
@@ -15,15 +14,6 @@ format:
     include-in-header:
       text: "<script src='assets/js/anime_photos.js, assets/js/background.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js' ></script>"
 ---
-
-```{=html}
-<style>
-section#conference-chairs.level1 h1{
-color: #D6000D;
-}
-</style>
-```
-# Conference Chairs {style="color: transparent;"}
 
 ::: container
 <header class="header show-on-scroll">
@@ -64,6 +54,8 @@ Conference Chairs
     </div>
 </section>
 ```
+
+
 # Program Chairs {style="color: transparent;"}
 
 ::: container
@@ -105,13 +97,7 @@ Program Chairs
     </div>
 </section>
 ```
-```{=html}
-<style>
-section#local-chairs.level1 h1{
-color: #D6000D;
-}
-</style>
-```
+
 # Local Chairs {style="color: transparent;"}
 
 ::: container
@@ -197,12 +183,67 @@ Early Career Team
     </div>
 </section>
 ```
-```{=html}
-<style>
-section#local-chairs.level1 h1{
-color: #D6000D;
-}
-</style>
+# Publicity Chair {style="color: transparent;"}
+
+::: container
+<header class="header show-on-scroll">
+
+<h1 class="heading" style="color: #D6000D;">
+
+Publicity Chair
+
+</h1>
+
+</header>
+:::
+
+<hr>
+
+```{=HTML}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<section id="container">
+    <div class="user-container">
+        <div id="teerawatmonnor" class="card_team inline-photo3 show-on-scroll">
+        <img src="../people/people/teerawat_monnor/TeerawatMonnor.png" alt="Teerawat Monnor" style="width:100%">
+          <div class="hover_esp_team"> Teerawat Monnor</div>
+        </div>
+        </a>
+        
+    </div>
+</section>
+```
+# Career Development Chair {style="color: transparent;"}
+
+::: container
+<header class="header show-on-scroll">
+
+<h1 class="heading" style="color: #D6000D;">
+
+Career Development Chair
+
+</h1>
+
+</header>
+:::
+
+<hr>
+
+```{=HTML}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<section id="container">
+    <div class="user-container">
+        <div id="manuelgonzalez" class="card_team inline-photo3 show-on-scroll">
+        <img src="../people/people/manuel_gonzalez/ManuelGonzalez.png" alt="Manuel Gonzalez" style="width:100%">
+          <div class="hover_esp_team"> Manuel Gonzalez</div>
+        </div>
+        </a>
+        
+    </div>
+</section>
 ```
 # Webmaster {style="color: transparent;"}
 
@@ -237,11 +278,4 @@ Webmaster
         
     </div>
 </section>
-```
-```{=html}
-<style>
-section#local-chairs.level1 h1{
-color: #D6000D;
-}
-</style>
 ```
