@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: ""
+  title: "ISRE 2024: Conference of the International Society for Research on Emotion"
   favicon: images/favicon.png
   twitter-card:
     title: "ISRE 2024 Belfast"
@@ -13,8 +13,8 @@ website:
   google-analytics: "G-33PP5XPV1R"
   site-url: https://isre2024.org
   navbar:
+    title: false
     logo: "images/ISREStarburstTextWhiteNavBar.png"
-    logo-alt: "ISRE 2024 Belfast Logo"
     left:
       - importantdates.qmd
       - keynotes/index.qmd
@@ -25,7 +25,8 @@ website:
           - text: "Register"
             href: registration/index.qmd
       - sponsorspage/index.qmd
-      - people/people.qmd
+      - text: "People"
+        href: people/people.qmd
       - program/index.qmd
       - accommodation/index.qmd
       - preconference/index.qmd
@@ -39,11 +40,28 @@ website:
           - text: "Banquet"
             href: location/TitanicBelfast.qmd
       - contactus/index.qmd
+  page-footer:
+    # left: "Powered by [Quarto](https://quarto.org/) v1.3.24"
+    background: "#D6000D"
+    center:
+      - href: https://www.isre.org/
+        icon: globe
+        aria-label: Website
+      - href: https://twitter.com/isreorg
+        icon: twitter
+        aria-label: Twitter
+      - href: https://www.facebook.com/IsreOrg/
+        icon: facebook
+        aria-label: Facebook
+      - href: https://www.instagram.com/isre.ig/
+        icon: instagram
+        aria-label: Instagram
+      
 format:
   html:
-    theme: 
-      - cerulean
-      - custom.scss
+    theme: [cerulean, custom.scss]
+    mainfont: Montserrat
+    css: styles.css
     smooth-scroll: true
     toc: false
     page-layout: full
