@@ -1,5 +1,8 @@
 /*-- scss:defaults --*/
 
+// fonts
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Oswald:wght@300;400;500&display=swap';
+
 // Headings
 $headings-color: #D6000D !default;
 
@@ -22,10 +25,3 @@ $success:       #00AFAB !default;
 $info:          #00A1E1 !default;
 $warning:       #D8D8D8 !default;
 $danger:        #8F0E20 !default;
-
-/* Override Bootstrap navbar-logo dimensions */
-.navbar-logo{
-max-height: 75px !important;
-width: 150px !important;
-padding-right: 4px;
-}
