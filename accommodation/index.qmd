@@ -2,4 +2,4 @@
 title: "Accommodation"
 ---
 
-Details to follow.
+## Details to follow.

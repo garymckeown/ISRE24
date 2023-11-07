@@ -5,8 +5,8 @@ format:
 listing:
   - id: invited-keynotes
     contents: keynotes/speakers
-    type: default
-    max-items: 3
+    type: grid
+    grid-columns: 3
     sort: "title asc"
   - id: event-sponsors
     contents: sponsorspage/sponsors
@@ -15,7 +15,7 @@ listing:
 ---
 
 ::: {.column-page style="transition: all 0.3s ease-in-out; text-align: center;"}
-# Conference of the International Society for Research on Emotion 2024
+# 2024 Conference of the<br>International Society for Research on Emotion 
 
 ![](https://cdn.ymaws.com/www.isre.org/resource/resmgr/homepage/isre24_slide.jpg){fig-alt="A view of Belfast City  at dusk with Belfast City Hall in the foreground" fig-align="center" width="100%"}
 :::
@@ -26,22 +26,25 @@ We are happy to announce that the International Society for Research on Emotion 
 
 The ISRE conference is an exciting opportunity to meet international colleagues, present your work, and stay up-to-date with the latest developments in emotion research. ISRE members study emotions from a wide range of disciplines including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology and sociology.
 
-::: grid
-::: {.g-col-12 .g-col-lg-6 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
+## ⚠️ Deadlines
+
+- **Main Conference submissions: November 20, 2023 11:59 PM**
+- **Pre-Conference submissions: November 20, 2023 11:59 PM**
+
 ## Invited Keynotes
 
 Click [here](keynotes/index.qmd) to see the invited keynote speakers.
 
 ::: {#invited-keynotes}
 :::
-:::
 
-::: {.g-col-12 .g-col-lg-12 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
 ## Event Sponsors
 
 Click [here](sponsorspage/index.qmd) to see the event sponsors.
 
 ::: {#event-sponsors}
 :::
-:::
+
+::: {.column-page style="background-color: #D6000D;"}
+![](https://www.qub.ac.uk/brand/file-store/Filetoupload,967358,en.png){fig-align="center" width="30%"}
 :::
