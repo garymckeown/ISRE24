@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "accommodation/index.html",
-    "href": "accommodation/index.html",
-    "title": "Accommodation",
-    "section": "",
-    "text": "Details to follow."
-  },
-  {
     "objectID": "people/people.html",
     "href": "people/people.html",
     "title": "\nConference Chairs\n",
@@ -19,6 +12,34 @@
     "title": "Contact Us",
     "section": "",
     "text": "Send"
+  },
+  {
+    "objectID": "keynotes/speakers/Phoebe_Ellsworth.html",
+    "href": "keynotes/speakers/Phoebe_Ellsworth.html",
+    "title": "Phoebe Ellsworth",
+    "section": "",
+    "text": "Phoebe Ellsworth is noted for her work in law and psychology. More specifically, she has done research on jury behavior and decision making, public opinion and the death penalty, and eyewitness identification. Her other main research interest is in emotions. Some areas of research in this topic include facial emotions, cognition and emotion, and interpretation of emotion. As a graduate student, she worked with Paul Ekman and Wallace Friesen to develop the photographs that were used in their research comparing perceptions of emotional faces across cultures. Phoebe Ellsworth is known for her contributions to appraisal theory, emotions and culture, challenges of emotion and language, and for her writing on William James. In much of her research, Phoebe Ellsworth has intertwined an interest in cultural differences. In particular, she has taken a look at the cultural differences in perceiving facial emotions (Masuda, Ellsworth, Mesquita, Leu, Tanida, and Van de Veerdonk, 2008).\nPhoebe Ellsworth has received many honors in her career. She is a Frank Murphy Distinguished University Professor of Law and Psychology (2003), Fellow of the American Academy of Arts and Sciences, and Phi Beta Kappa Distinguished Lecturer (2002-2004). In addition, an annual symposium, Phoebe Ellsworth Psychology and Justice Symposium, was created in her honor to recognize her contributions to law and psychology. In 2014 she received both the Nalini Ambady Award for Mentoring Excellence and the Career Contribution Award from the Society for Personality and Social Psychology.\nSource: https://en.wikipedia.org/wiki/Phoebe_C._Ellsworth"
+  },
+  {
+    "objectID": "keynotes/speakers/Phoebe_Ellsworth.html#bio",
+    "href": "keynotes/speakers/Phoebe_Ellsworth.html#bio",
+    "title": "Phoebe Ellsworth",
+    "section": "",
+    "text": "Phoebe Ellsworth is noted for her work in law and psychology. More specifically, she has done research on jury behavior and decision making, public opinion and the death penalty, and eyewitness identification. Her other main research interest is in emotions. Some areas of research in this topic include facial emotions, cognition and emotion, and interpretation of emotion. As a graduate student, she worked with Paul Ekman and Wallace Friesen to develop the photographs that were used in their research comparing perceptions of emotional faces across cultures. Phoebe Ellsworth is known for her contributions to appraisal theory, emotions and culture, challenges of emotion and language, and for her writing on William James. In much of her research, Phoebe Ellsworth has intertwined an interest in cultural differences. In particular, she has taken a look at the cultural differences in perceiving facial emotions (Masuda, Ellsworth, Mesquita, Leu, Tanida, and Van de Veerdonk, 2008).\nPhoebe Ellsworth has received many honors in her career. She is a Frank Murphy Distinguished University Professor of Law and Psychology (2003), Fellow of the American Academy of Arts and Sciences, and Phi Beta Kappa Distinguished Lecturer (2002-2004). In addition, an annual symposium, Phoebe Ellsworth Psychology and Justice Symposium, was created in her honor to recognize her contributions to law and psychology. In 2014 she received both the Nalini Ambady Award for Mentoring Excellence and the Career Contribution Award from the Society for Personality and Social Psychology.\nSource: https://en.wikipedia.org/wiki/Phoebe_C._Ellsworth"
+  },
+  {
+    "objectID": "keynotes/speakers/Yuri_Miyamoto.html",
+    "href": "keynotes/speakers/Yuri_Miyamoto.html",
+    "title": "Yuri Miyamoto",
+    "section": "",
+    "text": "Yuri Miyamoto, a Professor in the field of social and personality psychology at Hitotsubashi University, is renowned for her pioneering research on the intricate interplay between culture and psychology. Through her scholarly work, she has unraveled the multifaceted ways in which culture influences our emotional and cognitive processes, with significant implications for our well-being (Miyamoto et al., in press).\nYuri Miyamoto’s extensive body of work not only elucidates cultural differences in emotions and cognition but also provides valuable insights into their health-related consequences (Miyamoto et al., 2017). Furthermore, she has delved into the complex web of culture and social hierarchy, uncovering the diverse influences they exert on various psychological processes (Miyamoto et al., 2013). Additionally, her research has shed light on the effects of intercultural interactions, such as acculturation processes, which play a pivotal role in our interconnected world (Miyamoto & Ma, 2011). Yuri Miyamoto’s contributions to the field of psychology, as evidenced by her representative publications, have greatly enriched our understanding of how culture shapes our emotional and cognitive experiences (Miyamoto, 2013; Miyamoto & Wilken, 2010).\nSource: https://psych.wisc.edu/staff/miyamoto-yuri/"
+  },
+  {
+    "objectID": "keynotes/speakers/Yuri_Miyamoto.html#bio",
+    "href": "keynotes/speakers/Yuri_Miyamoto.html#bio",
+    "title": "Yuri Miyamoto",
+    "section": "",
+    "text": "Yuri Miyamoto, a Professor in the field of social and personality psychology at Hitotsubashi University, is renowned for her pioneering research on the intricate interplay between culture and psychology. Through her scholarly work, she has unraveled the multifaceted ways in which culture influences our emotional and cognitive processes, with significant implications for our well-being (Miyamoto et al., in press).\nYuri Miyamoto’s extensive body of work not only elucidates cultural differences in emotions and cognition but also provides valuable insights into their health-related consequences (Miyamoto et al., 2017). Furthermore, she has delved into the complex web of culture and social hierarchy, uncovering the diverse influences they exert on various psychological processes (Miyamoto et al., 2013). Additionally, her research has shed light on the effects of intercultural interactions, such as acculturation processes, which play a pivotal role in our interconnected world (Miyamoto & Ma, 2011). Yuri Miyamoto’s contributions to the field of psychology, as evidenced by her representative publications, have greatly enriched our understanding of how culture shapes our emotional and cognitive experiences (Miyamoto, 2013; Miyamoto & Wilken, 2010).\nSource: https://psych.wisc.edu/staff/miyamoto-yuri/"
   },
   {
     "objectID": "location/Belfast.html",
@@ -39,7 +60,21 @@
     "href": "importantdates.html",
     "title": "Dates",
     "section": "",
-    "text": "All deadlines are as of 11:59 PM GMT\nNovember 20, 2023 11:59 PM Main Conference submissions due.\nNovember 20, 2023 11:59 PM Pre-Conference submissions due.\nIf you are interested in submitting a pre-conference could you contact the conference chairs to discuss your ideas."
+    "text": "All deadlines are as of 11:59 PM GMT\n\nNovember 20, 2023 11:59 PM Main Conference submissions due.\n\n\nNovember 20, 2023 11:59 PM Pre-Conference submissions due.\nIf you are interested in submitting a pre-conference could you contact the conference chairs to discuss your ideas."
+  },
+  {
+    "objectID": "keynotes/speakers/Terry_Maroney.html",
+    "href": "keynotes/speakers/Terry_Maroney.html",
+    "title": "Terry Maroney",
+    "section": "",
+    "text": "Terry Maroney investigates the intersection of law and emotion. She is also a scholar of criminal law, with specializations in wrongful convictions and in juvenile justice. Professor Maroney’s work on the role of emotion in judicial behavior and decision-making forms the backbone of her scholarly focus. Weaving legal analysis together with the psychology, sociology and philosophy of emotion, her work illuminates how emotional experiences, dynamics, and their management interact with the constraints and demands of varied judicial roles, with deep implications for judges and the public they serve. Maroney’s many publications in this area—which include “(What We Talk About When We Talk About) Judicial Temperament,” “Angry Judges,” “Emotional Regulation and Judicial Behavior” and “The Persistent Cultural Script of Judicial Dispassion”—have been widely read among the U.S. judiciary. She frequently consults with and presents to judicial audiences in both the United States and abroad. With Judge Jeremy Fogel (now retired) and the Federal Judicial Center, she co-founded a novel intensive seminar focused on the human side of judging, now offered regularly to mid-career federal judges.\nBefore becoming a law professor, Maroney was a litigator with WilmerHale and a Skadden Fellow at the Urban Justice Center, both in New York City; she draws on that practice experience—which included a high-profile triple exoneration, U.S. Supreme Court advocacy, and direct representation of children—in her teaching and writing. A 1998 summa cum laude graduate of New York University School of Law, Maroney clerked for Judge Amalya L. Kearse on the U.S. Court of Appeals for the Second Circuit, has held academic fellowships at the law schools of NYU and the University of Southern California, and from 2016-17 was the Andrew W. Mellon Foundation Fellow at the Center for Advanced Study in the Behavioral Sciences at Stanford University. At Vanderbilt she was a 2017-19 Chancellor Faculty Fellow and received a 2019-21 Discovery Grant. She joined the Vanderbilt Law faculty in 2006 and was appointed to the Robert S. and Theresa L. Reder Chair in Law in 2021.\nSource: https://law.vanderbilt.edu/bio/?pid=terry-maroney"
+  },
+  {
+    "objectID": "keynotes/speakers/Terry_Maroney.html#bio",
+    "href": "keynotes/speakers/Terry_Maroney.html#bio",
+    "title": "Terry Maroney",
+    "section": "",
+    "text": "Terry Maroney investigates the intersection of law and emotion. She is also a scholar of criminal law, with specializations in wrongful convictions and in juvenile justice. Professor Maroney’s work on the role of emotion in judicial behavior and decision-making forms the backbone of her scholarly focus. Weaving legal analysis together with the psychology, sociology and philosophy of emotion, her work illuminates how emotional experiences, dynamics, and their management interact with the constraints and demands of varied judicial roles, with deep implications for judges and the public they serve. Maroney’s many publications in this area—which include “(What We Talk About When We Talk About) Judicial Temperament,” “Angry Judges,” “Emotional Regulation and Judicial Behavior” and “The Persistent Cultural Script of Judicial Dispassion”—have been widely read among the U.S. judiciary. She frequently consults with and presents to judicial audiences in both the United States and abroad. With Judge Jeremy Fogel (now retired) and the Federal Judicial Center, she co-founded a novel intensive seminar focused on the human side of judging, now offered regularly to mid-career federal judges.\nBefore becoming a law professor, Maroney was a litigator with WilmerHale and a Skadden Fellow at the Urban Justice Center, both in New York City; she draws on that practice experience—which included a high-profile triple exoneration, U.S. Supreme Court advocacy, and direct representation of children—in her teaching and writing. A 1998 summa cum laude graduate of New York University School of Law, Maroney clerked for Judge Amalya L. Kearse on the U.S. Court of Appeals for the Second Circuit, has held academic fellowships at the law schools of NYU and the University of Southern California, and from 2016-17 was the Andrew W. Mellon Foundation Fellow at the Center for Advanced Study in the Behavioral Sciences at Stanford University. At Vanderbilt she was a 2017-19 Chancellor Faculty Fellow and received a 2019-21 Discovery Grant. She joined the Vanderbilt Law faculty in 2006 and was appointed to the Robert S. and Theresa L. Reder Chair in Law in 2021.\nSource: https://law.vanderbilt.edu/bio/?pid=terry-maroney"
   },
   {
     "objectID": "keynotes/index.html",
@@ -56,25 +91,25 @@
     "text": "Belfast City Council\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTourism Northern Ireland\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nVisit Belfast\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "index.html#deadlines",
+    "href": "index.html#deadlines",
+    "title": "2024 Conference of theInternational Society for Research on Emotion",
+    "section": "⚠️ Deadlines",
+    "text": "⚠️ Deadlines\n\nMain Conference submissions: November 20, 2023 11:59 PM\nPre-Conference submissions: November 20, 2023 11:59 PM"
+  },
+  {
     "objectID": "index.html#invited-keynotes",
     "href": "index.html#invited-keynotes",
-    "title": "Conference of the International Society for Research on Emotion 2024",
+    "title": "2024 Conference of theInternational Society for Research on Emotion",
     "section": "Invited Keynotes",
-    "text": "Invited Keynotes\nClick here to see the invited keynote speakers.\n\n\n\n\n  \n\n\n\n\nPhoebe Ellsworth\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTerry Maroney\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nYuri Miyamoto\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Invited Keynotes\nClick here to see the invited keynote speakers.\n\n\n\n\n\n\n\n\nPhoebe Ellsworth\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTerry Maroney\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYuri Miyamoto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#event-sponsors",
     "href": "index.html#event-sponsors",
-    "title": "Conference of the International Society for Research on Emotion 2024",
+    "title": "2024 Conference of theInternational Society for Research on Emotion",
     "section": "Event Sponsors",
     "text": "Event Sponsors\nClick here to see the event sponsors.\n\n\n\n\n\n\n\n\n\n\nBelfast City Council\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTourism Northern Ireland\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisit Belfast\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "preconference/index.html",
-    "href": "preconference/index.html",
-    "title": "Pre-Conference",
-    "section": "",
-    "text": "If you are interested in submitting a pre-conference could you contact the conference chairs to discuss your ideas."
   },
   {
     "objectID": "submissions/submissions.html",

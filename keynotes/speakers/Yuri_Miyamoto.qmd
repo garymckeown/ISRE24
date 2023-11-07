@@ -2,7 +2,21 @@
 title: "Yuri Miyamoto"
 ---
 
-```{=html}
-<iframe width="900" height="700" src="https://www.miyamotoyuri.com" title="Yuri Miyamoto"></iframe>
-```
-------------------------------------------------------------------------
+::: columns
+::: {.column width="40%"}
+
+![](keynote_YM.jpg){width=80%}
+:::
+
+::: {.column width="60%"}
+
+## Bio
+
+Yuri Miyamoto, a Professor in the field of social and personality psychology at Hitotsubashi University, is renowned for her pioneering research on the intricate interplay between culture and psychology. Through her scholarly work, she has unraveled the multifaceted ways in which culture influences our emotional and cognitive processes, with significant implications for our well-being (Miyamoto et al., in press).
+
+Yuri Miyamoto's extensive body of work not only elucidates cultural differences in emotions and cognition but also provides valuable insights into their health-related consequences (Miyamoto et al., 2017). Furthermore, she has delved into the complex web of culture and social hierarchy, uncovering the diverse influences they exert on various psychological processes (Miyamoto et al., 2013). Additionally, her research has shed light on the effects of intercultural interactions, such as acculturation processes, which play a pivotal role in our interconnected world (Miyamoto & Ma, 2011). Yuri Miyamoto's contributions to the field of psychology, as evidenced by her representative publications, have greatly enriched our understanding of how culture shapes our emotional and cognitive experiences (Miyamoto, 2013; Miyamoto & Wilken, 2010).
+
+Source: https://psych.wisc.edu/staff/miyamoto-yuri/
+
+:::
+:::
