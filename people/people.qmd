@@ -1,19 +1,9 @@
 ---
-title: ""
-css: styles.css
-filters:
-   - lightbox
-lightbox: 
-  match: auto
-  effect: fade
-  desc-position: left
-  css-class: "lightwidth"
-format:
-  html:
-    code-link: true
-    include-in-header:
-      text: "<script src='assets/js/anime_photos.js, assets/js/background.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js, https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js' ></script>"
+css: people.css
 ---
+
+<script src='assets/js/anime_photos.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
 ::: container
 <header class="header show-on-scroll">
@@ -30,17 +20,12 @@ Conference Chairs
 <hr>
 
 ```{=HTML}
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-
 <section id="container">
     <div class="user-container">
-    
         <!-- Card Conference Chairs-->
         <a href="https://go.qub.ac.uk/mckeown">
         <div id="garymckeown" class="card_team inline-photo3 show-on-scroll">
-        <img src="../people/people/gary_mckeown/GaryMcKeown.jpeg" alt="Gary McKeown" style="width:100%">
-          <div class="hover_esp_team"> Gary McKeown</div>
+        <div class="hover_esp_team"> Gary McKeown</div>
         </div>
         </a>
         
@@ -48,15 +33,11 @@ Conference Chairs
         <a href="https://pure.qub.ac.uk/en/persons/magdalena-rychlowska">
         <div id="magdarychlowska" class="card_team inline-photo3 show-on-scroll">
         <div class="hover_esp_team">Magda Rychlowska</div>
-        <img src="../people/people/magda_rychlowska/MagdaRychlowska.jpg" alt="Magda Rychlowska" style="width:100%">
         </div>
         </a>
     </div>
 </section>
 ```
-
-
-# Program Chairs {style="color: transparent;"}
 
 ::: container
 <header class="header show-on-scroll">
@@ -73,17 +54,12 @@ Program Chairs
 <hr>
 
 ```{=HTML}
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-
 <section id="container">
     <div class="user-container">
-    
         <!-- Card Program Chairs-->
         <a href="https://info.constructor.university/leadership/arvid-kappas-dean">
         <div id="arvidkappas" class="card_team inline-photo3 show-on-scroll">
-        <img src="../people/people/arvid_kappas/arvidkappas.jpg" alt="Arvid Kappas" style="width:100%">
-          <div class="hover_esp_team"> Arvid Kappas</div>
+        <div class="hover_esp_team"> Arvid Kappas</div>
         </div>
         </a>
         
@@ -91,14 +67,11 @@ Program Chairs
         <a href="https://www.tilburguniversity.edu/staff/y-i-erbas">
         <div id="yaseminerbas" class="card_team inline-photo3 show-on-scroll">
         <div class="hover_esp_team">Yasemin Erbas</div>
-        <img src="../people/people/yasemin_erbas/yaseminerbas.png" alt="Yasemin Erbas" style="width:100%">
         </div>
         </a>
     </div>
 </section>
 ```
-
-# Local Chairs {style="color: transparent;"}
 
 ::: container
 <header class="header show-on-scroll">
@@ -115,17 +88,12 @@ Local Chairs
 <hr>
 
 ```{=HTML}
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-
 <section id="container">
     <div class="user-container">
-    
         <!-- Card Local Chairs-->
         <a href="https://pure.qub.ac.uk/en/persons/salvador-alvidrez">
         <div id="salvadoralvidrez" class="card_team inline-photo3 show-on-scroll">
-        <img src="../people/people/salvador_alvidrez/salvadoralvidrez.jpeg" alt="Salvador Alvidrez" style="width:100%">
-          <div class="hover_esp_team">Salvador Alvidrez</div>
+        <div class="hover_esp_team">Salvador Alvidrez</div>
         </div>
         </a>
         
@@ -133,16 +101,11 @@ Local Chairs
         <a href="https://pure.qub.ac.uk/en/persons/bronagh-allison">
         <div id="bronaghallison" class="card_team inline-photo3 show-on-scroll">
         <div class="hover_esp_team">Bronagh Allison</div>
-        <img src="../people/people/bronagh_allison/bronaghallison.jpg" alt="Bronagh Allison" style="width:100%">
         </div>
         </a>
     </div>
 </section>
 ```
-```{=html}
-<script src='assets/js/anime_photos.js'></script>
-```
-# Early Career Team {style="color: transparent;"}
 
 ::: container
 <header class="header show-on-scroll">
@@ -159,31 +122,34 @@ Early Career Team
 <hr>
 
 ```{=HTML}
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-
 <section id="container">
     <div class="user-container">
-    
         <!-- Card EC Team-->
-        <!-- <a href="https://info.constructor.university/leadership/arvid-kappas-dean"> -->
         <div id="kristinasparemblek" class="card_team inline-photo3 show-on-scroll">
-        <img src="../people/people/kristina_sparemblek/kristinasparemblek.jpg" alt="Kristina Šparemblek" style="width:100%">
-          <div class="hover_esp_team"> Kristina Šparemblek</div>
+        <div class="hover_esp_team"> Kristina Šparemblek</div>
         </div>
         </a>
         
         <!-- Card EC Team-->
-        <!-- <a href="https://www.tilburguniversity.edu/staff/y-i-erbas"> -->
         <div id="elisabellahohulin" class="card_team inline-photo3 show-on-scroll">
         <div class="hover_esp_team">Elisabella Hohulin</div>
-        <img src="../people/people/elisabella_hohulin/elisabellahohulin.png" alt="Elisabella Hohulin" style="width:100%">
+        </div>
+        </a>
+        
+        <!-- Card EC Team-->
+        <div id="johncurry" class="card_team inline-photo3 show-on-scroll">
+        <div class="hover_esp_team">John Curry</div>
+        </div>
+        </a>
+        
+        <!-- Card EC Team-->
+        <div id="sammanson" class="card_team inline-photo3 show-on-scroll">
+        <div class="hover_esp_team">Sam Manson</div>
         </div>
         </a>
     </div>
 </section>
 ```
-# Publicity Chair {style="color: transparent;"}
 
 ::: container
 <header class="header show-on-scroll">
@@ -200,21 +166,15 @@ Publicity Chair
 <hr>
 
 ```{=HTML}
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-
 <section id="container">
     <div class="user-container">
         <div id="teerawatmonnor" class="card_team inline-photo3 show-on-scroll">
-        <img src="../people/people/teerawat_monnor/TeerawatMonnor.png" alt="Teerawat Monnor" style="width:100%">
           <div class="hover_esp_team"> Teerawat Monnor</div>
         </div>
         </a>
-        
     </div>
 </section>
 ```
-# Career Development Chair {style="color: transparent;"}
 
 ::: container
 <header class="header show-on-scroll">
@@ -231,21 +191,15 @@ Career Development Chair
 <hr>
 
 ```{=HTML}
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-
 <section id="container">
     <div class="user-container">
         <div id="manuelgonzalez" class="card_team inline-photo3 show-on-scroll">
-        <img src="../people/people/manuel_gonzalez/ManuelGonzalez.png" alt="Manuel Gonzalez" style="width:100%">
           <div class="hover_esp_team"> Manuel Gonzalez</div>
         </div>
         </a>
-        
     </div>
 </section>
 ```
-# Webmaster {style="color: transparent;"}
 
 ::: container
 <header class="header show-on-scroll">
@@ -262,20 +216,13 @@ Webmaster
 <hr>
 
 ```{=HTML}
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-
 <section id="container">
     <div class="user-container">
-    
         <!-- Card EC Team-->
-        <!-- <a href="https://info.constructor.university/leadership/arvid-kappas-dean"> -->
         <div id="damiendupre" class="card_team inline-photo3 show-on-scroll">
-        <img src="../people/people/damien_dupre/DamienDupre.jpg" alt="Damien Dupré" style="width:100%">
           <div class="hover_esp_team"> Damien Dupré</div>
         </div>
         </a>
-        
     </div>
 </section>
 ```
