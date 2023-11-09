@@ -1,0 +1,249 @@
+/* css styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+:root {
+  --main-font: 'Nunito Sans';
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+main:not(.text_grid, .text_grid_title), p:not(.text_grid, .text_grid_title) {
+  font-size: 1.1em !important;
+}
+
+hr {
+    border: 2.5px solid #D6000D;
+  border-radius: 10px;
+  opacity: 70%
+}
+
+#container {
+  padding: 1rem;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 350px;
+  grid-gap: 0.9rem;
+  line-height: 1.2; 
+}
+
+.card {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  height: 100%;
+  width: 100%;
+  line-height: 1.2; 
+}
+
+.card_team {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  height: 100%;
+  width: 100%;
+  line-height: 1.2; 
+}
+
+.card:hover, .card:focus, .card:active{
+  box-shadow: inset 0 100px 1000px 10px rgba(192, 4, 28, .5);
+}
+
+.card_team:hover, .card_team:focus, .card_team:active{
+  box-shadow: inset 0 100px 1000px 10px #1C93E4;
+  cursor: pointer;
+}
+
+.card_team:hover {
+  box-shadow: 1em 1em 2em .25em #D6000D;
+  transition: all .4s ease;
+}
+
+.card:hover .user-content,
+.card_team:hover .user-content{
+  opacity: 1;
+  height: 20%;
+}
+
+.user-content {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  line-height: 1.2;
+  height: auto; 
+}
+
+.hover_esp{
+  color: white;
+  bottom: 0; 
+  opacity: 1;
+  position: fixed;
+  transition-timing-function: ease-in-out;
+  transition: 0.5s;
+}
+
+.hover_esp_team {
+  color: white;
+  bottom: 0; 
+  position: fixed;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.user-container #garymckeown.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/garymckeown.jpeg?raw=true") no-repeat;
+  background-size: 374px 446px; /* 748×892 */
+  background-position: center;
+}
+
+.user-container #magdarychlowska.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/magdarychlowska.jpg?raw=true") no-repeat;
+  background-size: 327px 391px; /* 980 × 1172 */
+  background-position: center;
+}
+
+.user-container #arvidkappas.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/arvidkappas.jpg?raw=true") no-repeat;
+  background-size: 331px 441px; /* 2316 × 3088 */
+  background-position: center;
+}
+
+.user-container #yaseminerbas.card_team {
+  background: url(https://github.com/garymckeown/ISRE24/blob/main/people/pictures/yaseminerbas.jpg?raw=true") no-repeat;
+  background-size: 350px 350px; /* 512 × 512 */
+  background-position: center;
+}
+
+.user-container #salvadoralvidrez.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/salvadoralvidrez.jpeg?raw=true") no-repeat;
+  background-size: 320px 407px; /* 1163 × 1481 */
+  background-position: center;
+}
+
+.user-container #bronaghallison.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/bronaghallison.jpg?raw=true") no-repeat;
+  background-size: 320px 420px; /* 729 × 957 */
+  background-position: center;
+}
+
+.user-container #kristinasparemblek.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/kristinasparemblek.jpg?raw=true") no-repeat;
+  background-size: 350px 386px; /* 458 × 505 */
+  background-position: center;
+}
+
+.user-container #elisabellahohulin.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/elisabellahohulin.png?raw=true") no-repeat;
+  background-size: 320px 362px; /* 400 × 452 */
+  background-position: center;
+}
+.user-container #johncurry.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/johncurry.jpg?raw=true") no-repeat;
+  background-size: 550px 367px; /* 2700 × 1800 */
+  background-position: center;
+}
+
+.user-container #sammanson.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/sammanson.jpg?raw=true") no-repeat;
+  background-size: 550px 367px; /* 2700 × 1800 */
+  background-position: center;
+}
+
+.user-container #teerawatmonnor.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/teerawatmonnor.png?raw=true") no-repeat;
+  background-size:320px 426px; /* 904 × 1204 */
+  background-position: center;
+}
+
+.user-container #manuelgonzalez.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/manuelgonzalez.png?raw=true") no-repeat;
+  background-size: 400px 364px; /* 904 × 822 */
+  background-position: center;
+}
+
+.user-container #damiendupre.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/damiendupre.jpg?raw=true") no-repeat;
+  background-size: 350px 350px; /* 200 × 200 */
+  background-position: center;
+}
+   
+.inline-photo3 {
+  box-shadow: 1em 1em 2em .25em #004D7E;
+  transform: translateY(4em); //rotateZ(-5deg);
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out;
+  will-change: transform, opacity;
+}
+
+.inline-photo3.is-visible {
+  opacity: 1;
+  transform: rotateZ(0deg);
+} 
+
+header:not(.headroom):not(.quarto-title-block) {
+  opacity: 0;
+  transition: opacity .5s .25s ease-out;
+}
+
+header:not(.headroom):not(.quarto-title-block).is-visible {
+  opacity: 1;
+}
+
+.heading {
+  transform: translate(15%, calc(15% + 1em));
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+.container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-visible .heading {
+  transform: translate(15%, 15%);
+}
+
+.heading {
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              filter 10s 2s ease-out;
+  will-change: transform;
+  width: -50%;
+}
+
+/* Responsiveness */
+@media (min-width: 600px) and (max-width: 767px) {
+  
+.card, .card_team {
+  position: relative;
+}
+
+.user-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+.card .text_grid{
+  margin-top: -200px;
+  font-size: .7rem;
+  position: relative;
+}
+
+.card .text_grid_title{
+  margin-top: -310px;
+  position: relative;
+}
+
+}
