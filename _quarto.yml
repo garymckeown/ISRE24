@@ -37,6 +37,8 @@ website:
             href: location/Queens.qmd
           - text: "Belfast City"
             href: location/Belfast.qmd
+          - text: "Opening Reception"
+            href: location/Stormont.qmd
           - text: "Banquet"
             href: location/TitanicBelfast.qmd
       - contactus/index.qmd
