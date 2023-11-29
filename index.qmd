@@ -14,7 +14,7 @@ listing:
     grid-columns: 3
 ---
 
-::: {.column-page style="transition: all 0.3s ease-in-out; text-align: center;"}
+::: {.column-screen style="transition: all 0.3s ease-in-out; text-align: center;"}
 # 2024 Conference of the<br>International Society for Research on Emotion 
 
 ![](https://cdn.ymaws.com/www.isre.org/resource/resmgr/homepage/isre24_slide.jpg){fig-alt="A view of Belfast City  at dusk with Belfast City Hall in the foreground" fig-align="center" width="100%"}
@@ -45,6 +45,6 @@ Click [here](sponsorspage/index.qmd) to see the event sponsors.
 ::: {#event-sponsors}
 :::
 
-::: {.column-page style="background-color: #D6000D;"}
+::: {.column-screen style="background-color: #D6000D;"}
 ![](https://www.qub.ac.uk/brand/file-store/Filetoupload,967358,en.png){fig-align="center" width="30%"}
 :::
