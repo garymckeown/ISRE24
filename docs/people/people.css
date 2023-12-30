@@ -177,6 +177,12 @@ hr {
   background-size: 350px 350px; /* 200 × 200 */
   background-position: center;
 }
+
+.user-container #zoipolizop.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/zoipolizop.png?raw=true") no-repeat;
+  background-size: 450px 450px; /* 200 × 200 */
+  background-position: center;
+}
    
 .inline-photo3 {
   box-shadow: 1em 1em 2em .25em #004D7E;
