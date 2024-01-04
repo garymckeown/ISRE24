@@ -150,8 +150,9 @@ Early Career Team
         </a>
         
         <!-- Card EC Team-->
+        <a href="https://www.linkedin.com/in/zoi-polyzopoulou-11710723a/">
         <div id="zoipolizop" class="card_team inline-photo3 show-on-scroll">
-        <div class="hover_esp_team">Ζωή Πολυζοπούλου</div>
+        <div class="hover_esp_team">Zoi Polyzopoulou</div>
         </div>
         </a>
     </div>
