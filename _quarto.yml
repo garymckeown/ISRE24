@@ -18,12 +18,8 @@ website:
     left:
       - importantdates.qmd
       - keynotes/index.qmd
-      - text: "Submit"
-        menu:
-          - text: "Submit"
-            href: submissions/submissions.qmd
-          - text: "Register"
-            href: registration/index.qmd
+      - text: "Register"
+        href: registration/index.qmd
       - sponsorspage/index.qmd
       - text: "People"
         href: people/people.qmd
