@@ -215,6 +215,32 @@ Career Development Chair
 
 <h1 class="heading" style="color: #D6000D;">
 
+Sustainability Consultation
+
+</h1>
+
+</header>
+:::
+
+<hr>
+
+```{=HTML}
+<section id="container">
+    <div class="user-container">
+        <a href="https://www.linkedin.com/in/samantha-drury-shore-51l/">
+        <div id="samdruryshore" class="card_team inline-photo3 show-on-scroll">
+          <div class="hover_esp_team">Sam Drury Shore</div>
+        </div>
+        </a>
+    </div>
+</section>
+```
+
+::: container
+<header class="header show-on-scroll">
+
+<h1 class="heading" style="color: #D6000D;">
+
 Webmaster
 
 </h1>
