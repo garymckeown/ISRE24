@@ -2,24 +2,26 @@
 title: "Contact Us"
 ---
 
-```{=html}
-<div id="contact">
-  <div id="contact-form">
-    <form action="https://formspree.io/f/xdorypgo" method="POST">
-      <input type="hidden" name="_subject" value="Contact request from ISRE website" />
-      <br>
-      <br>
-      <input type="text" name="_name" placeholder="Your name" required>
-      <br>
-      <br>
-      <input type="email" name="_replyto" placeholder="Your email" required>
-      <br>
-      <br>
-      <textarea name="message" placeholder="Type your message" required rows="4" cols="50"></textarea>
-      <br>
-      <br>
-    <button type="submit">Send</button>
-    </form>
-  </div>
-</div>
-```
+If you have any questions about ISRE2024, please contact the Conference Chairs at [ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk) 
+
+<!-- ```{=html} -->
+<!-- <div id="contact"> -->
+<!--   <div id="contact-form"> -->
+<!--     <form action="https://formspree.io/f/xdorypgo" method="POST"> -->
+<!--       <input type="hidden" name="_subject" value="Contact request from ISRE website" /> -->
+<!--       <br> -->
+<!--       <br> -->
+<!--       <input type="text" name="_name" placeholder="Your name" required> -->
+<!--       <br> -->
+<!--       <br> -->
+<!--       <input type="email" name="_replyto" placeholder="Your email" required> -->
+<!--       <br> -->
+<!--       <br> -->
+<!--       <textarea name="message" placeholder="Type your message" required rows="4" cols="50"></textarea> -->
+<!--       <br> -->
+<!--       <br> -->
+<!--     <button type="submit">Send</button> -->
+<!--     </form> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- ``` -->
