@@ -9,9 +9,14 @@ listing:
     grid-columns: 3
     sort: "title asc"
   - id: event-sponsors
-    contents: sponsorspage/sponsors
+    # contents: sponsorspage/sponsors
+    contents: 
+      - sponsors/mangold.qmd
+      - sponsors/tourism_ni.qmd
+      - sponsors/visit_belfast.qmd
+      - sponsors/belfast_starburst.qmd
     type: grid
-    grid-columns: 3
+    grid-columns: 2
 ---
 
 ::: {.column-screen style="transition: all 0.3s ease-in-out; text-align: center;"}

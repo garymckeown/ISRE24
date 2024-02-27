@@ -1,12 +1,6 @@
 ---
 title: "Visit Belfast"
 image: ../../images/VisitBelfast/Visit_Belfast_Logo_(Purple).jpg
-# open-graph:
-#   description: "Visit Belfast"
-#   image: ../../images/VisitBelfast/Visit_Belfast_Logo_(Purple).jpg
-# twitter-card:
-#   description: "Visit Belfast"
-#   image: ../../images/VisitBelfast/Visit_Belfast_Logo_(Purple).jpg
 ---
 
 ![](../../images/VisitBelfast/Visit_Belfast_Logo_(Purple).jpg){fig-align="left" fig-alt="The Visit Belfast Logo." width="20%"}

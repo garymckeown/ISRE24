@@ -2,7 +2,12 @@
 title: "Sponsors"
 listing:
   - id: sponsors
-    contents: sponsors
+    contents: 
+      - sponsors/mangold.qmd
+      - sponsors/tourism_ni.qmd
+      - sponsors/visit_belfast.qmd
+      - sponsors/belfast_starburst.qmd
+    sort: false
 ---
 
 ::: {#sponsors .animate__animated .animate__bounceInUp .animate__duration-faster}
