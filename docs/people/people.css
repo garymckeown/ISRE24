@@ -189,6 +189,12 @@ hr {
   background-size: 350px 350px; /* 2316 × 2316 */
   background-position: center;
 }
+
+.user-container #annahollis.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/annahollis.jpeg?raw=true") no-repeat;
+  background-size: 400px 533px; /* 1200 × 1600 */
+  background-position: center;
+}
    
 .inline-photo3 {
   box-shadow: 1em 1em 2em .25em #004D7E;

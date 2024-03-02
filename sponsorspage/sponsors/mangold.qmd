@@ -1,8 +1,7 @@
 ---
 title: "Mangold International"
-image: https://www.berufswahl-rottal-inn.de/wp-content/uploads/Mangold_logo_1000.jpg
 ---
 
-![](https://www.berufswahl-rottal-inn.de/wp-content/uploads/Mangold_logo_1000.jpg){fig-align="left" fig-alt="Mangold International Logo." width=100%}
+![](mangold_logo.png){fig-align="left" fig-alt="Mangold International Logo." width=100%}
 
 ---

@@ -103,6 +103,13 @@ Local Chairs
         <div class="hover_esp_team">Bronagh Allison</div>
         </div>
         </a>
+        
+        <!-- Card Local Chairs-->
+        <a href="https://www.linkedin.com/in/anna-hollis-197978165/">
+        <div id="annahollis" class="card_team inline-photo3 show-on-scroll">
+        <div class="hover_esp_team">Anna Hollis</div>
+        </div>
+        </a>
     </div>
 </section>
 ```
