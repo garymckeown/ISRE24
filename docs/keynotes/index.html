@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -105,9 +112,36 @@ gtag('config', 'G-33PP5XPV1R', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="ISRE 2024: Conference of the International Society for Research on Emotion - Keynote Speakers">
-<meta property="og:site-name" content="ISRE 2024 Belfast">
+<meta property="og:site_name" content="ISRE 2024 Belfast">
 <meta name="twitter:title" content="ISRE 2024 Belfast">
 <meta name="twitter:creator" content="@gmckeown">
 <meta name="twitter:card" content="summary">
@@ -117,9 +151,9 @@ gtag('config', 'G-33PP5XPV1R', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../images/ISREStarburstTextWhiteNavBar.png" alt="" class="navbar-logo">
     </a>
@@ -131,68 +165,99 @@ gtag('config', 'G-33PP5XPV1R', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../importantdates.html" rel="" target="">
- <span class="menu-text">Dates</span></a>
+    <a class="nav-link" href="../importantdates.html"> 
+<span class="menu-text">Dates</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../keynotes/index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Keynote Speakers</span></a>
+    <a class="nav-link active" href="../keynotes/index.html" aria-current="page"> 
+<span class="menu-text">Keynote Speakers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../registration/index.html" rel="" target="">
- <span class="menu-text">Register</span></a>
+    <a class="nav-link" href="../registration/index.html"> 
+<span class="menu-text">Register</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../sponsorspage/index.html" rel="" target="">
- <span class="menu-text">Sponsors</span></a>
+    <a class="nav-link" href="../sponsorspage/index.html"> 
+<span class="menu-text">Sponsors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../people/people.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="../people/people.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../program/index.html" rel="" target="">
- <span class="menu-text">Program</span></a>
+    <a class="nav-link" href="../program/index.html"> 
+<span class="menu-text">Program</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../accommodation/index.html" rel="" target="">
- <span class="menu-text">Accommodation</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../preconference/index.html" rel="" target="">
- <span class="menu-text">Pre-Conference</span></a>
+    <a class="nav-link" href="../accommodation/index.html"> 
+<span class="menu-text">Accommodation</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-location" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-preconferences" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Preconferences</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-preconferences">    
+        <li>
+    <a class="dropdown-item" href="../preconference/list/experience_regulation.html">
+ <span class="dropdown-text">Experience and Regulation of Emotions in Online Contexts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../preconference/list/emotional_development.html">
+ <span class="dropdown-text">Emotional Development Preconference: Language and Emotional Development</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../preconference/list/engaging_suffering.html">
+ <span class="dropdown-text">Engaging With Other People’s Suffering</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../preconference/list/laughter_workshop.html">
+ <span class="dropdown-text">Laughter Workshop</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../preconference/list/affective_computing.html">
+ <span class="dropdown-text">Affective Computing + Large Language Models</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../preconference/list/cross_species.html">
+ <span class="dropdown-text">Cross-Species Emotion Research</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../preconference/list/emotion_relationships.qmd">
+ <span class="dropdown-text"></span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-location" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Location</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-location">    
         <li>
-    <a class="dropdown-item" href="../location/Queens.html" rel="" target="">
+    <a class="dropdown-item" href="../location/Queens.html">
  <span class="dropdown-text">Queen’s University Belfast</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../location/Belfast.html" rel="" target="">
+    <a class="dropdown-item" href="../location/Belfast.html">
  <span class="dropdown-text">Belfast City</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../location/Stormont.html" rel="" target="">
+    <a class="dropdown-item" href="../location/Stormont.html">
  <span class="dropdown-text">Opening Reception</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../location/TitanicBelfast.html" rel="" target="">
+    <a class="dropdown-item" href="../location/TitanicBelfast.html">
  <span class="dropdown-text">Banquet</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../contactus/index.html" rel="" target="">
- <span class="menu-text">Contact Us</span></a>
+    <a class="nav-link" href="../contactus/index.html"> 
+<span class="menu-text">Contact Us</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -211,7 +276,7 @@ gtag('config', 'G-33PP5XPV1R', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -219,7 +284,9 @@ gtag('config', 'G-33PP5XPV1R', { 'anonymize_ip': true});
   </div>
   
 
+
 </header>
+
 
 <hr>
 
@@ -228,67 +295,70 @@ gtag('config', 'G-33PP5XPV1R', { 'anonymize_ip': true});
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-keynotes">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1698956292439" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1698956292439" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
 <div class="thumbnail">
-<p><a href="../keynotes/speakers/Phoebe_Ellsworth.html"> <p class="card-img-top"><img src="speakers/keynote_PE.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../keynotes/speakers/Phoebe_Ellsworth.html" class="no-external"></a></p><a href="../keynotes/speakers/Phoebe_Ellsworth.html" class="no-external">
+<p class="card-img-top"><img src="speakers/keynote_PE.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../keynotes/speakers/Phoebe_Ellsworth.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../keynotes/speakers/Phoebe_Ellsworth.html">
 <h3 class="no-anchor listing-title">
-Phoebe Ellsworth
+<a href="../keynotes/speakers/Phoebe_Ellsworth.html" class="no-external">Phoebe Ellsworth</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../keynotes/speakers/Phoebe_Ellsworth.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-Phoebe Ellsworth is noted for her work in law and psychology. More specifically, she has done research on jury behavior and decision making, public opinion and the death penalty, and eyewitness identification. Her other main research interest is in emotions. Some areas of research in this topic include facial emotions, cognition and emotion, and interpretation of emotion. As a graduate student, she worked with Paul Ekman and Wallace Friesen to develop the photographs that were used in their research comparing perceptions of emotional faces across cultures. Phoebe Ellsworth is known for her contributions to appraisal theory, emotions and culture, challenges of emotion and language, and for her writing on William James. In much of her research, Phoebe Ellsworth has intertwined an interest in cultural differences. In particular, she has taken a look at the cultural differences in perceiving facial emotions (Masuda, Ellsworth, Mesquita, Leu, Tanida, and Van de Veerdonk, 2008).
+<a href="../keynotes/speakers/Phoebe_Ellsworth.html" class="no-external">Phoebe Ellsworth is noted for her work in law and psychology. More specifically, she has done research on jury behavior and decision making, public opinion and the death penalty, and eyewitness identification. Her other main research interest is in emotions. Some areas of research in this topic include facial emotions, cognition and emotion, and interpretation of emotion. As a graduate student, she worked with Paul Ekman and Wallace Friesen to develop the photographs that were used in their research comparing perceptions of emotional faces across cultures. Phoebe Ellsworth is known for her contributions to appraisal theory, emotions and culture, challenges of emotion and language, and for her writing on William James. In much of her research, Phoebe Ellsworth has intertwined an interest in cultural differences. In particular, she has taken a look at the cultural differences in perceiving facial emotions (Masuda, Ellsworth, Mesquita, Leu, Tanida, and Van de Veerdonk, 2008).</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../keynotes/speakers/Phoebe_Ellsworth.html"> </a>
+<p><a href="../keynotes/speakers/Phoebe_Ellsworth.html" class="no-external"></a></p><a href="../keynotes/speakers/Phoebe_Ellsworth.html" class="no-external">
+</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1698956255474" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1698956255474" data-listing-reading-time-sort="2" data-listing-word-count-sort="337">
 <div class="thumbnail">
-<p><a href="../keynotes/speakers/Terry_Maroney.html"> <p class="card-img-top"><img src="speakers/keynote_TM.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../keynotes/speakers/Terry_Maroney.html" class="no-external"></a></p><a href="../keynotes/speakers/Terry_Maroney.html" class="no-external">
+<p class="card-img-top"><img src="speakers/keynote_TM.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../keynotes/speakers/Terry_Maroney.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../keynotes/speakers/Terry_Maroney.html">
 <h3 class="no-anchor listing-title">
-Terry Maroney
+<a href="../keynotes/speakers/Terry_Maroney.html" class="no-external">Terry Maroney</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../keynotes/speakers/Terry_Maroney.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-Terry Maroney investigates the intersection of law and emotion. She is also a scholar of criminal law, with specializations in wrongful convictions and in juvenile justice. Professor Maroney’s work on the role of emotion in judicial behavior and decision-making forms the backbone of her scholarly focus. Weaving legal analysis together with the psychology, sociology and philosophy of emotion, her work illuminates how emotional experiences, dynamics, and their management interact with the constraints and demands of varied judicial roles, with deep implications for judges and the public they serve. Maroney’s many publications in this area—which include “(What We Talk About When We Talk About) Judicial Temperament,” “Angry Judges,” “Emotional Regulation and Judicial Behavior” and “The Persistent Cultural Script of Judicial Dispassion”—have been widely read among the U.S. judiciary. She frequently consults with and presents to judicial audiences in both the United States and abroad. With Judge Jeremy Fogel (now retired) and the Federal Judicial Center, she co-founded a novel intensive seminar focused on the human side of judging, now offered regularly to mid-career federal judges.
+<a href="../keynotes/speakers/Terry_Maroney.html" class="no-external">Terry Maroney investigates the intersection of law and emotion. She is also a scholar of criminal law, with specializations in wrongful convictions and in juvenile justice. Professor Maroney’s work on the role of emotion in judicial behavior and decision-making forms the backbone of her scholarly focus. Weaving legal analysis together with the psychology, sociology and philosophy of emotion, her work illuminates how emotional experiences, dynamics, and their management interact with the constraints and demands of varied judicial roles, with deep implications for judges and the public they serve. Maroney’s many publications in this area—which include “(What We Talk About When We Talk About) Judicial Temperament,” “Angry Judges,” “Emotional Regulation and Judicial Behavior” and “The Persistent Cultural Script of Judicial Dispassion”—have been widely read among the U.S. judiciary. She frequently consults with and presents to judicial audiences in both the United States and abroad. With Judge Jeremy Fogel (now retired) and the Federal Judicial Center, she co-founded a novel intensive seminar focused on the human side of judging, now offered regularly to mid-career federal judges.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../keynotes/speakers/Terry_Maroney.html"> </a>
+<p><a href="../keynotes/speakers/Terry_Maroney.html" class="no-external"></a></p><a href="../keynotes/speakers/Terry_Maroney.html" class="no-external">
+</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1698956276205" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1698956276205" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
 <div class="thumbnail">
-<p><a href="../keynotes/speakers/Yuri_Miyamoto.html"> <p class="card-img-top"><img src="speakers/keynote_YM.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../keynotes/speakers/Yuri_Miyamoto.html" class="no-external"></a></p><a href="../keynotes/speakers/Yuri_Miyamoto.html" class="no-external">
+<p class="card-img-top"><img src="speakers/keynote_YM.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../keynotes/speakers/Yuri_Miyamoto.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../keynotes/speakers/Yuri_Miyamoto.html">
 <h3 class="no-anchor listing-title">
-Yuri Miyamoto
+<a href="../keynotes/speakers/Yuri_Miyamoto.html" class="no-external">Yuri Miyamoto</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../keynotes/speakers/Yuri_Miyamoto.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-Yuri Miyamoto, a Professor in the field of social and personality psychology at Hitotsubashi University, is renowned for her pioneering research on the intricate interplay between culture and psychology. Through her scholarly work, she has unraveled the multifaceted ways in which culture influences our emotional and cognitive processes, with significant implications for our well-being (Miyamoto et al., in press).
+<a href="../keynotes/speakers/Yuri_Miyamoto.html" class="no-external">Yuri Miyamoto, a Professor in the field of social and personality psychology at Hitotsubashi University, is renowned for her pioneering research on the intricate interplay between culture and psychology. Through her scholarly work, she has unraveled the multifaceted ways in which culture influences our emotional and cognitive processes, with significant implications for our well-being (Miyamoto et al., in press).</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../keynotes/speakers/Yuri_Miyamoto.html"> </a>
+<p><a href="../keynotes/speakers/Yuri_Miyamoto.html" class="no-external"></a></p><a href="../keynotes/speakers/Yuri_Miyamoto.html" class="no-external">
+</a>
 </div>
 </div>
 </div>
@@ -375,10 +445,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -388,8 +457,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -402,6 +480,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -445,6 +642,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -470,6 +668,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -568,6 +792,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

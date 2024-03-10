@@ -1,75 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://isre2024.org/index.html</loc>
-    <lastmod>2024-03-02T20:10:01.711Z</lastmod>
+    <loc>https://isre2024.org/preconference/list/experience_regulation.html</loc>
+    <lastmod>2024-03-10T15:25:35.644Z</lastmod>
   </url>
   <url>
-    <loc>https://isre2024.org/sponsorspage/sponsors/mangold.html</loc>
-    <lastmod>2024-03-02T20:10:00.958Z</lastmod>
+    <loc>https://isre2024.org/preconference/list/laughter_workshop.html</loc>
+    <lastmod>2024-03-10T14:52:24.734Z</lastmod>
   </url>
   <url>
-    <loc>https://isre2024.org/sponsorspage/sponsors/visit_belfast.html</loc>
-    <lastmod>2024-03-02T20:10:00.416Z</lastmod>
+    <loc>https://isre2024.org/preconference/list/emotional_development.html</loc>
+    <lastmod>2024-03-10T14:53:03.493Z</lastmod>
   </url>
   <url>
-    <loc>https://isre2024.org/keynotes/speakers/Phoebe_Ellsworth.html</loc>
-    <lastmod>2024-03-02T20:09:59.158Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/keynotes/speakers/Yuri_Miyamoto.html</loc>
-    <lastmod>2024-03-02T20:09:58.540Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/location/Belfast.html</loc>
-    <lastmod>2024-03-02T20:09:57.939Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/location/Stormont.html</loc>
-    <lastmod>2024-03-02T20:09:57.340Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/location/Queens.html</loc>
-    <lastmod>2024-03-02T20:09:57.013Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/location/TitanicBelfast.html</loc>
-    <lastmod>2024-03-02T20:09:57.634Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/importantdates.html</loc>
-    <lastmod>2024-03-02T20:09:58.232Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/keynotes/speakers/Terry_Maroney.html</loc>
-    <lastmod>2024-03-02T20:09:58.851Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/keynotes/index.html</loc>
-    <lastmod>2024-03-02T20:09:59.515Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/sponsorspage/index.html</loc>
-    <lastmod>2024-03-02T20:10:00.157Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/sponsorspage/sponsors/belfast_starburst.html</loc>
-    <lastmod>2024-03-02T20:10:00.680Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isre2024.org/sponsorspage/sponsors/tourism_ni.html</loc>
-    <lastmod>2024-03-02T20:10:01.228Z</lastmod>
+    <loc>https://isre2024.org/preconference/list/emotions_relationships.html</loc>
+    <lastmod>2024-03-10T15:08:35.782Z</lastmod>
   </url>
   <url>
     <loc>https://isre2024.org/contactus/index.html</loc>
-    <lastmod>2024-03-02T20:10:01.994Z</lastmod>
+    <lastmod>2024-02-20T16:54:27.217Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/sponsorspage/sponsors/tourism_ni.html</loc>
+    <lastmod>2024-02-27T16:16:52.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/sponsorspage/sponsors/belfast_starburst.html</loc>
+    <lastmod>2024-02-27T16:16:45.971Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/sponsorspage/index.html</loc>
+    <lastmod>2024-02-27T16:37:32.300Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/keynotes/index.html</loc>
+    <lastmod>2023-11-07T15:14:25.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/keynotes/speakers/Terry_Maroney.html</loc>
+    <lastmod>2023-11-02T20:17:35.474Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/importantdates.html</loc>
+    <lastmod>2024-02-06T09:31:27.153Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/location/TitanicBelfast.html</loc>
+    <lastmod>2023-11-24T19:42:13.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/location/Queens.html</loc>
+    <lastmod>2024-03-08T20:15:46.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/location/Stormont.html</loc>
+    <lastmod>2023-12-01T11:46:46.911Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/location/Belfast.html</loc>
+    <lastmod>2023-10-12T11:52:27.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/keynotes/speakers/Yuri_Miyamoto.html</loc>
+    <lastmod>2023-11-02T20:17:56.205Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/keynotes/speakers/Phoebe_Ellsworth.html</loc>
+    <lastmod>2023-11-02T20:18:12.439Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/sponsorspage/sponsors/visit_belfast.html</loc>
+    <lastmod>2024-02-27T16:17:06.402Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/sponsorspage/sponsors/mangold.html</loc>
+    <lastmod>2024-03-02T19:59:40.782Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/index.html</loc>
+    <lastmod>2024-03-02T19:58:23.461Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/preconference/list/affective_computing.html</loc>
+    <lastmod>2024-03-10T14:51:34.797Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/preconference/list/cross_species.html</loc>
+    <lastmod>2024-03-10T14:55:00.333Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/preconference/list/engaging_suffering.html</loc>
+    <lastmod>2024-03-10T14:53:55.827Z</lastmod>
   </url>
   <url>
     <loc>https://isre2024.org/people/people.html</loc>
-    <lastmod>2024-03-02T20:10:02.527Z</lastmod>
+    <lastmod>2024-03-02T20:04:18.189Z</lastmod>
   </url>
   <url>
     <loc>https://isre2024.org/submissions/submissions.html</loc>
-    <lastmod>2024-03-02T20:10:03.871Z</lastmod>
+    <lastmod>2023-11-06T15:16:58.164Z</lastmod>
   </url>
 </urlset>

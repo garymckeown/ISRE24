@@ -25,7 +25,15 @@ website:
         href: people/people.qmd
       - program/index.qmd
       - accommodation/index.qmd
-      - preconference/index.qmd
+      - text: Preconferences
+        menu: 
+          - href: preconference/list/experience_regulation.qmd
+          - href: preconference/list/emotional_development.qmd
+          - href: preconference/list/engaging_suffering.qmd
+          - href: preconference/list/laughter_workshop.qmd
+          - href: preconference/list/affective_computing.qmd
+          - href: preconference/list/cross_species.qmd
+          - href: preconference/list/emotion_relationships.qmd
       # - safetyatQUB/index.qmd
       - text: "Location"
         menu:

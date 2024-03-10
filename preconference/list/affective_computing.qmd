@@ -1,0 +1,11 @@
+---
+title: "Affective Computing + Large Language Models"
+---
+
+## Organisation
+
+- Joost Broekens
+- Jeff Girard
+- Desmond Ong 
+
+## Duration: 1 day

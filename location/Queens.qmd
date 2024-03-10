@@ -1,9 +1,6 @@
 ---
 title: "Location"
 page-layout: full
-filters:
-   - lightbox
-lightbox: auto
 ---
 
 ::: {.grid}
