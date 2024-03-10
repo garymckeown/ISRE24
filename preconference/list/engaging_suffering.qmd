@@ -1,5 +1,6 @@
 ---
 title: "Engaging With Other People's Suffering"
+title-block-banner: true
 ---
 
 ## Organisation

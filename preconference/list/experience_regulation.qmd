@@ -1,13 +1,12 @@
 ---
-title: "Experience and Regulation of Emotions in Online Contexts"
+title: "Emotion regulation in online contexts and links to mental health and wellbeing"
+title-block-banner: true
 ---
-
-## Emotion regulation in online contexts and links to mental health and wellbeing
 
 ::: columns
 ::: {.column width="30%"}
 
-![](experience_regulation_img.jpg)
+![](../../images/experience_regulation_img.jpg)
 :::
 
 ::: {.column width="10%"}

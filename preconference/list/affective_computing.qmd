@@ -1,5 +1,6 @@
 ---
 title: "Affective Computing + Large Language Models"
+title-block-banner: true
 ---
 
 ## Organisation

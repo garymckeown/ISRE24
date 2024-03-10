@@ -1,5 +1,6 @@
 ---
 title: "Emotional Development Preconference: Language and Emotional Development"
+title-block-banner: true
 ---
 
 ## Organisation

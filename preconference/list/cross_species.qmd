@@ -1,5 +1,6 @@
 ---
 title: "Cross-Species Emotion Research"
+title-block-banner: true
 ---
 
 ## Organisation
