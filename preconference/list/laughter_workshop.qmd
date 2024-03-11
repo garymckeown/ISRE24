@@ -5,7 +5,7 @@ title-block-banner: true
 
 Non-verbal vocalisations in human-human and human-machine interactions play important roles in displaying social and affective behaviours and in managing the flow of interaction. Laughter, sighs, clicks, filled pauses, and short utterances such as feedback responses are among some of the non-verbal vocalisations that are being increasingly studied from various research fields. However, much is still unknown about the phonetic or visual characteristics of non-verbal vocalisations (production/encoding), their relations to the social actions they are part of, their perceived meanings (perception/decoding), and their ordering in interaction. Furthermore, with the increased interest for more naturalness in human-machine interaction, current times also invite exploring how these phenomena can be integrated in speech applications.
 
-The workshop would be in its 7th edition, with previous editions held in Saarbrücken (2007), Berlin (2009), Dublin (2012), Enschede (2015), Paris (2018), and Bielefeld (2020). The goal of this series of workshops is to bring together scientists from diverse research areas and to provide an exchange forum for interdisciplinary discussions in order to gain a better understanding of laughter and other non-verbal vocalisations.
+The workshop would be in its **7th edition**, with previous editions held in Saarbrücken (2007), Berlin (2009), Dublin (2012), Enschede (2015), Paris (2018), and Bielefeld (2020). **The goal of this series of workshops is to bring together scientists from diverse research areas and to provide an exchange forum for interdisciplinary discussions in order to gain a better understanding of laughter and other non-verbal vocalisations.**
 
 Research themes include, but are not restricted to, these aspects of laughter and other non-verbal vocalisations:
 
@@ -16,9 +16,22 @@ Research themes include, but are not restricted to, these aspects of laughter an
 - Disfluency
 - Technology applications
 
-Researchers are invited to submit extended abstracts (2 pages of content and maximum one additional page for references and figures) describing original work, including work in progress.
+Researchers are invited to **submit extended abstracts** (2 pages of content and maximum one additional page for references and figures) describing original work, including work in progress.
 
 There will be two keynote presentations on the topics treated by the workshop, delivered by Prof. Carolyn McGettigan (University College London, UK) and Prof. Margaret Zellers (Kiel University, Germany).
+
+### Important Dates
+
+- Submission deadline: **21 March 2024**
+- Acceptance notification: **18 April 2024**
+- Final paper submission: **15 May 2024**
+- Workshop registration **deadline: 01 June 2024**
+
+### Submission Procedure
+
+All submissions should use the Interspeech 2023 template, but limited to 2 pages of content (and maximum one additional page for references and figures) and should be submitted in pdf format through the CMT platform: [https://cmt3.research.microsoft.com/LW2024/Submission/Index](https://cmt3.research.microsoft.com/LW2024/Submission/Index).
+
+Each submission will be reviewed by at least two reviewers. Accepted papers will be made available online, through the [ISCA Archive](https://www.isca-archive.org/).
 
 ## Organisation
 
@@ -34,3 +47,5 @@ The workshop will take place on July 16th and 17th, 2024.
 See pre-conference website [here](https://www.uni-bielefeld.de/fakultaeten/linguistik-literaturwissenschaft/forschung/fachbereich/phonetik/laughter-workshop-2024/)
 
 For further information or questions regarding the workshop you can contact the organizers at the following email address: [LaughterWorkshop2024@gmail.com](mailto:LaughterWorkshop2024@gmail.com) 
+
+The workshop will be supported by the International Speech Communication Association (ISCA), offering one travel grant for early career scientists. Authors of accepted papers who are eligible for this award should apply for it through the ISCA platform.
