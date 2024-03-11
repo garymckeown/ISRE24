@@ -3,10 +3,40 @@ title: "Emotional Development Preconference: Language and Emotional Development"
 title-block-banner: true
 ---
 
+::: columns
+::: {.column width="30%"}
+![](../../images/emotional_development_img.jpg)
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="60%"}
+
+Emotional development is a topic that lends itself to study at several levels of analysis and in terms of many interacting influences, and merits consideration of both individual and group differences. **While research examining emotional development has traditionally been interspersed throughout ISRE meetings, the Emotional Development Preconference provides an opportunity to integrate these diverse perspectives.** This event has been part of the past two ISRE meetings, at each well-attended by researchers from various theoretical, methodological, cultural, and institutional backgrounds. The results have consistently been a program that generated cross-disciplinary interaction and discussion.
+
+The present pre-conference seeks to build upon this momentum through a collection of invited speakers who examine emotional development through multiple lenses. In keeping with the ethos of ISRE, the proposed pre-conference will bring together people from different countries and disciplines to focus on a central theme: **Language and Emotional Development**. 
+
+:::
+:::
+
+Knowledge about, experiences of, and competencies for emotion change as individuals develop over the lifespan and as cultures evolve over historical time. How does the language used for emotion track these changes? What role might it play in maintaining or even precipitating them? **Six invited speakers from a broad range of disciplines and stances will engage with these questions**, among others, as they present research on language and emotional development. Focusing on individual development, their talks will explore how emotion words and caregiver interactions may scaffold emotion knowledge and experience in infants and young children, how fostering social and emotional skills may promote healthy behavioral and relational dynamics, and how these processes are shaped by cultural context. Focusing on cultural development, speakers will examine how words for emotion take on new meanings, how cross-cultural contact may impact language for emotion, and how these processes may subsequently influence development at the individual level. **A discussant will conclude the program** by considering how the confluence of these person- and culture-level approaches might tackle outstanding questions and tensions about the role of language in emotional development. The audience will have the opportunity to hear from, and interact with, a diverse array of experts and perspectives on emotional development, stimulating discussion and collaboration across disciplines and frameworks. 
+
+As at past Emotional Development Preconferences, **submissions for flash talks and poster presentations are also solicited** to encourage researchers of multiple disciplines and career stages to attend and present their research. All submissions will be evaluated by at least 2 experts of emotional development, and flash talk submissions not accepted will be considered for poster presentations. The preconference will also feature a **“Best Poster Award”** to the top presented poster, as evaluated by the invited speakers. Additionally, the program will include planned breaks for coffee/refreshments to allow attendees to discuss the presentations, form possible collaborations, and network with one another. 
+
 ## Organisation
 
-- Eric Walle
-- Peter Reschke
-- Katie Hoemann
+- Eric Walle (University of California, Merced)
+- Peter Reschke (Brigham Young University)
+- Katie Hoemann (KU Leuven)
+
+## Provisionally Confirmed Speakers and Expertise
+
+- Kristen Lindquist (University of North Carolina, USA): Psychology, Neuroscience
+- Ewelina Wnuk (University of Warsaw, Poland): Anthropology, Linguistics
+- Casey Lew-Williams (Princeton University, USA): Developmental Psychology
+- Heli Tissari (Umeå University, Sweden): Language Studies, History
+- Holly Shablack (Washington &amp; Lee University, USA): Cognitive and Behavioral Science
+- Ilaria Grazzani (Università degli Studi di Milano-Bicocca, Italy): Educational Psychology
 
 ## Duration: 1 day

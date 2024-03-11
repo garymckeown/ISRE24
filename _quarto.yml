@@ -30,11 +30,14 @@ website:
           - href: preconference/list/experience_regulation.qmd
             text: "Experience and Regulation of Emotions in Online Contexts"
           - href: preconference/list/emotional_development.qmd
+            text: "Emotional Development"
           - href: preconference/list/engaging_suffering.qmd
+            text: "Engaging With Other People's Suffering"
           - href: preconference/list/laughter_workshop.qmd
           - href: preconference/list/affective_computing.qmd
           - href: preconference/list/cross_species.qmd
           - href: preconference/list/emotions_relationships.qmd
+            text: "Emotions in (Close) Relationships"
       # - safetyatQUB/index.qmd
       - text: "Location"
         menu:

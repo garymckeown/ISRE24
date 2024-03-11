@@ -3,10 +3,42 @@ title: "Cross-Species Emotion Research"
 title-block-banner: true
 ---
 
+The inaugural Workshop on Cross-species Emotion Research (CSE) at ISRE 2024 invites researchers from a variety of fields including - but not limited to - emotion science, evolutionary biology, social cognition, affective computing, psychology, human-robot interaction (HRI), and philosophy to discuss **interdisciplinary perspectives on emotion research from a cross-species perspective or highlight how computational methods can transform research in affective science**.
+
+::: columns
+::: {.column width="30%"}
+![](../../images/cross_species_img.jpg)
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="60%"}
+
+Understanding emotions - where they come from, and how are they expressed and recognized - is an ongoing challenge in the fields of psychology, biology, and, more recently, computer science. However, emotion research has been hampered by the lack of integration between these fields and the almost exclusive focus in psychology on human emotions. This gap, while recognized within specialized fields, has not been effectively addressed within the broader landscape of emotion research, leading to a fragmented understanding of this fundamental aspect of the human and non-human animal mind. By bringing together a wide variety of researchers (including, but not limited to, evolutionary biologists, computer scientists, psychologists, anthropologists, and philosophers) **this pre-conference will foster interdisciplinary collaboration, knowledge exchange, and the identification of key research gaps under the theme “Emotions Across Species: Form and Function”**. 
+
+:::
+:::
+
+By touching upon the various layers of emotional research from a human, animal, and animat perspective, the CSE workshop aims to further our understanding of the fundament of emotion and affect, and at the same time to enhance technologies aimed at understanding, modifying, or interacting with human or animal affective processes.
+
 ## Organisation
 
-- Mariska Kret
-- Joost Broekens
-- Fabiola Diana
+- Fabiola Diana (Leiden University)
+- Joost Broekens (Leiden University)
+- Mariska E. Kret (Leiden University)
+
+## Confirmed Speakers
+
+- Ivan Norscia (University of Turin)
+- Suresh R. Neethirajan (Dalhuis University)
+- Roza Kamiloğlu (VU Amsterdam,)
+- Rachael Jack (University of Glasgow)
+- Ruud Hortensius (Utrecht University)
+- Lola Cañamero (CY Cergy Paris University)
 
 ## Duration: 1 day
+
+## Information and Agenda
+
+See pre-conference website [here](https://sites.google.com/view/cse-workshop-2024)
