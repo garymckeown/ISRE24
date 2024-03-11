@@ -1,5 +1,6 @@
 ---
-title: "Emotions in Close Relationships"
+title: "Emotions in (Close) Relationships"
+title-block-banner: true
 ---
 
 ## Organisation
