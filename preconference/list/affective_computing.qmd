@@ -1,12 +1,52 @@
 ---
-title: "Affective Computing + Large Language Models"
+title: "Affective Computing Pre-Conference at ISRE (AC@ISRE2024)"
+subtitle: "with a special session on Large Language Models"
 title-block-banner: true
 ---
 
+::: columns
+::: {.column width="30%"}
+![](../../images/affective_computing_img.jpg)
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="60%"}
+
+The Affective Computing Pre-Conference features state-of-the-art research on computational techniques for recognizing, modelling and shaping human emotion, and emphasizes ways to strengthen interdisciplinary connections between the computational and human sciences of emotion. 
+
+**Submitted contributions and invited speakers discuss the latest research on computational methods inspired by the affective sciences, as well as how such methods can transform research in affective science**. For submitted contributions, we will be accepting extended abstract submissions for Poster and Flash Talk presentations (instructions below). This year’s focus is **“Opportunities, challenges, and impacts of computational methods in emotion research”**. 
+
+:::
+:::
+
+This year, we are also organizing **a special session on research using Large Language Models and affective science**, across the range of basic and applied research questions, for example: how well do these models understand emotions; what can we learn from the nature/representation of emotions in these models; how can we use these models to generate artificial stimuli, or label data; how can we use these models in applied systems (e.g., for emotional well-being).
+
+### Abstract Submissions and Registration
+
+We will be accepting abstract submissions for **Poster and “Flash Talk” presentations**. Presentations should address topics in affective computing, broadly defined, e.g., emotion recognition, emotion modelling, emotion expression in technological artefacts, and human (affective) responses to (affective) technology. Extended abstracts should emphasize the interdisciplinary nature of the work and explicitly link with the affective sciences. Acceptance of the contribution is at the discretion of the program committee based on a light review which will focus on (1) clarity and (2) relevance to both computational methods as well as emotion research. Extended abstracts should be 2-page PDFs including bibliography and should outline the goals of the research, methods used, and a summary of the results. Position and/or “blue sky idea” extended abstracts are also welcome but need to make their arguments clearly and concisely. Submissions are welcome from any career stage/status. Extended abstracts will be published online, but not through an official publisher, meaning that you keep the copyright and you are still able to submit elsewhere.
+
+Submissions are submitted through Easychair: [https://easychair.org/my/conference?conf=acisre2024](https://easychair.org/my/conference?conf=acisre2024)
+
+### Deadlines
+
+Submission deadline: **April 1st, 2024**
+
+Acceptance notification: **May 1st, 2024**
+
 ## Organisation
 
-- Joost Broekens
-- Jeff Girard
-- Desmond Ong 
+- Joost Broekens (Leiden University)
+- Jeffrey Girard (University of Kansas)
+- Desmond Ong (University of Texas at Austin)
 
 ## Duration: 1 day
+
+## Information and Agenda
+
+See pre-conference website [here](https://sites.google.com/view/acisre2024)
+
+For further information or questions regarding the workshop you can contact the organizers at the following email address: [joost.broekens@gmail.com](mailto:joost.broekens@gmail.com) 
+
+This pre-conference is sponsored by the **Association for the Advancement of Affective Computing (AAAC)**. The pre-conference is part of the affective computing preconference series started in 2017 in Boston at SAS, and the 2019 and 2022 pre-conferences at ISRE. The Affective Computing preconference attempts to support the increasing interest in the interdisciplinary study of emotion in which computational modelling as well as computational analysis play an important role.

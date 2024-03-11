@@ -1,5 +1,6 @@
 ---
-title: "Emotion regulation in online contexts and links to mental health and wellbeing"
+title: "Emotion Regulation in Online Contexts and Links to Mental Health and Wellbeing"
+subtitle: "Keep Calm and Regulate ON(line?)"
 title-block-banner: true
 ---
 

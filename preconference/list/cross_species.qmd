@@ -22,6 +22,21 @@ Understanding emotions - where they come from, and how are they expressed and re
 
 By touching upon the various layers of emotional research from a human, animal, and animat perspective, the CSE workshop aims to further our understanding of the fundament of emotion and affect, and at the same time to enhance technologies aimed at understanding, modifying, or interacting with human or animal affective processes.
 
+### Abstract Submissions and Registration
+
+Abstract submissions for **Poster and “Flash Talk” presentations are accepted**. We invite authors to submit contributions in the shape of an extended abstract. The extended abstract should be 1000 words (references excluded) in PDF format and should outline the goals of the research, the methods used, and a summary of the results. The extended abstract should also contain one question/challenge that should be addressed during the workshop. Submissions are welcome from any career status. Acceptance of the contribution is at the discretion of the program committee based on a review by the committee. Extended abstracts will be published online, but not through an official publisher, meaning that you keep the copyright and you are still able to submit elsewhere.
+
+Motivation Letter Submission:
+
+We welcome individuals who wish to attend the pre-conference without presenting a poster or giving a flash talk. In such cases,  attendees are asked to submit a motivation letter (max 1000 words) in PDF format. This letter should articulate their genuine interest in the workshop's theme and clearly explain the relevance of their participation to their academic or professional goals. The motivation should also contain one question/challenge that should be addressed during the workshop. Submissions are welcome from any career status. Motivation letters will be reviewed, and participants will be selected based on the strength of their motivation and alignment with the workshop's objectives. 
+
+Papers can be submitted on EasyChair: [https://easychair.org/my/conference?conf=cseisre2024](https://easychair.org/my/conference?conf=cseisre2024)
+
+### Important dates
+
+- Abstract/Letter submission deadline: **15th April 2024**
+- Notification of acceptance: **15th May 2024**
+
 ## Organisation
 
 - Fabiola Diana (Leiden University)
@@ -37,8 +52,10 @@ By touching upon the various layers of emotional research from a human, animal, 
 - Ruud Hortensius (Utrecht University)
 - Lola Cañamero (CY Cergy Paris University)
 
-## Duration: 1 day
+##  Workshop day: 17th July 2024
 
 ## Information and Agenda
 
 See pre-conference website [here](https://sites.google.com/view/cse-workshop-2024)
+
+For further information or questions regarding the workshop you can contact the organizers at the following email address: [d.fabiola@fsw.leidenuniv.nl](mailto:d.fabiola@fsw.leidenuniv.nl) 
