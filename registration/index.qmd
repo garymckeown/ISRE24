@@ -3,7 +3,9 @@ title: "Registration"
 title-block-banner: true
 ---
 
-## Main Conference Registration Fees (including the conference dinner)
+## Registration System Details to follow
+
+## Main Conference Registration Fees (in GBP)
 
 |   |   |
 |---|---|
@@ -38,4 +40,3 @@ title-block-banner: true
 |Conference companion pass |£125.00|
 |Additional banquet |£80.00|
 
-## Registration System Details to follow.
