@@ -51,7 +51,7 @@ We are thrilled to offer an array of pre-conference events designed to enrich yo
 - [Affective Computing with a special session on Large Language Models](preconference/list/affective_computing.qmd)
 - [Cross-Species Emotion Research](preconference/list/cross_species.qmd)
 - [Emotion Regulation in Online Contexts and Links to Mental Health and Wellbeing](preconference/list/experience_regulation.qmd)
-- [Emotions in (Close) Relationships](preconference/list/emotions_relationships.qmd)
+- [Emotions in Interpersonal Relationships](preconference/list/emotions_relationships.qmd)
 - [Engaging with Other People’s Suffering: Emotion, Empathy, Eudaimonia and Curiosity](preconference/list/engaging_suffering.qmd)
 - [Language and Emotional Development](preconference/list/emotional_development.qmd)
 - [Laughter and Other Non-Verbal Vocalisations](preconference/list/laughter_workshop.qmd)
