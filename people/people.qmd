@@ -162,6 +162,13 @@ Early Career Team
         <div class="hover_esp_team">Zoi Polyzopoulou</div>
         </div>
         </a>
+        
+        <!-- Card EC Team-->
+        <a href="https://www.linkedin.com/in/ana-milo%C5%A1i%C4%8D-932461255">
+        <div id="anamilosic" class="card_team inline-photo3 show-on-scroll">
+        <div class="hover_esp_team">Ana Milošič</div>
+        </div>
+        </a>
     </div>
 </section>
 ```
