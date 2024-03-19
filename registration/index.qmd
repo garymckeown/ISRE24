@@ -23,10 +23,12 @@ title-block-banner: true
 |ISRE member onsite | £525.00|
 |Student non-member onsite |£550.00|
 |Non-member onsite |£625.00|
+|   |   |
+|Conference dinner |£50.00|
 
 * **Early registration ends 30 April 2024, 23:59 PST.**
 
-## Pre-Conference
+## Pre-conferences
 
 |   |   |
 |---|---|
@@ -38,5 +40,5 @@ title-block-banner: true
 |   |   |
 |---|---|
 |Conference companion pass |£125.00|
-|Additional banquet |£80.00|
+|Additional conference dinner |£50.00|
 
