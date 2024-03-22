@@ -9,24 +9,25 @@ title-block-banner: true
 
 |   |   |
 |---|---|
-|Student ISRE member early |£300.00 |
+|Economy ISRE member early |£300.00 |
 |ISRE member early |£375.00|
-|Student non-member early |£400.00|
+|Economy non-member early |£400.00|
 |Non-member early |£475.00|
 |   |   |
-|Student ISRE member regular |£350.00|
+|Economy ISRE member regular |£350.00|
 |ISRE member regular |£425.00|
-|Student non-member regular |£450.00|
+|Economy non-member regular |£450.00|
 |Non-member regular |£525.00|
 |   |   |
-|Student ISRE member onsite |£450.00|
+|Economy ISRE member onsite |£450.00|
 |ISRE member onsite | £525.00|
-|Student non-member onsite |£550.00|
+|Economy non-member onsite |£550.00|
 |Non-member onsite |£625.00|
 |   |   |
 |Conference dinner |£50.00|
 
 * **Early registration ends 30 April 2024, 23:59 PST.**
+* **The *Economy* rates apply to students, postdocs, and attendees affiliated with universities in [Low- to Middle-Income Countries](https://www.qub.ac.uk/schools/psy/ISSIDConference2023/registration/WorldBankCountries/)**
 
 ## Pre-conferences
 
