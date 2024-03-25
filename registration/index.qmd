@@ -3,7 +3,9 @@ title: "Registration"
 title-block-banner: true
 ---
 
-## Registration System Details to follow
+## Registration System Open Now
+
+- Register here: **[https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php)**
 
 ## Main Conference Registration Fees (in GBP)
 
