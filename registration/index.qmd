@@ -7,7 +7,7 @@ title-block-banner: true
 
 - Register here: **[https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php)**
 - **Early registration ends 30 April 2024, 23:59 PST.**
-- **The *Economy* rates apply to students, postdocs, and attendees affiliated with universities in [Low- to Middle-Income Countries](https://data.worldbank.org/country/XO)**
+- **The *Economy* rates apply to students, postdocs, and attendees affiliated with universities in [Low- to Middle-Income Countries](list_countries.qmd)**
 
 ## Main Conference Registration Fees (in GBP)
 
