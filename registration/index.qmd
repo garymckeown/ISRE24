@@ -6,6 +6,8 @@ title-block-banner: true
 ## Registration System Open Now
 
 - Register here: **[https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php)**
+- **Early registration ends 30 April 2024, 23:59 PST.**
+- **The *Economy* rates apply to students, postdocs, and attendees affiliated with universities in [Low- to Middle-Income Countries](https://data.worldbank.org/country/XO)**
 
 ## Main Conference Registration Fees (in GBP)
 
@@ -27,9 +29,6 @@ title-block-banner: true
 |Non-member onsite |£625.00|
 |   |   |
 |Conference dinner |£50.00|
-
-* **Early registration ends 30 April 2024, 23:59 PST.**
-* **The *Economy* rates apply to students, postdocs, and attendees affiliated with universities in [Low- to Middle-Income Countries](https://www.qub.ac.uk/schools/psy/ISSIDConference2023/registration/WorldBankCountries/)**
 
 ## Pre-conferences
 
