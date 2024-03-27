@@ -24,7 +24,8 @@ website:
       - text: "People"
         href: people/people.qmd
       - program/index.qmd
-      - accommodation/index.qmd
+      - text: "ISRE Challenge"
+        href: https://www.isre.org/news/668358/A-New-ISRE-Initiative---Emotion-Express-One-Minute-to-Inspire.htm
       - text: Preconferences
         menu: 
           - href: preconference/list/affective_computing.qmd
@@ -52,6 +53,8 @@ website:
             href: location/Stormont.qmd
           - text: "Banquet"
             href: location/TitanicBelfast.qmd
+          - text: "Accomodation"
+            href: accommodation/index.qmd
       - contactus/index.qmd
   page-footer:
     # left: "Powered by [Quarto](https://quarto.org/) v1.3.24"
