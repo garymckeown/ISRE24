@@ -23,18 +23,6 @@ The Affective Computing Pre-Conference features state-of-the-art research on com
 
 This year, we are also organizing **a special session on research using Large Language Models and affective science**, across the range of basic and applied research questions, for example: how well do these models understand emotions; what can we learn from the nature/representation of emotions in these models; how can we use these models to generate artificial stimuli, or label data; how can we use these models in applied systems (e.g., for emotional well-being).
 
-### Abstract Submissions and Registration
-
-We will be accepting abstract submissions for **Poster and “Flash Talk” presentations**. Presentations should address topics in affective computing, broadly defined, e.g., emotion recognition, emotion modelling, emotion expression in technological artefacts, and human (affective) responses to (affective) technology. Extended abstracts should emphasize the interdisciplinary nature of the work and explicitly link with the affective sciences. Acceptance of the contribution is at the discretion of the program committee based on a light review which will focus on (1) clarity and (2) relevance to both computational methods as well as emotion research. Extended abstracts should be 2-page PDFs including bibliography and should outline the goals of the research, methods used, and a summary of the results. Position and/or “blue sky idea” extended abstracts are also welcome but need to make their arguments clearly and concisely. Submissions are welcome from any career stage/status. Extended abstracts will be published online, but not through an official publisher, meaning that you keep the copyright and you are still able to submit elsewhere.
-
-Submissions are submitted through Easychair: [https://easychair.org/my/conference?conf=acisre2024](https://easychair.org/my/conference?conf=acisre2024)
-
-### Deadlines
-
-Submission deadline: **April 1st, 2024**
-
-Acceptance notification: **May 1st, 2024**
-
 ## Organisation
 
 - Joost Broekens (Leiden University)
