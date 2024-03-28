@@ -20,10 +20,9 @@ website:
       - keynotes/index.qmd
       - text: "Register"
         href: registration/index.qmd
-      - sponsorspage/index.qmd
-      - text: "People"
-        href: people/people.qmd
       - program/index.qmd
+      - text: "ISRE Awards"
+        href: awards.qmd
       - text: "ISRE Challenge"
         href: https://www.isre.org/news/668358/A-New-ISRE-Initiative---Emotion-Express-One-Minute-to-Inspire.htm
       - text: Preconferences
@@ -43,6 +42,8 @@ website:
           - href: preconference/list/laughter_workshop.qmd
             text: "Laughter and Other Non-Verbal Vocalisations"
       # - safetyatQUB/index.qmd
+      - text: "People"
+        href: people/people.qmd
       - text: "Location"
         menu:
           - text: "Queen's University Belfast"
@@ -55,6 +56,7 @@ website:
             href: location/TitanicBelfast.qmd
           - text: "Accomodation"
             href: accommodation/index.qmd
+      - sponsorspage/index.qmd
       - contactus/index.qmd
   page-footer:
     # left: "Powered by [Quarto](https://quarto.org/) v1.3.24"
