@@ -1,7 +1,5 @@
 ---
-format:
-  html:
-    page-layout: full
+format: html
 listing:
   - id: invited-keynotes
     contents: keynotes/speakers
