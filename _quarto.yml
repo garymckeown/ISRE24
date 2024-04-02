@@ -82,7 +82,6 @@ format:
     css: styles.css
     smooth-scroll: true
     toc: false
-    page-layout: full
     
 resources:
   - CNAME
