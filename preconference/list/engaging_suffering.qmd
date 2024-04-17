@@ -23,8 +23,6 @@ Our goal is to bring together both senior and junior researchers to discuss the 
 
 Suzanne Oosterwijk, Anastassia Vivanco Carlevari, Yağmur Özbay, Esther Niehoff & Gerben van Kleef (University of Amsterdam)
 
-## Duration: 1 day
-
 ## Information and Submission
 
 Short talks submissions should be in the format of a PDF or Word file including: Presentation Title | Authors & Affiliation | 250 words Abstract 

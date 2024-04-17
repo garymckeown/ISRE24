@@ -52,8 +52,6 @@ Papers can be submitted on EasyChair: [https://easychair.org/my/conference?conf=
 - Ruud Hortensius (Utrecht University)
 - Lola Cañamero (CY Cergy Paris University)
 
-##  Workshop day: 17th July 2024
-
 ## Information and Agenda
 
 See pre-conference website [here](https://sites.google.com/view/cse-workshop-2024)
