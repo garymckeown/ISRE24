@@ -29,8 +29,6 @@ This year, we are also organizing **a special session on research using Large La
 - Jeffrey Girard (University of Kansas)
 - Desmond Ong (University of Texas at Austin)
 
-## Duration: 1 day
-
 ## Information and Agenda
 
 See pre-conference website [here](https://sites.google.com/view/acisre2024)
