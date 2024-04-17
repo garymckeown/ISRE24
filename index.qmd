@@ -65,9 +65,9 @@ We're excited to announce applications are open for our **Travel Awards at ISRE2
 
 Eligible attendees can submit their application to the ISRE2024 Organizers ([ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk) ) by **30 April 2024**, more details [here](awards.qmd).
 
-## ISRE Challenge: One minute to inspire!
+## Emotion Express: One minute to inspire!
 
-<a href="https://www.isre.org/news/668358/A-New-ISRE-Initiative---Emotion-Express-One-Minute-to-Inspire.htm">![](https://cdn.ymaws.com/www.isre.org/resource/resmgr/2023_isre24/emx_logo4.png){fig-align="center"}</a>
+<!-- <a href="https://www.isre.org/news/668358/A-New-ISRE-Initiative---Emotion-Express-One-Minute-to-Inspire.htm">![](https://cdn.ymaws.com/www.isre.org/resource/resmgr/2023_isre24/emx_logo4.png){fig-align="center"}</a> -->
 
 The International Society for Research on Emotion (ISRE) is pleased to invite YOU to take on a challenge: **tell people about your research** using language that is accessible to a general audience, or those who might not be familiar with emotion research and **get them as excited about emotions as we are**. Take this opportunity to challenge yourself, expand/put into practice your communication skills, and bridge the gap between our research community and your grandparents, friends and wider society.
 

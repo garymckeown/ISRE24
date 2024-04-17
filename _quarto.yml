@@ -23,7 +23,7 @@ website:
       - program/index.qmd
       - text: "ISRE Awards"
         href: awards.qmd
-      - text: "ISRE Challenge"
+      - text: "Emotion Express"
         href: https://www.isre.org/news/668358/A-New-ISRE-Initiative---Emotion-Express-One-Minute-to-Inspire.htm
       - text: Preconferences
         menu: 
