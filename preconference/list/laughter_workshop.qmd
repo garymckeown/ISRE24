@@ -22,10 +22,10 @@ There will be two keynote presentations on the topics treated by the workshop, d
 
 ### Important Dates
 
-- Submission deadline: **21 March 2024**
-- Acceptance notification: **18 April 2024**
-- Final paper submission: **15 May 2024**
-- Workshop registration **deadline: 01 June 2024**
+- Submission deadline: **21 March**
+- Acceptance notification: **18 April**
+- Final paper submission: **15 May**
+- Workshop registration **deadline: 01 June**
 
 ### Submission Procedure
 
@@ -38,7 +38,7 @@ Each submission will be reviewed by at least two reviewers. Accepted papers will
 - Bogdan Ludusan (Bielefeld University)
 - Marina Cantarutti (University of York)
 
-The workshop will take place on July 16th and 17th, 2024.
+The workshop will take place on 16 and 17 July.
 
 ## Information and Agenda
 
