@@ -25,7 +25,7 @@ listing:
 
 # About the Conference
 
-We are happy to announce that the International Society for Research on Emotion (ISRE) conference will take place **in-person on July 17th to 20th, 2024, at Queen's University Belfast, Northern Ireland**.
+We are happy to announce that the International Society for Research on Emotion (ISRE) conference will take place **in-person on 17 to 20 July 2024 at Queen's University Belfast, Northern Ireland**.
 
 The ISRE conference is an exciting opportunity to meet international colleagues, present your work, and stay up-to-date with the latest developments in emotion research. ISRE members study emotions from a wide range of disciplines including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology and sociology.
 
@@ -33,7 +33,7 @@ The ISRE conference is an exciting opportunity to meet international colleagues,
 
 - Pre-Conference & Main Conference Submission Closed
 - Main Conference Decisions Announced
-- **Early registration ends April 30th, 2024, 23:59 PST**
+- **Early registration ends 30 April, 23:59 PST**
 - Registration system open now: **[Register here](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php)** (more details on the registration fees [here](registration/index.qmd))
 
 ## Invited Keynotes
@@ -63,7 +63,7 @@ Registration for pre-conference events is integrated into the [ISRE main event r
 
 We're excited to announce applications are open for our **Travel Awards at ISRE24**. These awards support scholars facing financial barriers.
 
-Eligible attendees can submit their application to the ISRE2024 Organizers ([ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk) ) by **April 30th, 2024**, more details [here](awards.qmd).
+Eligible attendees can submit their application to the ISRE2024 Organizers ([ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk) ) by **30 April**, more details [here](awards.qmd).
 
 ## Emotion Express: One minute to inspire!
 

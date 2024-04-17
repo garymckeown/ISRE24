@@ -29,7 +29,7 @@ Short talks submissions should be in the format of a PDF or Word file including:
 
 Submit your abstract via email to: [s.oosterwijk@uva.nl](mailto:s.oosterwijk@uva.nl)
 
-- Short talk submission deadline: April 15th
-- Notification of acceptance: April 25th
+- Short talk submission deadline: **15 April**
+- Notification of acceptance: **25 April**
 
 For more information, please see [https://sites.google.com/view/isre2024sufferingpreconference](https://sites.google.com/view/isre2024sufferingpreconference)
