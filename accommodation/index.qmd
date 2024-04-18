@@ -2,4 +2,25 @@
 title: "Accommodation"
 ---
 
-## Details to follow.
+Below are some hotels in Belfast who offered **reductions for ISRE2024 attendees**. Please **contact them directly** and **give the group reference "International Society for Research on Emotion"** before making your booking. 
+
+### The Gasworks Hotel Belfast | Belfast City Centre Hotel
+
+::: columns
+::: {.column width="60%"}
+- ⭐⭐⭐⭐
+- About 20 minutes walk to QUB
+- Website: [https://www.gasworkshotel.com](https://www.gasworkshotel.com)
+- Phone: +44 28 90 434 065
+- Email: [frontoffice@gasworkshotel.com](mailto:frontoffice@gasworkshotel.com)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+<a href="https://www.gasworkshotel.com/">![](https://www.gasworkshotel.com/wp-content/themes/avviowpcms2-thegasworkshotel/assets/icons/logos/gw2.png){fig-align="center"}</a>
+:::
+:::
+
+
+
+
