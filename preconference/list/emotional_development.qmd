@@ -15,10 +15,10 @@ title-block-banner: true
 
 Emotional development is a topic that lends itself to study at several levels of analysis and in terms of many interacting influences, and merits consideration of both individual and group differences. **While research examining emotional development has traditionally been interspersed throughout ISRE meetings, the Emotional Development Preconference provides an opportunity to integrate these diverse perspectives.** This event has been part of the past two ISRE meetings, at each well-attended by researchers from various theoretical, methodological, cultural, and institutional backgrounds. The results have consistently been a program that generated cross-disciplinary interaction and discussion.
 
-The present pre-conference seeks to build upon this momentum through a collection of invited speakers who examine emotional development through multiple lenses. In keeping with the ethos of ISRE, the proposed pre-conference will bring together people from different countries and disciplines to focus on a central theme: **Language and Emotional Development**. 
+:::
+:::
 
-:::
-:::
+The present pre-conference seeks to build upon this momentum through a collection of invited speakers who examine emotional development through multiple lenses. In keeping with the ethos of ISRE, the proposed pre-conference will bring together people from different countries and disciplines to focus on a central theme: **Language and Emotional Development**. 
 
 Knowledge about, experiences of, and competencies for emotion change as individuals develop over the lifespan and as cultures evolve over historical time. How does the language used for emotion track these changes? What role might it play in maintaining or even precipitating them? **Six invited speakers from a broad range of disciplines and stances will engage with these questions**, among others, as they present research on language and emotional development. Focusing on individual development, their talks will explore how emotion words and caregiver interactions may scaffold emotion knowledge and experience in infants and young children, how fostering social and emotional skills may promote healthy behavioural and relational dynamics, and how these processes are shaped by cultural context. Focusing on cultural development, speakers will examine how words for emotion take on new meanings, how cross-cultural contact may impact language for emotion, and how these processes may subsequently influence development at the individual level. **A discussant will conclude the program** by considering how the confluence of these person- and culture-level approaches might tackle outstanding questions and tensions about the role of language in emotional development. The audience will have the opportunity to hear from, and interact with, a diverse array of experts and perspectives on emotional development, stimulating discussion and collaboration across disciplines and frameworks. 
 
@@ -30,7 +30,7 @@ As at past Emotional Development Preconferences, **submissions for flash talks a
 - Peter Reschke (Brigham Young University)
 - Katie Hoemann (KU Leuven)
 
-## Provisionally Confirmed Speakers and Expertise
+## Confirmed Speakers and Expertise
 
 - Kristen Lindquist (University of North Carolina, USA): Psychology, Neuroscience
 - Ewelina Wnuk (University of Warsaw, Poland): Anthropology, Linguistics
@@ -38,3 +38,8 @@ As at past Emotional Development Preconferences, **submissions for flash talks a
 - Heli Tissari (Umeå University, Sweden): Language Studies, History
 - Holly Shablack (Washington &amp; Lee University, USA): Cognitive and Behavioral Science
 - Ilaria Grazzani (Università degli Studi di Milano-Bicocca, Italy): Educational Psychology
+
+## Information and Agenda
+
+For more information, please see [https://ewalle.wixsite.com/isre-2024-emotional](https://ewalle.wixsite.com/isre-2024-emotional)
+
