@@ -52,7 +52,7 @@ website:
             href: location/Belfast.qmd
           - text: "Opening Reception"
             href: location/Stormont.qmd
-          - text: "Banquet"
+          - text: "Banquet + Titanic Belfast"
             href: location/TitanicBelfast.qmd
           - text: "Accomodation"
             href: accommodation/index.qmd
