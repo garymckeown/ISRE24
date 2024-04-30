@@ -8,7 +8,7 @@ A growing body of research indicates that **social media use may be contributing
 
 This pre-conference will focus on the experience and regulation of emotions in online contexts (including social media apps) and attendant effects on mental health and wellbeing among youth and young adults. Specifically, the first talk will discuss neural correlates of emotion regulation, as measured by EEG, and links to adolescents’ preference for online (versus in-person) social interactions and social anxiety symptoms. The second talk will highlight the importance of young people’s exposure to fast-paced content on social media and downstream impacts on mental health and wellbeing. The third talk demonstrates how machine learning methods can be applied to people’s music preferences on Spotify to establish digital “traces” of risk factors for depression and aid in early detection and prevention efforts for depression and other conditions. Collectively, the findings featured in this pre-conference represent a **promising and timely new avenue for the study of emotion regulation and the field of affective science more broadly**. 
 
-In addition to the above-mentioned talks, the pre-conference will also feature a poster session (see below for submission instructions). The event will conclude with a panel-style Q&A and to promote further discussion, professional networking, and potential research collaborations. 
+In addition to the above-mentioned talks, the pre-conference will also feature a series of data blitz presentations by trainees and early career researchers (see below for submission instructions). The event will conclude with a panel-style Q&A and to promote further discussion, professional networking, and potential research collaborations.
 
 ## Organisation
 
@@ -22,11 +22,9 @@ In addition to the above-mentioned talks, the pre-conference will also feature a
 
 ## Information and Agenda
 
-Poster submissions should include a presentation title, all contributing authors and their affiliations, and a 250-word abstract. 
+Submission for data blitz presentations should include a presentation title, all contributing authors and their affiliations, and a 250-word abstract. Please submit your abstract as a PDF or MS Word file via email to: [rlopez1@wpi.edu](mailto:rlopez1@wpi.edu) and [sfm6016@psu.edu](mailto:sfm6016@psu.edu).
 
-Please submit your poster abstract as a PDF or MS Word file via email to: [rlopez1@wpi.edu](mailto:rlopez1@wpi.edu).
-
-- Submission deadline: **30 April**
+- Submission deadline: **15 May**
 - Notification of acceptance: **31 May**
 
-Stay tuned for a detailed itinerary (will be linked to here).  
+Stay tuned for a detailed itinerary (will be linked to here).
