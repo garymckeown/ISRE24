@@ -4,6 +4,61 @@ title: "Accommodation"
 
 Below are some hotels in Belfast who offered **reductions for ISRE2024 attendees**. Please **contact them directly** and **give the group reference "International Society for Research on Emotion"** before making your booking. 
 
+Click here to find out more about accommodation in Belfast:
+
+- [Visit Belfast Website](https://businesseventsbelfastandni.com/accommodation/)
+- [Belfast Accommodation Guide PDF Download](https://businesseventsbelfastandni.com/app/uploads/2024/04/Belfast-Accommodation-Guide-.pdf) 
+
+### The Harrison Chambers of Distinction | Belfast Botanic
+
+::: columns
+::: {.column width="60%"}
+- About 5 minutes walk to QUB
+- Website: [https://www.chambersofdistinction.com](https://www.chambersofdistinction.com)
+- Phone: +44 289 460 0123
+- Email: [info@theharrisonbelfast.co.uk](mailto:info@theharrisonbelfast.co.uk)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+<a href="https://www.chambersofdistinction.com/]">![](https://images.squarespace-cdn.com/content/614c4b9773316f53d199adde/4d15fa5e-3fd3-4a16-90df-38eee360321c/The+Harrison+-+Social+Sharing.png?format=1500w&content-type=image%2Fpng){fig-align="center"}</a>
+:::
+:::
+
+### Holiday Inn | Belfast City Centre 
+
+::: columns
+::: {.column width="60%"}
+- ⭐⭐⭐⭐
+- About 15 minutes walk to QUB
+- Website: [https://www.ihg.com/holidayinn/hotels/gb/en/belfast/bfsas/hoteldetail](https://www.ihg.com/holidayinn/hotels/gb/en/belfast/bfsas/hoteldetail)
+- Phone: +44 289 087 8796
+- Email: [reservations@hibelfastcitycentre.co.uk](mailto:reservations@hibelfastcitycentre.co.uk)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+<a href="https://www.ihg.com/holidayinn/hotels/gb/en/belfast/bfsas/hoteldetail">![](https://az712897.vo.msecnd.net/images/full/427ec877-ca16-493e-95e0-dcabdc6fcfb5.jpeg){fig-align="center"}</a>
+:::
+:::
+
+### Hampton by Hilton | Belfast City Centre
+
+::: columns
+::: {.column width="60%"}
+- ⭐⭐⭐⭐
+- About 15 minutes walk to QUB
+- Website: [https://www.hilton.com/en/hotels/bfscchx-hampton-belfast-city-centre/ ](https://www.hilton.com/en/hotels/bfscchx-hampton-belfast-city-centre/ )
+- Phone: +44 289 087 8793
+- Email: [reservations@hbhbelfast.com](mailto:reservations@hbhbelfast.com)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+<a href="https://www.hilton.com/en/hotels/bfscchx-hampton-belfast-city-centre/ ">![](https://www.hilton.com/im/en/BFSCCHX/7934618/hbh-belfast-twilightexterior.jpg?impolicy=crop&cw=5000&ch=2799&gravity=NorthWest&xposition=0&yposition=268&rw=768&rh=430){fig-align="center"}</a>
+:::
+:::
+
 ### The Gasworks Hotel Belfast | Belfast City Centre Hotel
 
 ::: columns
@@ -17,9 +72,45 @@ Below are some hotels in Belfast who offered **reductions for ISRE2024 attendees
 ::: {.column width="5%"}
 :::
 ::: {.column width="35%"}
-<a href="https://www.gasworkshotel.com/">![](https://www.gasworkshotel.com/wp-content/themes/avviowpcms2-thegasworkshotel/assets/icons/logos/gw2.png){fig-align="center"}</a>
+<a href="https://www.gasworkshotel.com/">![](https://www.gasworkshotel.com/wp-content/uploads/2023/11/The-Gasworks-Hotel-Exterior.jpg){fig-align="center"}</a>
 :::
 :::
+
+### Travelodge Belfast Central | Belfast City Centre 
+
+::: columns
+::: {.column width="60%"}
+- ⭐⭐⭐
+- About 20 minutes walk to QUB
+- Website: [https://www.travelodge.co.uk/hotels/224/Belfast-Central-hotel](https://www.travelodge.co.uk/hotels/224/Belfast-Central-hotel)
+- Phone: +44 289 033 3555
+- Email: [belfast@travelodge.ie](mailto:belfast@travelodge.ie)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+<a href="https://www.travelodge.co.uk/hotels/224/Belfast-Central-hotel">![](https://media.travelodge.co.uk/image/upload/c_fill,h_470,w_850/Rebase/Top%20of%20the%20page/Belfast_Exterior.webp){fig-align="center"}</a>
+:::
+:::
+
+### Ibis | Belfast City Centre 
+
+::: columns
+::: {.column width="60%"}
+- ⭐⭐⭐
+- About 25 minutes walk to QUB
+- Website: [https://all.accor.com/hotel/7232/index.en.shtml](https://all.accor.com/hotel/7232/index.en.shtml)
+- Phone: +44 289 089 1941
+- Email: [h7232-re@accor.com](mailto:h7232-re@accor.com)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+<a href="https://all.accor.com/hotel/7232/index.en.shtml">![](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9c/a7/7e/ibis-belfast-city-centre.jpg?w=700&h=-1&s=1){fig-align="center"}</a>
+:::
+:::
+
+
 
 
 
