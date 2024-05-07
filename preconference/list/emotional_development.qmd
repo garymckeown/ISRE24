@@ -1,5 +1,5 @@
 ---
-title: "Emotional Development Preconference: Language and Emotional Development"
+title: "Emotional Development Preconference"
 title-block-banner: true
 ---
 
