@@ -110,6 +110,22 @@ Click here to find out more about accommodation in Belfast:
 :::
 :::
 
+### Marriott AC Hotel Belfast| Belfast City Centre 
+
+::: columns
+::: {.column width="60%"}
+- ⭐⭐⭐⭐
+- About 40 minutes walk to QUB
+- Website: [https://www.marriott.com/en-gb/hotels/bfsac-ac-hotel-belfast/overview/](https://www.marriott.com/en-gb/hotels/bfsac-ac-hotel-belfast/overview/)
+- Phone: +44 289 531 3180
+- Email: [reservations@achotelbelfast.com](mailto:reservations@achotelbelfast.com)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+<a href="https://www.marriott.com/en-gb/hotels/bfsac-ac-hotel-belfast/overview/">![](https://cache.marriott.com/content/dam/marriott-renditions/BFSAC/bfsac-exterior-0010-hor-feat.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1920px:*){fig-align="center"}</a>
+:::
+:::
 
 
 
