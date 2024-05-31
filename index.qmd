@@ -31,6 +31,14 @@ ISRE2024 will take place **on the main campus of Queen's University Belfast**: i
 
 The ISRE conference is an exciting opportunity to meet international colleagues, present your work, and stay up-to-date with the latest developments in emotion research. ISRE members study emotions from a wide range of disciplines including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology and sociology.
 
+::: {.callout-warning title="VISA warning"}
+To arrive to Belfast for **#ISRE2024** with ease, **make sure that you meet the entry requirements!** You may need a UK visa and an Irish one if you fly through the Republic of Ireland: one for traveling to Northern Ireland and a second for Ireland. 
+
+Find more guidance here [https://www.qub.ac.uk/sites/iss/OtherVisas/RoI/](https://www.qub.ac.uk/sites/iss/OtherVisas/RoI/)
+
+Any questions? Contact us at [ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk)
+:::
+
 ## Dates
 
 - Pre-Conference & Main Conference Submission Closed

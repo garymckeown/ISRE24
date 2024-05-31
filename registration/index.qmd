@@ -9,6 +9,12 @@ title-block-banner: true
 - **Early registration ends 30 April 2024, 23:59 PST.**
 - **The *Economy* rates apply to students, postdocs, and attendees affiliated with universities in [Low- to Middle-Income Countries](list_countries.qmd)**
 
+## Cancellations
+
+You can cancel your registration until 20 June. We will refund registration fee with a 5% charge. 
+
+**⚠ No refunds are possible after 20 June.** 
+
 ## Main Conference Registration Fees (in GBP)
 
 |   |   |
