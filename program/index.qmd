@@ -2,6 +2,17 @@
 title: "Program"
 ---
 
-- **16 July 1pm** - First day of the Laughter and Other Non-Verbal Vocalisations Workshop
-- **17 July** - Pre-conferences, ISRE2024 Welcome Reception
-- ISRE2024 ends in the **mid-afternoon of 20 July**
+```{r}
+#| echo: false
+
+library(downloadthis)
+
+download_link(
+  link = "ISRE2024_ProvisionalProgram_20240618.pdf",
+  button_label = "Download the Provisional Program Here!",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
