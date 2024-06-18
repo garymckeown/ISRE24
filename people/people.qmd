@@ -6,14 +6,13 @@ css: people.css
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
 ::: container
-<header class="header show-on-scroll">
 
+<header class="header show-on-scroll">
 <h1 class="heading" style="color: #D6000D;">
 
 Conference Chairs
 
 </h1>
-
 </header>
 :::
 

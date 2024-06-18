@@ -40,12 +40,24 @@ Find more guidance here [https://www.qub.ac.uk/sites/iss/OtherVisas/RoI/](https:
 Any questions? Contact us at [ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk)
 :::
 
-## Dates
+## Registration and Provisional Program
 
-- Pre-Conference & Main Conference Submission Closed
-- Main Conference Decisions Announced
-- **Early registration ends 30 April, 23:59 PST**
-- Registration system open now: **[Register here](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php)** (more details on the registration fees [here](registration/index.qmd))
+**[Register here](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php)** (more details on the registration fees [here](registration/index.qmd))
+
+```{r}
+#| echo: false
+
+library(downloadthis)
+
+download_link(
+  link = "ISRE2024_ProvisionalProgram_20240618.pdf",
+  button_label = "Download the Provisional Program Here!",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
 
 ## Invited Keynotes
 
