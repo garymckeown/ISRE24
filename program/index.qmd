@@ -9,7 +9,7 @@ title: "Program"
 library(downloadthis)
 
 download_link(
-  link = "../ISRE2024_ProvisionalProgram_20240618.pdf",
+  link = "../ISRE2024_ProvisionalProgram_20240619.pdf",
   button_label = "Download the Provisional Program Here!",
   button_type = "danger",
   has_icon = TRUE,
@@ -17,4 +17,9 @@ download_link(
   self_contained = FALSE,
   class = "button_custom"
 )
+
+library(googlesheets4)
+
+test <- read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
+
 ```
