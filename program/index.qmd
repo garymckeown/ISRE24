@@ -4,15 +4,17 @@ title: "Program"
 
 ```{r}
 #| echo: false
+#| message: false
 
 library(downloadthis)
 
 download_link(
-  link = "ISRE2024_ProvisionalProgram_20240618.pdf",
+  link = "../ISRE2024_ProvisionalProgram_20240618.pdf",
   button_label = "Download the Provisional Program Here!",
   button_type = "danger",
   has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = FALSE
+  icon = "fa fa-download",
+  self_contained = FALSE,
+  class = "button_custom"
 )
 ```

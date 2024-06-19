@@ -46,6 +46,7 @@ Any questions? Contact us at [ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk)
 
 ```{r}
 #| echo: false
+#| message: false
 
 library(downloadthis)
 
@@ -54,8 +55,9 @@ download_link(
   button_label = "Download the Provisional Program Here!",
   button_type = "danger",
   has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = FALSE
+  icon = "fa fa-download",
+  self_contained = FALSE,
+  class = "button_custom"
 )
 ```
 
