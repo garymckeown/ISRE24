@@ -221,21 +221,14 @@
     "href": "registration/index.html",
     "title": "Registration",
     "section": "",
-    "text": "Register here: https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php\nEarly registration ends 30 April 2024, 23:59 PST.\nThe Economy rates apply to students, postdocs, and attendees affiliated with universities in Low- to Middle-Income Countries"
+    "text": "Register here: https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php\nEarly registration ends 30 April 2024, 23:59 PST.\nThe Economy rates apply to students, postdocs, and attendees affiliated with universities in Low- to Middle-Income Countries\n\n\n\n\n\n\n\nNo refunds are possible after 20 June\n\n\n\nYou can cancel your registration and QUB Student Accommodation room booking until 20 June. We will refund registration fee with a 5% charge."
   },
   {
     "objectID": "registration/index.html#registration-system-open-now",
     "href": "registration/index.html#registration-system-open-now",
     "title": "Registration",
     "section": "",
-    "text": "Register here: https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php\nEarly registration ends 30 April 2024, 23:59 PST.\nThe Economy rates apply to students, postdocs, and attendees affiliated with universities in Low- to Middle-Income Countries"
-  },
-  {
-    "objectID": "registration/index.html#cancellations",
-    "href": "registration/index.html#cancellations",
-    "title": "Registration",
-    "section": "Cancellations",
-    "text": "Cancellations\nYou can cancel your registration and QUB Student Accommodation room booking until 20 June. We will refund registration fee with a 5% charge.\n⚠ No refunds are possible after 20 June."
+    "text": "Register here: https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php\nEarly registration ends 30 April 2024, 23:59 PST.\nThe Economy rates apply to students, postdocs, and attendees affiliated with universities in Low- to Middle-Income Countries\n\n\n\n\n\n\n\nNo refunds are possible after 20 June\n\n\n\nYou can cancel your registration and QUB Student Accommodation room booking until 20 June. We will refund registration fee with a 5% charge."
   },
   {
     "objectID": "registration/index.html#main-conference-registration-fees-in-gbp",
@@ -422,9 +415,44 @@
   {
     "objectID": "program/index.html",
     "href": "program/index.html",
-    "title": "Program",
+    "title": "Program Overview",
     "section": "",
     "text": "Download the Provisional Program Here!"
+  },
+  {
+    "objectID": "program/index.html#july",
+    "href": "program/index.html#july",
+    "title": "Program Overview",
+    "section": "17 July",
+    "text": "17 July\n\nMorning & Afternoon\nPre-conferences:\n\nAffective Computing with a special session on Large Language Models\nCross-Species Emotion Research\nEmotion Regulation in Online Contexts and Links to Mental Health and Wellbeing\nEmotions in Interpersonal Relationships\nEngaging with Other People’s Suffering: Emotion, Empathy, Eudaimonia and Curiosity\nLanguage and Emotional Development\nLaughter and Other Non-Verbal Vocalisations\n\n\n\nEvening\nISRE2024 Welcome Reception, Parliament Buildings"
+  },
+  {
+    "objectID": "program/index.html#july-1",
+    "href": "program/index.html#july-1",
+    "title": "Program Overview",
+    "section": "18 July",
+    "text": "18 July\n\n\n\n\n\n\n\nEvening\nISRE2024 Early Career Event, QUB Great Hall"
+  },
+  {
+    "objectID": "program/index.html#july-2",
+    "href": "program/index.html#july-2",
+    "title": "Program Overview",
+    "section": "19 July",
+    "text": "19 July\n\n\n\n\n\n\n\nEvening\nISRE2024 Conference Dinner, Titanic Belfast"
+  },
+  {
+    "objectID": "program/index.html#july-3",
+    "href": "program/index.html#july-3",
+    "title": "Program Overview",
+    "section": "20 July",
+    "text": "20 July"
+  },
+  {
+    "objectID": "program/index.html#acknowledgements",
+    "href": "program/index.html#acknowledgements",
+    "title": "Program Overview",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nWe would like to thank the many people who have helped in the preparation of the conference.\nDissertation Award judges:\n\nPhase 1 - Initial Review: Andrea Scarantino, Ronnie de Sousa, Armindo Freitas-Magalhães, Karen Gasper, Manny Gonzalez, Pascal Hot, Elif Sandal Önal, Yoann Stussi, Eric Vanman, Eric Walle, Michelle Yik, and Vanda Zammuner.\nPhase 2 - Detailed Review: Ronnie De Sousa, Manny Gonzalez, and Yoann Stussi."
   },
   {
     "objectID": "submissions/submissions.html",

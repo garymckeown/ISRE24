@@ -20,12 +20,13 @@ website:
       - keynotes/index.qmd
       - text: "Register"
         href: registration/index.qmd
-      - program/index.qmd
+      - text: "Program"
+        href: program/index.qmd
       - text: "ISRE Awards"
         href: awards.qmd
       - text: "Emotion Express"
         href: https://www.isre.org/news/668358/A-New-ISRE-Initiative---Emotion-Express-One-Minute-to-Inspire.htm
-      - text: Preconferences
+      - text: "Pre-conferences"
         menu: 
           - href: preconference/list/affective_computing.qmd
             text: "Affective Computing"
