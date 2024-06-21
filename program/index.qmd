@@ -1,13 +1,56 @@
 ---
-title: "Program"
+title: "Program Overview"
+execute: 
+  echo: false
 ---
 
 ```{r}
-#| echo: false
-#| message: false
+#| include: false
 
+# libraries --------------------------------------------------------------------
 library(downloadthis)
+library(DT)
+library(emo)
+library(googlesheets4)
+library(tidyverse)
 
+# functions --------------------------------------------------------------------
+overview_table <- function(x) {
+  x |> 
+  datatable(
+    colnames = NULL,
+    rownames = FALSE,
+    options = list(
+      dom = 't', 
+      pageLength = -1, 
+      ordering = FALSE,
+      columnDefs = list(list(className = 'dt-center', targets = 0))
+    ),
+  )
+}
+
+# data -------------------------------------------------------------------------
+isre24_program_overview <- 
+  paste0(
+    "https://docs.google.com/spreadsheets/d/",
+    "1-L884Twe1mh6pdItcBO8QobBRAXgw-RkbinI5QrvEtk"
+  ) |> 
+  read_sheet() |> 
+  mutate(icon = case_when(
+    str_detect(event, "Registration") ~ "⏰",
+    str_detect(event, "Welcome|Members|Editors|Closing|Industry") ~ "🎤",
+    str_detect(event, "Keynote") ~ "🎤️",
+    str_detect(event, "Coffee and Tea") ~ "☕",
+    str_detect(event, "Parallel Session") ~ "💬",
+    str_detect(event, "Lunch") ~ "🥙",
+    str_detect(event, "Poster") ~ "📜",
+    str_detect(event, "Flash") ~ "⚡"
+  )) |> 
+  relocate(icon, .before = event)
+
+```
+
+```{r}
 download_link(
   link = "../ISRE2024_ProvisionalProgram_20240619.pdf",
   button_label = "Download the Provisional Program Here!",
@@ -17,9 +60,68 @@ download_link(
   self_contained = FALSE,
   class = "button_custom"
 )
-
-library(googlesheets4)
-
-test <- read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
-
 ```
+
+<br>
+
+## 17 July
+
+#### Morning & Afternoon 
+
+Pre-conferences:
+
+- [Affective Computing with a special session on Large Language Models](../preconference/list/affective_computing.qmd)
+- [Cross-Species Emotion Research](../preconference/list/cross_species.qmd)
+- [Emotion Regulation in Online Contexts and Links to Mental Health and Wellbeing](../preconference/list/experience_regulation.qmd)
+- [Emotions in Interpersonal Relationships](../preconference/list/emotions_relationships.qmd)
+- [Engaging with Other People’s Suffering: Emotion, Empathy, Eudaimonia and Curiosity](../preconference/list/engaging_suffering.qmd)
+- [Language and Emotional Development](../preconference/list/emotional_development.qmd)
+- [Laughter and Other Non-Verbal Vocalisations](../preconference/list/laughter_workshop.qmd)
+
+#### Evening
+
+**ISRE2024 Welcome Reception, Parliament Buildings**
+
+## 18 July
+
+```{r}
+isre24_program_overview |> 
+  filter(day == 18) |> 
+  select(-day) |> 
+  overview_table()
+```
+
+#### Evening
+
+**ISRE2024 Early Career Event, QUB Great Hall**
+
+## 19 July
+
+```{r}
+isre24_program_overview |> 
+  filter(day == 19) |> 
+  select(-day) |> 
+  overview_table()
+```
+
+#### Evening
+
+**ISRE2024 Conference Dinner, Titanic Belfast**
+
+## 20 July
+
+```{r}
+isre24_program_overview |> 
+  filter(day == 20) |> 
+  select(-day) |> 
+  overview_table()
+```
+
+## Acknowledgements
+
+We would like to thank the many people who have helped in the preparation of the conference.
+
+Dissertation Award judges:
+
+- Phase 1 - Initial Review: Andrea Scarantino, Ronnie de Sousa, Armindo Freitas-Magalhães, Karen Gasper, Manny Gonzalez, Pascal Hot, Elif Sandal Önal, Yoann Stussi, Eric Vanman, Eric Walle, Michelle Yik, and Vanda Zammuner.
+- Phase 2 - Detailed Review: Ronnie De Sousa, Manny Gonzalez, and Yoann Stussi.
