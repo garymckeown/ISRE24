@@ -1,32 +1,36 @@
 ---
 title: "Program Overview"
+
+toc: true
 execute: 
   echo: false
+  message: false
 ---
 
 ```{r}
 #| include: false
 
 # libraries --------------------------------------------------------------------
+library(here)
 library(downloadthis)
 library(DT)
-library(emo)
 library(googlesheets4)
 library(tidyverse)
 
 # functions --------------------------------------------------------------------
 overview_table <- function(x) {
   x |> 
-  datatable(
-    colnames = NULL,
-    rownames = FALSE,
-    options = list(
-      dom = 't', 
-      pageLength = -1, 
-      ordering = FALSE,
-      columnDefs = list(list(className = 'dt-center', targets = 0))
-    ),
-  )
+    datatable(
+      colnames = NULL,
+      rownames = FALSE,
+      options = list(
+        dom = 't', 
+        pageLength = -1, 
+        ordering = FALSE,
+        columnDefs = list(list(className = 'dt-center', targets = 0))
+      ),
+      escape = FALSE
+    )
 }
 
 # data -------------------------------------------------------------------------
@@ -36,23 +40,29 @@ isre24_program_overview <-
     "1-L884Twe1mh6pdItcBO8QobBRAXgw-RkbinI5QrvEtk"
   ) |> 
   read_sheet() |> 
-  mutate(icon = case_when(
-    str_detect(event, "Registration") ~ "⏰",
-    str_detect(event, "Welcome|Members|Editors|Closing|Industry") ~ "🎤",
-    str_detect(event, "Keynote") ~ "🎤️",
-    str_detect(event, "Coffee and Tea") ~ "☕",
-    str_detect(event, "Parallel Session") ~ "💬",
-    str_detect(event, "Lunch") ~ "🥙",
-    str_detect(event, "Poster") ~ "📜",
-    str_detect(event, "Flash") ~ "⚡"
+  mutate(
+    event = str_replace_all(event, c(
+      "Keynote 1: Yuri Miyamoto" = '<a href="https://www.isre2024.org/keynotes/speakers/Yuri_Miyamoto">Keynote 1: Yuri Miyamoto</a>',
+      "Keynote 2: Phoebe Ellsworth" = '<a href="https://www.isre2024.org/keynotes/speakers/Phoebe_Ellsworth">Keynote 2: Phoebe Ellsworth</a>',
+      "Keynote 3: Terry Maroney" = '<a href="https://www.isre2024.org/keynotes/speakers/Terry_Maroney">Keynote 3: Terry Maroney</a>',
+      "Industry Salon: Michel Valstar" = '<a href="https://www.isre2024.org/program/industry">Industry Salon: Michel Valstar</a>'
+    )),
+    icon = case_when(
+      str_detect(event, "Registration") ~ "⏰",
+      str_detect(event, "Welcome|Members|Editors|Closing|Industry") ~ "🎤",
+      str_detect(event, "Keynote") ~ "🎤️",
+      str_detect(event, "Coffee and Tea") ~ "☕",
+      str_detect(event, "Parallel Session") ~ "💬",
+      str_detect(event, "Lunch") ~ "🥙",
+      str_detect(event, "Poster") ~ "📜",
+      str_detect(event, "Flash") ~ "⚡"
   )) |> 
   relocate(icon, .before = event)
-
 ```
 
 ```{r}
 download_link(
-  link = "../ISRE2024_ProvisionalProgram_20240619.pdf",
+  link = "../ISRE2024_ProvisionalProgram_20240625.pdf",
   button_label = "Download the Provisional Program Here!",
   button_type = "danger",
   has_icon = TRUE,
@@ -64,7 +74,7 @@ download_link(
 
 <br>
 
-## 17 July
+## 17 July {#july-17}
 
 #### Morning & Afternoon 
 
@@ -82,7 +92,7 @@ Pre-conferences:
 
 **ISRE2024 Welcome Reception, Parliament Buildings**
 
-## 18 July
+## 18 July {#july-18}
 
 ```{r}
 isre24_program_overview |> 
@@ -91,11 +101,13 @@ isre24_program_overview |>
   overview_table()
 ```
 
+See [here](days/july_18.qmd) for more details on the day.
+
 #### Evening
 
 **ISRE2024 Early Career Event, QUB Great Hall**
 
-## 19 July
+## 19 July {#july-19}
 
 ```{r}
 isre24_program_overview |> 
@@ -104,11 +116,13 @@ isre24_program_overview |>
   overview_table()
 ```
 
+See [here](days/july_19.qmd) for more details on the day.
+
 #### Evening
 
 **ISRE2024 Conference Dinner, Titanic Belfast**
 
-## 20 July
+## 20 July {#july-20}
 
 ```{r}
 isre24_program_overview |> 
@@ -116,6 +130,8 @@ isre24_program_overview |>
   select(-day) |> 
   overview_table()
 ```
+
+See [here](days/july_20.qmd) for more details on the day.
 
 ## Acknowledgements
 
@@ -125,3 +141,31 @@ Dissertation Award judges:
 
 - Phase 1 - Initial Review: Andrea Scarantino, Ronnie de Sousa, Armindo Freitas-Magalhães, Karen Gasper, Manny Gonzalez, Pascal Hot, Elif Sandal Önal, Yoann Stussi, Eric Vanman, Eric Walle, Michelle Yik, and Vanda Zammuner.
 - Phase 2 - Detailed Review: Ronnie De Sousa, Manny Gonzalez, and Yoann Stussi.
+
+```{r}
+isre24_program_communications <-
+  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
+
+PSSlot_Track <- isre24_program_communications |> 
+  select(PSSlot, Track) |> 
+  distinct() |> 
+  filter(PSSlot != "Poster Session")
+
+walk2(PSSlot_Track$PSSlot, PSSlot_Track$Track, ~quarto::quarto_render(
+  input = here("program/tracks.qmd"),
+  execute_params = list("PSSlot" = .x, "Track" = .y),
+  output_file = glue::glue("{snakecase::to_any_case(.x)}_{.y}.html")
+))
+
+PSSlot_Track <- isre24_program_communications |> 
+  filter(PSSlot == "Poster Session") |> 
+  select(PosterSession) |> 
+  distinct()
+
+walk(PSSlot_Track$PosterSession, ~quarto::quarto_render(
+  input = here("program/poster.qmd"),
+  execute_params = list("PosterSession" = .x),
+  output_file = glue::glue("{snakecase::to_any_case(.x)}.html")
+))
+```
+

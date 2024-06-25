@@ -1,0 +1,52 @@
+---
+title: "`r params$PosterSession`"
+execute: 
+  echo: false
+  
+format: 
+  html:
+    page-layout: full
+  
+params:
+  PosterSession: "Poster Session 1"
+---
+
+Abstract available when rows are expended:
+
+```{r}
+#| include: false
+
+# libraries --------------------------------------------------------------------
+library(googlesheets4)
+library(tidyverse)
+library(reactable)
+# data -------------------------------------------------------------------------
+isre24_program_communications <-
+  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
+
+isre24_track <- isre24_program_communications |>
+  filter(PosterSession == params$PosterSession) |> 
+  mutate(PosterNumber = as.numeric(PosterNumber)) |> 
+  arrange(PosterNumber) |> 
+  select(Nb = PosterNumber, Title = Paper.Title, Authors = Author.Names, Abstract)
+```
+
+```{r}
+reactable(
+  isre24_track, 
+  pagination = FALSE, 
+  highlight = TRUE,
+  columns = list(
+    Nb = colDef(maxWidth = 50),
+    Abstract = colDef(show = FALSE)
+  ),
+  details = function(index) {
+    htmltools::div(
+      htmltools::tags$p(paste(isre24_track[index, "Abstract"], collapse = "\n"))
+    )
+  }
+  )
+```
+
+
+

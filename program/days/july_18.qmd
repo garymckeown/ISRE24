@@ -1,4 +1,165 @@
 ---
 title: "July 18"
+execute: 
+  echo: false
+format: 
+  html:
+    page-layout: full
 ---
 
+```{r}
+#| include: false
+
+# libraries --------------------------------------------------------------------
+library(googlesheets4)
+library(htmltools)
+library(reactable)
+library(tidyverse)
+
+# functions --------------------------------------------------------------------
+program_events <- function(program_day, program_rows) {
+  isre24_program_overview |> 
+    filter(day == program_day) |> 
+    slice(program_rows) |> 
+    mutate(
+      level = "#####", # "-"
+      jump = "<br>",
+      jump2 = "<br><br>",
+    ) |> 
+    select(level, time, icon, event, jump) |> 
+    unite("line", 1:5, sep = " ") |> 
+    unlist() |> 
+    cat(sep = "\n")
+}
+
+program_table <- function(PSSlot_name) {
+  reactable_id <- glue::glue("Reactable.toggleAllRowsExpanded('{snakecase::to_any_case(PSSlot_name)}')")
+  data_program <- isre24_program_communications |>
+    filter(PSSlot == PSSlot_name) |> 
+    mutate(
+      Link = glue::glue("../{snakecase::to_any_case(PSSlot)}_{Track}.html"),
+      Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M"),
+      Authors = if_else(Author.Names == "NA", Authors, Author.Names)
+    ) |> 
+    arrange(TrackName, Time) |> 
+    select(`Track Name` = TrackName, Authors, Title = Paper.Title, Time, Room, Link)
+
+  data_index <- unique(data_program[, c("Track Name", "Room", "Link")])
+
+  htmltools::browsable(
+    tagList(
+      tags$button(
+        "Expand/collapse all",
+        onclick = reactable_id
+      ),
+  
+      reactable(
+        data_index, 
+        elementId = snakecase::to_any_case(PSSlot_name),
+        bordered = TRUE, 
+        striped = TRUE, 
+        highlight = TRUE,
+        columns = list(
+          Room = colDef(maxWidth = 125),
+          Link = colDef(maxWidth = 125, cell = function(value, index) {
+        htmltools::tags$a(class = "btn btn-default", href = value, target = "_blank", "Abstracts")
+      })),
+        details = function(index) {
+          data_source <- data_program[data_program$`Track Name` == data_index$`Track Name`[index], ] |>
+            select(Time, Authors, Title)
+          htmltools::div(
+            style = "padding: 1rem",
+            reactable(
+              data_source, 
+              outlined = TRUE,
+              columns = list(Time = colDef(maxWidth = 70), Authors = colDef(maxWidth = 300))
+            )
+          )
+      }
+     )
+    )
+  )
+}
+# data -------------------------------------------------------------------------
+isre24_program_communications <-
+  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A") |>
+  mutate(TrackName = paste0(Track, ': ', TYPE, ' - ', SessionTitle))
+
+isre24_program_overview <- 
+  paste0(
+    "https://docs.google.com/spreadsheets/d/",
+    "1-L884Twe1mh6pdItcBO8QobBRAXgw-RkbinI5QrvEtk"
+  ) |> 
+  read_sheet() |> 
+  mutate(
+    event = str_replace_all(event, c(
+      "Keynote 1: Yuri Miyamoto" = '<a href="https://www.isre2024.org/keynotes/speakers/Yuri_Miyamoto">Keynote 1: Yuri Miyamoto</a>',
+      "Keynote 2: Phoebe Ellsworth" = '<a href="https://www.isre2024.org/keynotes/speakers/Phoebe_Ellsworth">Keynote 2: Phoebe Ellsworth</a>',
+      "Keynote 3: Terry Maroney" = '<a href="https://www.isre2024.org/keynotes/speakers/Terry_Maroney">Keynote 3: Terry Maroney</a>',
+      "Industry Salon: Michel Valstar" = '<a href="https://www.isre2024.org/program/industry">Industry Salon: Michel Valstar</a>'
+    )),
+    icon = case_when(
+      str_detect(event, "Registration") ~ "⏰",
+      str_detect(event, "Welcome|Members|Editors|Closing|Industry") ~ "🎤",
+      str_detect(event, "Keynote") ~ "🎤️",
+      str_detect(event, "Coffee and Tea") ~ "☕",
+      str_detect(event, "Parallel Session") ~ "💬",
+      str_detect(event, "Lunch") ~ "🥙",
+      str_detect(event, "Poster") ~ "📜",
+      str_detect(event, "Flash") ~ "⚡"
+  ))
+```
+
+```{r results='asis'}
+program_events(18, 1:5)
+```
+
+```{r}
+program_table("Parallel Session 1")
+```
+
+<br>
+
+```{r results='asis'}
+program_events(18, 6:8)
+```
+
+```{r}
+tags$a(class = "btn btn-default", href = "../poster_session_1.html", target = "_blank", "List and Abstracts")
+```
+
+<br>
+
+```{r results='asis'}
+program_events(18, 9:9)
+```
+
+```{r}
+program_table("Parallel Session 2")
+```
+
+<br>
+
+```{r results='asis'}
+program_events(18, 10:11)
+```
+
+```{r}
+program_table("Parallel Session 3")
+```
+
+<br>
+
+```{r results='asis'}
+program_events(18, 12:12)
+```
+
+```{r}
+program_table("Flash Talks 1")
+```
+
+`*` Author presenting the communication
+
+#### Evening
+
+**ISRE2024 Early Career Event, QUB Great Hall**
