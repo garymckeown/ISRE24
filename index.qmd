@@ -51,7 +51,7 @@ Any questions? Contact us at [ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk)
 library(downloadthis)
 
 download_link(
-  link = "ISRE2024_ProvisionalProgram_20240619.pdf",
+  link = "ISRE2024_ProvisionalProgram_20240625.pdf",
   button_label = "Download the Provisional Program Here!",
   button_type = "danger",
   has_icon = TRUE,
@@ -60,6 +60,8 @@ download_link(
   class = "button_custom"
 )
 ```
+
+See the instructions for presenters including Oral Presentations, Flash Talks, and Posters [here](program/instructions.qmd).
 
 ## Invited Keynotes
 

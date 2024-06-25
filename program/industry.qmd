@@ -1,0 +1,5 @@
+---
+title: "Industry Salon: Michel Valstar"
+---
+
+The Emotion AI industry is at a very interesting junction. A small number of established start-ups exist and are looking to scale (Affectiva, BLUESKEYE AI, Hume), and the market is set to far exceed $50bn. At the same time, regulators and scientists are raising issues around privacy, evidence of effectiveness, and fairness, culminating in a partial ban of Emotion AI systems in the EU AI Act. In this salon, I will address the challenges and opportunities of creating a start-up in the area of Affective Computing.
