@@ -143,6 +143,8 @@ Dissertation Award judges:
 - Phase 2 - Detailed Review: Ronnie De Sousa, Manny Gonzalez, and Yoann Stussi.
 
 ```{r}
+#| include: false
+
 isre24_program_communications <-
   read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
 

@@ -31,7 +31,7 @@ isre24_track <- isre24_program_communications |>
 ```{r}
 track_details <- isre24_track |> 
   mutate(Time = paste(format(min(StartTime), format = "%H:%M"), "-", format(max(EndTime), format = "%H:%M"))) |> 
-  select(Track, TYPE, SessionTitle, Time, Room) |> 
+  select(Track, Type = TYPE, SessionTitle, Time, Room) |> 
   distinct() |> 
   t() |> 
   as.data.frame() |> 
@@ -48,7 +48,7 @@ track_details |>
       )
     ) |> 
   formatStyle(colnames(track_details), fontSize = '125%') |> 
-  formatStyle("rowname", color = 'white', backgroundColor = 'red', fontWeight = 'bold')
+  formatStyle("rowname", color = 'white', backgroundColor = '#D6000D', fontWeight = 'bold')
 ```
 
 ```{r}
