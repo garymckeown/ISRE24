@@ -77,7 +77,7 @@ website:
         icon: globe
         aria-label: Website
       - href: https://twitter.com/isreorg
-        icon: twitter
+        icon: twitter-x
         aria-label: Twitter
       - href: https://www.facebook.com/IsreOrg/
         icon: facebook
