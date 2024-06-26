@@ -62,7 +62,7 @@ isre24_program_overview <-
 
 ```{r}
 download_link(
-  link = "../ISRE2024_ProvisionalProgram_20240625.pdf",
+  link = "../ISRE2024_ProvisionalProgram_20240626.pdf",
   button_label = "Download the Provisional Program Here!",
   button_type = "danger",
   has_icon = TRUE,

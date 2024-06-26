@@ -36,6 +36,7 @@ reactable(
   isre24_track, 
   pagination = FALSE, 
   highlight = TRUE,
+  searchable = TRUE,
   columns = list(
     Nb = colDef(maxWidth = 50),
     Abstract = colDef(show = FALSE)
