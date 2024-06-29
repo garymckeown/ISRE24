@@ -1,0 +1,279 @@
+---
+title: "ISRE 2024 Provisional Program"
+format: 
+  pdf:
+    toc: true
+
+execute: 
+  echo: false
+---
+
+```{r}
+#| include: false
+
+# libraries --------------------------------------------------------------------
+library(googlesheets4)
+library(tidyverse)
+library(flextable)
+library(knitr)
+library(kableExtra)
+
+# data -------------------------------------------------------------------------
+isre24_program_communications <-
+  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
+isre24_program_overview <- 
+  read_sheet("https://docs.google.com/spreadsheets/d/1-L884Twe1mh6pdItcBO8QobBRAXgw-RkbinI5QrvEtk")
+
+# function ---------------------------------------------------------------------
+table_track <- function(track) {
+  isre24_program_communications |>
+    filter(PSSlot == track) |>
+    mutate(
+      Title = str_replace_all(Paper.Title, "[\r\n]" , ""),
+      Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M"),
+      `Track Name` = paste0(Track, ': ', TYPE, ' - ', SessionTitle, " (Room ", Room, ")")
+    ) |> 
+    select(`Track Name`, Presenter = Primary.Contact.Author.Name, Title, Time) |> 
+    arrange(`Track Name`, Time) |> 
+    as_grouped_data(groups = "Track Name") |> 
+    as_flextable(hide_grouplabel = TRUE) |> 
+    width(j = 1, 1.5, unit = "in") |> 
+    width(j = 2, 4, unit = "in") |> 
+    width(j = 3, 0.5, unit = "in") |> 
+    bg(j = 1, i = ~ !is.na(`Track Name`), bg = "#EFEFEF", part = "body") |> 
+    bold(j = 1, i = ~ !is.na(`Track Name`), bold = TRUE, part = "body" )
+}
+
+program_events <- function(program_day, program_rows) {
+  isre24_program_overview |> 
+    filter(day == program_day) |> 
+    slice(program_rows) |> 
+    mutate(
+      level = "####",
+      jump = "<br>",
+      jump2 = "<br><br>",
+    ) |> 
+    select(level, time, event) |> 
+    unite("line", 1:3, sep = " ") |> 
+    unlist() |> 
+    cat(sep = "\n")
+}
+```
+
+{{< pagebreak >}}
+
+# Acknowledgements
+
+We would like to thank the many people who have helped in the preparation of the conference.
+
+Dissertation Award judges:
+
+Phase 1 - Initial Review: Andrea Scarantino, Ronnie de Sousa, Armindo Freitas-Magalhães, Karen Gasper, Manny Gonzalez, Pascal Hot, Elif Sandal Önal, Yoann Stussi, Eric Vanman, Eric Walle, Michelle Yik, and Vanda Zammuner.
+
+Phase 2 - Detailed Review: Ronnie De Sousa, Manny Gonzalez, and Yoann Stussi.
+
+{{< pagebreak >}}
+
+# Pre-conferences (17 July)
+
+-   [Affective Computing Pre-Conference at ISRE](https://www.isre2024.org/preconference/list/affective_computing.html)
+
+-   [Cross-Species Emotion Research](https://www.isre2024.org/preconference/list/cross_species.html)
+
+-   [Keep Calm and Regulate On(line)?](https://www.isre2024.org/preconference/list/experience_regulation.html)
+
+-   [Emotions in Interpersonal Relationships](https://www.isre2024.org/preconference/list/emotions_relationships.html)
+
+-   [Engaging with Other People’s Suffering: Emotion, Empathy, Eudaimonia and Curiosity](https://www.isre2024.org/preconference/list/engaging_suffering.html)
+
+-   [Emotional Development](https://www.isre2024.org/preconference/list/emotional_development.html)
+
+-   [Laughter and Other Non-Verbal Vocalisations Workshop](https://www.isre2024.org/preconference/list/laughter_workshop.html)
+
+#### Evening: ISRE2024 Welcome Reception, Parliament Buildings
+
+{{< pagebreak >}}
+
+# Main Conference Overview
+
+{{< pagebreak >}}
+
+#### 18 July
+
+```{r}
+isre24_program_overview |> 
+  filter(day == 18) |> 
+  select(-day) |> 
+  add_row(time = "Evening", event = "ISRE2024 Early Career Event, QUB Great Hall") |> 
+  kbl(booktabs = T, col.names = NULL, linesep = "") |> 
+  kable_styling(font_size = 11, latex_options = c("striped", "hold_position")) |> 
+  column_spec(1, width = "1in") |> 
+  column_spec(2, width = "5in")
+```
+
+#### 19 July
+
+```{r}
+isre24_program_overview |> 
+  filter(day == 19) |> 
+  select(-day) |> 
+  add_row(time = "Evening", event = "ISRE2024 Conference Dinner, Belfast Titanic Museum") |> 
+  kbl(booktabs = T, col.names = NULL, linesep = "") |> 
+  kable_styling(font_size = 11, latex_options = c("striped", "hold_position")) |> 
+  column_spec(1, width = "1in") |> 
+  column_spec(2, width = "5in")
+```
+
+#### 20 July
+
+```{r}
+isre24_program_overview |> 
+  filter(day == 20) |> 
+  select(-day) |> 
+  kbl(booktabs = T, col.names = NULL, linesep = "") |> 
+  kable_styling(font_size = 11, latex_options = c("striped", "hold_position")) |> 
+  column_spec(1, width = "1in") |> 
+  column_spec(2, width = "5in")
+```
+
+{{< pagebreak >}}
+
+# Main Conference Detailed
+
+{{< pagebreak >}}
+
+## 18 July
+
+```{r results='asis'}
+program_events(18, 1:3)
+```
+
+**Culture, Emotion, and Health: Dealing with Emotions in Sociocultural Contexts**
+
+People generally want to increase positive emotions and decrease negative emotions. However, the extent to which individuals engage in such emotion regulation varies across cultures, partly due to differing beliefs about emotions. In this talk, I will present research highlighting cultural differences in dialectical versus predominantly adverse valuations of emotions. These variations in emotion valuations lead to cultural differences in emotion regulation and have health implications. I will also discuss sociocultural practices that support emotion beliefs and emotion regulation. By illuminating these processes, I will underscore the active role sociocultural contexts play in shaping emotions and their health implications.
+
+```{r results='asis'}
+program_events(18, 4:5)
+```
+
+```{r}
+table_track("Parallel Session 1")
+```
+
+```{r results='asis'}
+program_events(18, 6:7)
+```
+
+The Emotion AI industry is at a very interesting junction. A small number of established start-ups exist and are looking to scale (Affectiva, BLUESKEYE AI, Hume), and the market is set to far exceed $50bn. At the same time, regulators and scientists are raising issues around privacy, evidence of effectiveness, and fairness, culminating in a partial ban of Emotion AI systems in the EU AI Act. In this salon, I will address the challenges and opportunities of creating a start-up in the area of Affective Computing.
+
+```{r results='asis'}
+program_events(18, 8:8)
+```
+
+```{r}
+isre24_program_communications |>
+  filter(PosterSession == "Poster Session 1") |> 
+  mutate(PosterNumber = as.numeric(PosterNumber)) |> 
+  arrange(PosterNumber) |> 
+  select(Presenter = Primary.Contact.Author.Name, Title = Paper.Title, Nb = PosterNumber) |> 
+  flextable() |> 
+  width(j = 1, 1.5, unit = "in") |> 
+  width(j = 2, 4, unit = "in") |> 
+  width(j = 3, 0.5, unit = "in") |> 
+  theme_zebra(
+    odd_header = "transparent",
+    odd_body = "#EFEFEF",
+    even_header = "transparent",
+    even_body = "transparent"
+  )
+```
+
+```{r results='asis'}
+program_events(18, 9:9)
+```
+
+```{r}
+table_track("Parallel Session 2")
+```
+
+```{r results='asis'}
+program_events(18, 10:11)
+```
+
+```{r}
+table_track("Parallel Session 3")
+```
+
+```{r results='asis'}
+program_events(18, 12:12)
+```
+
+```{r}
+table_track("Flash Talks 1")
+```
+
+{{< pagebreak >}}
+
+## 19 July
+
+```{r results='asis'}
+program_events(19, 1:2)
+```
+
+```{r}
+table_track("Parallel Session 4")
+```
+
+```{r results='asis'}
+program_events(19, 3:8)
+```
+
+```{r}
+isre24_program_communications |>
+  filter(PosterSession == "Poster Session 2") |> 
+  mutate(PosterNumber = as.numeric(PosterNumber)) |> 
+  arrange(PosterNumber) |> 
+  select(Presenter = Primary.Contact.Author.Name, Title = Paper.Title, Nb = PosterNumber) |> 
+  flextable() |> 
+  width(j = 1, 1.5, unit = "in") |> 
+  width(j = 2, 4, unit = "in") |> 
+  width(j = 3, 0.5, unit = "in") |> 
+  theme_zebra(
+    odd_header = "transparent",
+    odd_body = "#EFEFEF",
+    even_header = "transparent",
+    even_body = "transparent"
+  )
+```
+
+```{r results='asis'}
+program_events(19, 9:9)
+```
+
+```{r}
+table_track("Parallel Session 5")
+```
+
+```{r results='asis'}
+program_events(19, 10:11)
+```
+
+```{r}
+table_track("Flash Talks 2")
+```
+
+{{< pagebreak >}}
+
+## 20 July
+
+```{r results='asis'}
+program_events(20, 1:2)
+```
+
+```{r}
+table_track("Parallel Session 6")
+```
+
+```{r results='asis'}
+program_events(20, 3:6)
+```

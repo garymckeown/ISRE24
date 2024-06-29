@@ -37,31 +37,34 @@ track_details <- isre24_track |>
   as.data.frame() |> 
   rownames_to_column()
   
-track_details |> 
+track_details |>
   datatable(
     colnames = NULL,
     rownames = FALSE,
+    extensions = 'Responsive',
     options = list(
-      dom = 't', 
-      pageLength = -1, 
+      responsive = list(details = list(target =  1)),
+      dom = 't',
+      pageLength = -1,
       ordering = FALSE
       )
-    ) |> 
-  formatStyle(colnames(track_details), fontSize = '125%') |> 
+    ) |>
+  formatStyle(colnames(track_details), fontSize = '125%') |>
   formatStyle("rowname", color = 'white', backgroundColor = '#D6000D', fontWeight = 'bold')
 ```
 
 ```{r}
-isre24_track |> 
-  select(Title = Paper.Title, Time, Authors, Abstract) |> 
-  pivot_longer(!Title) |> 
+isre24_track |>
+  select(Title = Paper.Title, Time, Authors, Abstract) |>
+  pivot_longer(!Title) |>
   datatable(
     colnames = NULL,
     rownames = FALSE,
-    extensions = 'RowGroup',
+    fillContainer = FALSE,
+    extensions = c('Responsive', 'RowGroup'),
     options = list(
-      dom = 't', 
-      pageLength = -1, 
+      dom = 't',
+      pageLength = -1,
       ordering = FALSE,
       rowGroup = list(dataSrc = 0),
       columnDefs = list(list(visible = FALSE, targets = 0))
