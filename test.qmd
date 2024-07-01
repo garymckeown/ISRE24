@@ -1,0 +1,105 @@
+---
+title: "ISRE 2024 Program"
+format: 
+  pdf: 
+    block-headings: false
+    toc: true
+    toc-depth: 2
+
+execute: 
+  echo: false
+
+header-includes:
+  - \usepackage{sectsty} \allsectionsfont{\centering}
+  - \setkomafont{section}{\normalfont\Huge\bfseries}
+  - \usepackage[default,scale=0.95]{opensans}
+  - \renewcommand\seriesdefault{l}
+  - \renewcommand\mddefault{l}
+  - \renewcommand\bfdefault{sb}% or \renewcommand\bfdefault{m}
+  - \usepackage{fancyhdr}
+  - \usepackage{graphicx}
+  - \usepackage{eso-pic}
+  - \usepackage{tikz}
+  - \AtBeginDocument{\thispagestyle{empty}\begin{tikzpicture}[remember picture,overlay]
+          \node at (current page.south) [yshift=6cm] {\includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio]{images/ISREStarburstText.png}};
+          \node at (current page.center) [yshift=5cm] [anchor=north,yshift=-2cm] {\Huge\textbf{2024 Conference of the International}};
+          \node at (current page.center) [yshift=4cm] [anchor=north,yshift=-2cm] {\Huge\textbf{Society for Research on Emotion}};
+          \node at (current page.south) [yshift=5cm] [anchor=north,yshift=-2cm] {\normalsize\textbf{17 - 20 July 2024}};
+          \end{tikzpicture}\clearpage}
+---
+
+```{r}
+#| include: false
+
+# libraries --------------------------------------------------------------------
+library(googlesheets4)
+library(tidyverse)
+library(flextable)
+library(knitr)
+library(kableExtra)
+
+# data -------------------------------------------------------------------------
+isre24_program_communications <-
+  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
+isre24_program_overview <- 
+  read_sheet("https://docs.google.com/spreadsheets/d/1-L884Twe1mh6pdItcBO8QobBRAXgw-RkbinI5QrvEtk")
+
+# function ---------------------------------------------------------------------
+table_track <- function(track) {
+  isre24_program_communications |>
+    filter(PSSlot == track) |>
+    mutate(
+      Title = str_replace_all(Paper.Title, "[\r\n]" , ""),
+      Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M"),
+      `Track Name` = paste0(Track, ': ', TYPE, ' - ', SessionTitle, " (Room ", Room, ")")
+    ) |> 
+    select(`Track Name`, Presenter = Primary.Contact.Author.Name, Title, Time) |> 
+    arrange(`Track Name`, Time) |> 
+    as_grouped_data(groups = "Track Name") |> 
+    as_flextable(hide_grouplabel = TRUE) |> 
+    width(j = 1, 1.5, unit = "in") |> 
+    width(j = 2, 4, unit = "in") |> 
+    width(j = 3, 0.5, unit = "in") |> 
+    bg(j = 1, i = ~ !is.na(`Track Name`), bg = "#EFEFEF", part = "body") |> 
+    bold(j = 1, i = ~ !is.na(`Track Name`), bold = TRUE, part = "body" )
+}
+
+program_events <- function(program_day, program_rows) {
+  isre24_program_overview |> 
+    filter(day == program_day) |> 
+    slice(program_rows) |> 
+    mutate(
+      level = "####",
+      jump = "<br>",
+      jump2 = "<br><br>",
+    ) |> 
+    select(level, time, event) |> 
+    unite("line", 1:3, sep = " ") |> 
+    unlist() |> 
+    cat(sep = "\n")
+}
+```
+
+\newpage
+
+# Acknowledgements
+
+We would like to thank the many people who have helped in the preparation of the conference.
+
+Dissertation Award judges:
+
+- **Phase 1** - Initial Review: Andrea Scarantino, Ronnie de Sousa, Armindo Freitas-Magalhães, Karen Gasper, Manny Gonzalez, Pascal Hot, Elif Sandal Önal, Yoann Stussi, Eric Vanman, Eric Walle, Michelle Yik, and Vanda Zammuner.
+
+- **Phase 2** - Detailed Review: Ronnie De Sousa, Manny Gonzalez, and Yoann Stussi.
+
+\newpage
+
+\vspace*{\fill}
+
+# Symposium Abstracts
+\begin{center} \includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio]{images/ISREStarburstText.png} \end{center}
+
+\vspace*{\fill}
+
+\newpage
+

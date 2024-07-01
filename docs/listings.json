@@ -1,14 +1,11 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/sponsorspage/index.html",
     "items": [
-      "/keynotes/speakers/Phoebe_Ellsworth.html",
-      "/keynotes/speakers/Terry_Maroney.html",
-      "/keynotes/speakers/Yuri_Miyamoto.html",
-      "/sponsorspage/sponsors/belfast_starburst.html",
       "/sponsorspage/sponsors/mangold.html",
       "/sponsorspage/sponsors/tourism_ni.html",
-      "/sponsorspage/sponsors/visit_belfast.html"
+      "/sponsorspage/sponsors/visit_belfast.html",
+      "/sponsorspage/sponsors/belfast_starburst.html"
     ]
   },
   {
@@ -20,12 +17,15 @@
     ]
   },
   {
-    "listing": "/sponsorspage/index.html",
+    "listing": "/index.html",
     "items": [
+      "/keynotes/speakers/Phoebe_Ellsworth.html",
+      "/keynotes/speakers/Terry_Maroney.html",
+      "/keynotes/speakers/Yuri_Miyamoto.html",
+      "/sponsorspage/sponsors/belfast_starburst.html",
       "/sponsorspage/sponsors/mangold.html",
       "/sponsorspage/sponsors/tourism_ni.html",
-      "/sponsorspage/sponsors/visit_belfast.html",
-      "/sponsorspage/sponsors/belfast_starburst.html"
+      "/sponsorspage/sponsors/visit_belfast.html"
     ]
   }
 ]
