@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://isre2024.org/program/instructions.html</loc>
-    <lastmod>2024-06-26T09:02:08.745Z</lastmod>
+    <lastmod>2024-07-01T11:32:25.837Z</lastmod>
   </url>
   <url>
     <loc>https://isre2024.org/people/people.html</loc>
@@ -155,5 +155,9 @@
   <url>
     <loc>https://isre2024.org/submissions/submissions.html</loc>
     <lastmod>2023-11-06T15:16:58.164Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isre2024.org/test.html</loc>
+    <lastmod>2024-07-01T11:32:35.986Z</lastmod>
   </url>
 </urlset>
