@@ -37,6 +37,7 @@ library(tidyverse)
 library(flextable)
 library(knitr)
 library(kableExtra)
+library(officer)
 
 # data -------------------------------------------------------------------------
 isre24_program_communications <-
@@ -422,3 +423,93 @@ program_events(20, 5:6)
 \vspace*{\fill}
 
 \newpage
+
+```{r, echo=FALSE, results='asis'}
+PSSlot_Track <- isre24_program_communications |> 
+  select(PSSlot, Track) |> 
+  distinct() |> 
+  filter(PSSlot != "Poster Session") |> 
+  filter(!str_detect(PSSlot, "Flash Talks")) |> 
+  arrange(PSSlot, Track)
+
+res <- map2(
+  PSSlot_Track$PSSlot, PSSlot_Track$Track,
+  ~knitr::knit_child(
+    "template_symposium.qmd", 
+    envir = environment(), 
+    quiet = TRUE
+  )
+)
+
+cat(unlist(res), sep = '\n')
+```
+
+\newpage
+
+\vspace*{\fill}
+
+# Flash Talks Abstracts
+\begin{center} \includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio]{images/ISREStarburstText.png} \end{center}
+
+\vspace*{\fill}
+
+\newpage
+
+
+```{r, echo=FALSE, results='asis'}
+PSSlot_Track <- isre24_program_communications |> 
+  select(PSSlot, Track) |> 
+  distinct() |> 
+  filter(str_detect(PSSlot, "Flash Talks")) |> 
+  arrange(PSSlot, Track)
+
+res <- map2(
+  PSSlot_Track$PSSlot, PSSlot_Track$Track,
+  ~knitr::knit_child(
+    "template_symposium.qmd", 
+    envir = environment(), 
+    quiet = TRUE
+  )
+)
+
+cat(unlist(res), sep = '\n')
+```
+
+\newpage
+
+\vspace*{\fill}
+
+# Poster Abstracts
+\begin{center} \includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio]{images/ISREStarburstText.png} \end{center}
+
+\vspace*{\fill}
+
+\newpage
+
+```{r, echo=FALSE, results='asis'}
+isre24_track <- isre24_program_communications |>
+  filter(PSSlot == "Poster Session") |> 
+  mutate(PosterNumber = as.character(PosterNumber)) |> 
+  arrange(PosterNumber)
+
+isre24_track |>
+  mutate(Authors = if_else(Author.Names == "NA", Authors, Author.Names)) |> 
+  select(Title = Paper.Title, `Poster Number` = PosterNumber, Authors, Abstract) |>
+  mutate(
+    Title = glue::glue("__{Title}__"),
+    Authors = glue::glue("__{Authors}__") |> 
+      str_replace_all("[*]" , ""),
+    Abstract = Abstract |> 
+      str_replace_all("[\r\n]" , "") |> 
+      str_replace_all("[*]" , "")
+  ) |> 
+  mutate(` ` = "\\") |> 
+  pivot_longer(everything()) |> 
+  mutate(
+    name = if_else(value != "\\", paste0(name, ":"), name),
+    jump = "\\"
+  ) |> 
+  unite("line", 1:3, sep = " ")  |> 
+  unlist() |> 
+  cat(sep = "\n")
+```
