@@ -38,11 +38,10 @@ program_table <- function(PSSlot_name) {
     filter(PSSlot == PSSlot_name) |> 
     mutate(
       Link = glue::glue("../{snakecase::to_any_case(PSSlot)}_{Track}.html"),
-      Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M"),
-      Authors = if_else(Author.Names == "NA", Authors, Author.Names)
+      Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M")
     ) |> 
     arrange(TrackName, Time) |> 
-    select(`Track Name` = TrackName, Authors, Title = Paper.Title, Time, Room, Link)
+    select(`Track Name` = TrackName, Presenter = Primary.Contact.Author.Name, Title = Paper.Title, Time, Room, Link)
 
   data_index <- unique(data_program[, c("Track Name", "Room", "Link")])
 
@@ -60,19 +59,20 @@ program_table <- function(PSSlot_name) {
         striped = TRUE, 
         highlight = TRUE,
         columns = list(
-          Room = colDef(maxWidth = 125),
+          `Track Name` = colDef(minWidth = 600),
+          Room = colDef(width = 125),
           Link = colDef(maxWidth = 125, cell = function(value, index) {
         htmltools::tags$a(class = "btn btn-default", href = value, target = "_blank", "Abstracts")
       })),
         details = function(index) {
           data_source <- data_program[data_program$`Track Name` == data_index$`Track Name`[index], ] |>
-            select(Time, Authors, Title)
+            select(Time, Presenter, Title)
           htmltools::div(
             style = "padding: 1rem",
             reactable(
               data_source, 
               outlined = TRUE,
-              columns = list(Time = colDef(maxWidth = 70), Authors = colDef(maxWidth = 300))
+              columns = list(Time = colDef(maxWidth = 70), Presenter = colDef(maxWidth = 200))
             )
           )
       }

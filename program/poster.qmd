@@ -39,6 +39,8 @@ reactable(
   searchable = TRUE,
   columns = list(
     Nb = colDef(maxWidth = 50),
+    Title = colDef(minWidth = 400),
+    Authors = colDef(minWidth = 200),
     Abstract = colDef(show = FALSE)
   ),
   details = function(index) {
