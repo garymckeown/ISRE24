@@ -1,0 +1,48 @@
+
+## `r paste(.x,": ",.y)`
+
+```{r}
+isre24_track <- isre24_program_communications |>
+  filter(PSSlot == .x) |>
+  filter(Track == .y)
+```
+
+```{r}
+isre24_track |>
+  mutate(Time = paste(format(min(StartTime), format = "%H:%M"), "-", format(max(EndTime), format = "%H:%M"))) |>
+  select(Track, Type = TYPE, SessionTitle, Time, Room) |>
+  distinct() |>
+  t() |>
+  as.data.frame() |>
+  rownames_to_column() |>
+  flextable() |> 
+  delete_part(part = "header") |> 
+  hline_top(part = "body", border = fp_border(width = 1)) |> 
+  width(j = 1, 1, unit = "in") |> 
+  width(j = 2, 5, unit = "in")
+```
+
+```{r, results='asis'}
+isre24_track |>
+  mutate(Authors = if_else(Author.Names == "NA", Authors, Author.Names)) |> 
+  select(Title = Paper.Title, Time, Authors, Abstract) |>
+  mutate(
+    Title = glue::glue("__{Title}__"),
+    Authors = glue::glue("__{Authors}__") |> 
+      str_replace_all("[*]" , ""),
+    Abstract = Abstract |> 
+      str_replace_all("[\r\n]" , "") |> 
+      str_replace_all("[*]" , "")
+  ) |> 
+  mutate(` ` = "\\") |> 
+  pivot_longer(everything()) |> 
+  mutate(
+    name = if_else(value != "\\", paste0(name, ":"), name),
+    jump = "\\"
+  ) |> 
+  unite("line", 1:3, sep = " ")  |> 
+  unlist() |> 
+  cat(sep = "\n")
+```
+
+\newpage
