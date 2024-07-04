@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!internal/"
 
 website:
   title: "ISRE 2024: Conference of the International Society for Research on Emotion"

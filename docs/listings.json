@@ -12,20 +12,20 @@
     ]
   },
   {
+    "listing": "/keynotes/index.html",
+    "items": [
+      "/keynotes/speakers/Phoebe_Ellsworth.html",
+      "/keynotes/speakers/Terry_Maroney.html",
+      "/keynotes/speakers/Yuri_Miyamoto.html"
+    ]
+  },
+  {
     "listing": "/sponsorspage/index.html",
     "items": [
       "/sponsorspage/sponsors/mangold.html",
       "/sponsorspage/sponsors/tourism_ni.html",
       "/sponsorspage/sponsors/visit_belfast.html",
       "/sponsorspage/sponsors/belfast_starburst.html"
-    ]
-  },
-  {
-    "listing": "/keynotes/index.html",
-    "items": [
-      "/keynotes/speakers/Phoebe_Ellsworth.html",
-      "/keynotes/speakers/Terry_Maroney.html",
-      "/keynotes/speakers/Yuri_Miyamoto.html"
     ]
   }
 ]

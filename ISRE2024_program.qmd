@@ -435,7 +435,7 @@ PSSlot_Track <- isre24_program_communications |>
 res <- map2(
   PSSlot_Track$PSSlot, PSSlot_Track$Track,
   ~knitr::knit_child(
-    "template_symposium.qmd", 
+    "internal/template_symposium.qmd", 
     envir = environment(), 
     quiet = TRUE
   )
@@ -466,7 +466,7 @@ PSSlot_Track <- isre24_program_communications |>
 res <- map2(
   PSSlot_Track$PSSlot, PSSlot_Track$Track,
   ~knitr::knit_child(
-    "template_symposium.qmd", 
+    "internal/template_symposium.qmd", 
     envir = environment(), 
     quiet = TRUE
   )
