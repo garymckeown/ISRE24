@@ -5,22 +5,29 @@ title-block-banner: true
 
 ## Registration System Open Now
 
-- Register here: **[https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php)**
-- **Early registration ends 30 April 2024, 23:59 PST.**
-- **The *Economy* rates apply to students, postdocs, and attendees affiliated with universities in [Low- to Middle-Income Countries](list_countries.qmd)**
+Register here: **[https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php)**
 
-::: {.callout-warning title="No refunds are possible after 20 June"}
-You can cancel your registration and QUB Student Accommodation room booking until 20 June. We will refund registration fee with a 5% charge.
+- Economy rates apply to students, postdocs, and attendees affiliated with universities in [Low- to Middle-Income Countries](list_countries.qmd)
+- Please note that all ISRE2024 food will be vegetarian
+
+::: {.callout-warning title="Registration warning"}
+- **Rooms in QUB Student Accommodation can be booked until 8 July 2024 at 4pm UK time**
+
+- **For late registrations (8 July and later), we cannot accommodate special catering requirements**
+
+- **Early registration ended 30 April 2024**
+
+- **No refunds are possible after 20 June 2024**
 :::
 
 ## Main Conference Registration Fees (in GBP)
 
 |   |   |
 |---|---|
-|Economy ISRE member early |£300.00 |
-|ISRE member early |£375.00|
-|Economy non-member early |£400.00|
-|Non-member early |£475.00|
+|~~Economy ISRE member early~~ |~~£300.00~~ |
+|~~ISRE member early~~ |~~£375.00~~|
+|~~Economy non-member early~~ |~~£400.00~~|
+|~~Non-member early~~ |~~£475.00~~|
 |   |   |
 |Economy ISRE member regular |£350.00|
 |ISRE member regular |£425.00|
