@@ -207,7 +207,10 @@ We are thrilled to offer an array of pre-conference events designed to enrich yo
 
 -   [Laughter and Other Non-Verbal Vocalisations Workshop](https://www.isre2024.org/preconference/list/laughter_workshop.html)
 
-#### Evening: ISRE2024 Welcome Reception, Parliament Buildings
+#### Evening: ISRE2024 Welcome Reception for all ISRE attendees, Parliament Buildings
+
+- 18:15 Buses departure from the QUB campus to the Northern Ireland Assembly 
+- 19:00 - 22:00 Welcome Reception 
 
 \newpage
 
@@ -220,6 +223,13 @@ We are thrilled to offer an array of pre-conference events designed to enrich yo
 
 \newpage
 
+### 17 July
+
+ISRE2024 Welcome Reception for all ISRE attendees, Parliament Buildings:
+
+- 18:15 Buses departure from the QUB campus to the Northern Ireland Assembly 
+- 19:00 - 22:00 Welcome Reception 
+
 ### 18 July
 
 ```{r}
@@ -228,7 +238,7 @@ isre24_program_overview |>
   select(-day) |> 
   add_row(time = "Evening", event = "ISRE2024 Early Career Event, QUB Great Hall") |> 
   kbl(booktabs = T, col.names = NULL, linesep = "") |> 
-  kable_styling(font_size = 10.5, latex_options = c("striped", "hold_position")) |> 
+  kable_styling(font_size = 10, latex_options = c("striped", "hold_position")) |> 
   column_spec(1, width = "1in") |> 
   column_spec(2, width = "5in")
 ```
@@ -241,7 +251,7 @@ isre24_program_overview |>
   select(-day) |> 
   add_row(time = "Evening", event = "ISRE2024 Conference Dinner, Belfast Titanic Museum") |> 
   kbl(booktabs = T, col.names = NULL, linesep = "") |> 
-  kable_styling(font_size = 10.5, latex_options = c("striped", "hold_position")) |> 
+  kable_styling(font_size = 10, latex_options = c("striped", "hold_position")) |> 
   column_spec(1, width = "1in") |> 
   column_spec(2, width = "5in")
 ```
@@ -253,7 +263,7 @@ isre24_program_overview |>
   filter(day == 20) |> 
   select(-day) |> 
   kbl(booktabs = T, col.names = NULL, linesep = "") |> 
-  kable_styling(font_size = 10.5, latex_options = c("striped", "hold_position")) |> 
+  kable_styling(font_size = 10, latex_options = c("striped", "hold_position")) |> 
   column_spec(1, width = "1in") |> 
   column_spec(2, width = "5in")
 ```

@@ -8,13 +8,20 @@ isre24_track <- isre24_program_communications |>
 ```
 
 ```{r}
-isre24_track |>
-  mutate(Time = paste(format(min(StartTime), format = "%H:%M"), "-", format(max(EndTime), format = "%H:%M"))) |>
-  select(Track, Type = TYPE, SessionTitle, Time, Room) |>
-  distinct() |>
-  t() |>
-  as.data.frame() |>
-  rownames_to_column() |>
+
+track_details <- isre24_track |> 
+  mutate(Time = paste(format(min(StartTime), format = "%H:%M"), "-", format(max(EndTime), format = "%H:%M"))) |> 
+  select(Track, Type = TYPE, SessionTitle, Time, Room, SymposiaAbstract) |> 
+  distinct() |> 
+  t() |> 
+  as.data.frame() |> 
+  rownames_to_column()
+
+if (track_details[track_details$rowname == "Type", "V1"] != "Symposium") {
+  track_details <- filter(track_details, rowname != "SymposiaAbstract")
+}
+  
+track_details |>
   flextable() |> 
   delete_part(part = "header") |> 
   hline_top(part = "body", border = fp_border(width = 1)) |> 

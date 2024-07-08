@@ -64,7 +64,7 @@ isre24_program_overview <-
 ```{r}
 download_link(
   link = "../ISRE2024_program.pdf",
-  button_label = "Download the Provisional Program Here!",
+  button_label = "Download the Program Here!",
   button_type = "danger",
   has_icon = TRUE,
   icon = "fa fa-download",
@@ -89,9 +89,10 @@ Pre-conferences:
 - [Language and Emotional Development](../preconference/list/emotional_development.qmd)
 - [Laughter and Other Non-Verbal Vocalisations](../preconference/list/laughter_workshop.qmd)
 
-#### Evening
+#### Evening: ISRE2024 Welcome Reception for all ISRE attendees, Parliament Buildings
 
-**ISRE2024 Welcome Reception, Parliament Buildings**
+- 18:15 Buses departure from the QUB campus to the Northern Ireland Assembly 
+- 19:00 - 22:00 Welcome Reception 
 
 ## 18 July {#july-18}
 

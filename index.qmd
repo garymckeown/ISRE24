@@ -40,7 +40,7 @@ Find more guidance here [https://www.qub.ac.uk/sites/iss/OtherVisas/RoI/](https:
 Any questions? Contact us at [ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk)
 :::
 
-## Registration and Provisional Program
+## Registration and Program
 
 **[Register here](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php)** (more details on the registration fees [here](registration/index.qmd))
 
@@ -52,7 +52,7 @@ library(downloadthis)
 
 download_link(
   link = "ISRE2024_program.pdf",
-  button_label = "Download the Provisional Program Here!",
+  button_label = "Download the Program Here!",
   button_type = "danger",
   has_icon = TRUE,
   icon = "fa fa-download",
