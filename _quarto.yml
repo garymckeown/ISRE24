@@ -80,7 +80,7 @@ website:
         icon: globe
         aria-label: Website
       - href: https://www.linkedin.com/company/isre-org/?viewAsMember=true
-        icon: Linkedin
+        icon: linkedin
       - href: https://twitter.com/isreorg
         icon: twitter-x
         aria-label: Twitter
