@@ -44,24 +44,33 @@ Any questions? Contact us at [ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk)
 
 **[Register here](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php)** (more details on the registration fees [here](registration/index.qmd))
 
+See the instructions for presenters including Oral Presentations, Flash Talks, and Posters [here](program/instructions.qmd).
+
+
+
 ```{r}
 #| echo: false
 #| message: false
-
-library(downloadthis)
-
-download_link(
-  link = "ISRE2024_program.pdf",
-  button_label = "Download the Program Here!",
-  button_type = "danger",
-  has_icon = TRUE,
-  icon = "fa fa-download",
-  self_contained = FALSE,
-  class = "button_custom"
-)
+# 
+# library(downloadthis)
+# 
+# download_link(
+#   link = "ISRE2024_program.pdf",
+#   button_label = "Download the Program Here!",
+#   button_type = "danger",
+#   has_icon = TRUE,
+#   icon = "fa fa-download",
+#   self_contained = FALSE,
+#   class = "button_custom"
+# )
 ```
 
-See the instructions for presenters including Oral Presentations, Flash Talks, and Posters [here](program/instructions.qmd).
+[{{< fa download >}} Download the Program Here!](ISRE2024_program.pdf){.btn .btn-danger .button_custom .btn role="button"}
+
+
+<center> Or 
+
+[{{< fa mobile >}} Access Whova Program Here!](https://whova.com/portal/isrec_202407){.btn .btn-danger .button_custom .btn role="button"}
 
 ## Invited Keynotes
 
@@ -85,25 +94,6 @@ We are thrilled to offer an array of pre-conference events designed to enrich yo
 **Some of the pre-conferences also provide opportunities for attendees to showcase their work through poster presentations and flash talks. For specific details and deadlines regarding submissions, please visit the dedicated websites for each pre-conference event.**
 
 Registration for pre-conference events is integrated into the [ISRE main event registration system](registration/index.qmd). Don't miss out on this opportunity to jumpstart your conference experience.
-
-## ISRE Travel Awards
-
-We're excited to announce applications are open for our **Travel Awards at ISRE24**. These awards support scholars facing financial barriers.
-
-Eligible attendees can submit their application to the ISRE2024 Organizers ([ISRE24@qub.ac.uk](mailto:ISRE24@qub.ac.uk) ) by **30 April**, more details [here](awards.qmd).
-
-## Emotion Express: One minute to inspire!
-
-<!-- <a href="https://www.isre.org/news/668358/A-New-ISRE-Initiative---Emotion-Express-One-Minute-to-Inspire.htm">![](https://cdn.ymaws.com/www.isre.org/resource/resmgr/2023_isre24/emx_logo4.png){fig-align="center"}</a> -->
-
-The International Society for Research on Emotion (ISRE) is pleased to invite YOU to take on a challenge: **tell people about your research** using language that is accessible to a general audience, or those who might not be familiar with emotion research and **get them as excited about emotions as we are**. Take this opportunity to challenge yourself, expand/put into practice your communication skills, and bridge the gap between our research community and your grandparents, friends and wider society.
-
-**Record your one-minute pitch and share with the world your passion.** The EXTENDED submission deadline is **24 May**. More information available on the [ISRE Website here](https://www.isre.org/news/668358/A-New-ISRE-Initiative---Emotion-Express-One-Minute-to-Inspire.htm).
-
-The challenge awards **two top prizes, each accompanied by two runner-up prizes**. All prizes include certificates, and the two winners receive a **cash prize of USD $200 each**.
-
-- Emotion Express – **Public's Choice Award**: Voted by the public (online) before the ISRE24 conference. Votes will be counted based on trackable engagements on ISRE social media accounts.
-- Emotion Express – **Peers’ Choice Award**: Voted onsite by ISRE24 attendees during the conference in Belfast.
 
 ## Event Sponsors
 
