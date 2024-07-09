@@ -1,26 +1,33 @@
 ---
-title: "Location"
 page-layout: full
+filters:
+   - lightbox
+lightbox: auto
+# https://github.com/quarto-dev/quarto-cli/discussions/5972
 ---
 
-## Queen's University Belfast
+## Conference Locations
 
 ISRE2024 will take place **on the main Queen's University Belfast campus**, in the [Whitla Hall](https://www.qub.ac.uk/events-at-queens/venues/whitla-hall/), the [Great Hall](https://www.qub.ac.uk/events-at-queens/venues/great_hall/), and the Peter Froggatt Centre.
 
+![](isre_buildings.png)
+
+::: {style='text-align:center;'}
 Download the campus map [here](https://www.qub.ac.uk/home/Filestore/Filetoupload,1511241,en.pdf).
+:::
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](../images/Queens/QUB_170919-1456.jpg){fig-alt="A View of Queen's University Belfast's Lanyon Building" fig-align="center" width="100%" group="my-gallery"}
+![](../images/Queens/QUB_170919-1456.jpg){fig-alt="A View of Queen's University Belfast's Lanyon Building" fig-align="center" width="100%"}
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](../images/Queens/QUB_140414_1503.jpg){fig-alt="A View of Queen's University Belfast's Quad" fig-align="center" width="100%" group="my-gallery"}
+![](../images/Queens/QUB_140414_1503.jpg){fig-alt="A View of Queen's University Belfast's Quad" fig-align="center" width="100%"}
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](../images/Queens/QUB_020415_4382.jpg){fig-alt="Inside Queen's University Belfast's Graduate School" fig-align="center" width="100%" group="my-gallery"}
+![](../images/Queens/QUB_020415_4382.jpg){fig-alt="Inside Queen's University Belfast's Graduate School" fig-align="center" width="100%"}
 :::
 
 :::

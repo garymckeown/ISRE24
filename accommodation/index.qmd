@@ -4,12 +4,19 @@ title: ""
 
 ## QUB on-campus accommodation
 
-
 If you require accommodation for the conference, **we suggest booking at Queen's University Belfast on-campus accommodation**. Accommodation is offered on a first-come first-serve basis in the QUB Elms Village.  
 
 Price: **£57.50 + VAT for 1 single bedroom with en suite bathroom, per room per night**.
 
 If you have any questions, please contact the Accommodations team directly on +44 28 9097 4403 or [allocations@qub.ac.uk](mailto:allocations@qub.ac.uk). Rooms can be booked on the ISRE2024 registration website at [https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php](https://ecommerce.apps.qub.ac.uk/osisre/catalog/index.php).
+
+You will be accommodated in **Elms Village**, which is approximately 17 minutes from Whitla Hall and Lanyon building and 20 minutes from Peter Froggatt Centre.
+
+Watch the following video to see how to get from the accommodation to the conference venue and [click here to view the route in maps.](https://www.google.com/maps/dir/Treehouse/Queen's+University+Belfast,+University+Road,+Belfast/@54.5800615,-5.9438157,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x486109e0841f32cd:0xd16fc33f628e0542!2m2!1d-5.940093!2d54.5757131!1m5!1m1!1s0x486108ea57227da7:0x3cecfa2a15d642e1!2m2!1d-5.9340493!2d54.5844087!3e2?entry=ttu)
+
+::: {style="text-align: center;"}
+{{< video https://youtu.be/7Tnf8S0d-LM width="400" height="300" >}}
+::: 
 
 ## Hotels in Belfast 
 
