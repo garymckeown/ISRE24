@@ -66,8 +66,8 @@ website:
             href: location/Stormont.qmd
           - text: "Banquet + Titanic Belfast"
             href: location/TitanicBelfast.qmd
-          - text: "Accomodation"
-            href: accommodation/index.qmd
+      - text: "Accomodation"
+        href: accommodation/index.qmd
       - sponsorspage/index.qmd
       - contactus/index.qmd
   page-footer:

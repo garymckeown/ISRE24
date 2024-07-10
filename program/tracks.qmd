@@ -31,14 +31,14 @@ isre24_track <- isre24_program_communications |>
 ```{r}
 track_details <- isre24_track |> 
   mutate(Time = paste(format(min(StartTime), format = "%H:%M"), "-", format(max(EndTime), format = "%H:%M"))) |> 
-  select(Track, Type = TYPE, SessionTitle, Time, Room, SymposiaAbstract) |> 
+  select(Track, Type = TYPE, Title = SessionTitle, Time, Room, Abstract = SymposiaAbstract) |> 
   distinct() |> 
   t() |> 
   as.data.frame() |> 
   rownames_to_column()
 
 if (track_details[track_details$rowname == "Type", "V1"] != "Symposium") {
-  track_details <- filter(track_details, rowname != "SymposiaAbstract")
+  track_details <- filter(track_details, rowname != "Abstract")
 }
   
 track_details |>

@@ -2,6 +2,6 @@
 title: "Mangold International"
 ---
 
-![](mangold_logo.png){fig-align="left" fig-alt="Mangold International Logo." width=100%}
+![](mangold_logo.png){fig-alt="Mangold International Logo." width=100%}
 
 ---

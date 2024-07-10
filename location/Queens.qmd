@@ -4,6 +4,7 @@ filters:
    - lightbox
 lightbox: auto
 # https://github.com/quarto-dev/quarto-cli/discussions/5972
+# https://github.com/baptiste/quarto-gallery/blob/main/ushuaia/index.qmd
 ---
 
 ## Conference Locations

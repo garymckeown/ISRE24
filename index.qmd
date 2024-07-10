@@ -65,12 +65,13 @@ See the instructions for presenters including Oral Presentations, Flash Talks, a
 # )
 ```
 
-[{{< fa download >}} Download the Program Here!](ISRE2024_program.pdf){.btn .btn-danger .button_custom .btn role="button"}
+Gain access to a **mobile-friendly and customizable program**, engage with speakers by asking questions, receive conference tips, and join the community with the Whova app:
 
+[{{< fa mobile >}} Access Whova App Here!](https://whova.com/portal/isrec_202407){.btn .btn-danger .button_custom .btn role="button"}
 
 <center> Or 
 
-[{{< fa mobile >}} Access Whova Program Here!](https://whova.com/portal/isrec_202407){.btn .btn-danger .button_custom .btn role="button"}
+[{{< fa download >}} Download the Program Here!](ISRE2024_program.pdf){.btn .btn-danger .button_custom .btn role="button"}
 
 ## Invited Keynotes
 
