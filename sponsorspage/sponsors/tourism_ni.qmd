@@ -3,7 +3,7 @@ title: "Tourism Northern Ireland"
 image: ../../images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png
 ---
 
-![](../../images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png){fig-align="left" fig-alt="The Tourism Northern Ireland Logo." width=20%}
+![](../../images/VisitBelfast/TNI_Corp_Logo_Fc_ColText_RGB.png){fig-alt="The Tourism Northern Ireland Logo." width=20%}
 
 
 ```{=html}

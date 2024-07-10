@@ -3,6 +3,6 @@ title: "Belfast City Council"
 image: ../../images/VisitBelfast/Belfast_Starburst_Logo(purple).jpg
 ---
 
-![](../../images/VisitBelfast/Belfast_Starburst_Logo(purple).jpg){fig-align="left" fig-alt="The Tourism Northern Ireland Logo." width=20%}
+![](../../images/VisitBelfast/Belfast_Starburst_Logo(purple).jpg){fig-alt="The Tourism Northern Ireland Logo." width=20%}
 
 ---

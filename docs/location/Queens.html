@@ -208,12 +208,12 @@ gtag('config', 'G-33PP5XPV1R', { 'anonymize_ip': true});
     <a class="dropdown-item" href="../location/TitanicBelfast.html">
  <span class="dropdown-text">Banquet + Titanic Belfast</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../accommodation/index.html">
- <span class="dropdown-text">Accomodation</span></a>
-  </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../accommodation/index.html"> 
+<span class="menu-text">Accomodation</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="../sponsorspage/index.html"> 
 <span class="menu-text">Sponsors</span></a>
@@ -712,7 +712,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
