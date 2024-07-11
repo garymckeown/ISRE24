@@ -213,6 +213,12 @@ hr {
   background-size: 400px 400px; /* 500 × 500*/
   background-position: center;
 }
+
+.user-container #anoopkadan.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/anoopkadan.jpg?raw=true") no-repeat;
+  background-size: 417px 625px; /* 4166 × 6246*/
+  background-position: center;
+}
    
 .inline-photo3 {
   box-shadow: 1em 1em 2em .25em #004D7E;
