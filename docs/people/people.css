@@ -120,8 +120,8 @@ hr {
 }
 
 .user-container #yaseminerbas.card_team {
-  background: url(https://github.com/garymckeown/ISRE24/blob/main/people/pictures/yaseminerbas.jpg?raw=true") no-repeat;
-  background-size: 350px 350px; /* 512 × 512 */
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/yaseminerbas.jpg?raw=true") no-repeat;
+  background-size: 350px 350px; /* 500 × 500 */
   background-position: center;
 }
 
