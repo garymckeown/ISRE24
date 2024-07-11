@@ -209,8 +209,8 @@ hr {
 }
 
 .user-container #katiemcgaughey.card_team {
-  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/katiemcgaughey.jpg?raw=true") no-repeat;
-  background-size: 400px 312px; /* 426 × 338*/
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/katiemcgaughey.png?raw=true") no-repeat;
+  background-size: 400px 400px; /* 500 × 500*/
   background-position: center;
 }
    
