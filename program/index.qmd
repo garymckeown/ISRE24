@@ -66,7 +66,7 @@ Gain access to a **mobile-friendly and customizable program**, engage with speak
 
 [{{< fa mobile >}} Access Whova App Here!](https://whova.com/portal/isrec_202407){.btn .btn-danger .button_custom .btn role="button"}
 
-<center> Or 
+<center> Or </center>
 
 [{{< fa download >}} Download the Program Here!](../ISRE2024_program.pdf){.btn .btn-danger .button_custom .btn role="button"}
 
@@ -116,7 +116,7 @@ See [here](days/july_18.qmd) for more details on the day.
 
 #### Evening
 
-**ISRE2024 Early Career Event, QUB Great Hall**
+**19:00 ISRE2024 Early Career Event, QUB Great Hall**
 
 ## 19 July {#july-19}
 
