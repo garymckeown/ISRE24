@@ -6,9 +6,11 @@ listing:
     type: grid
     grid-columns: 3
     sort: "title asc"
+    fields: [image, title]
   - id: event-sponsors
     # contents: sponsorspage/sponsors
     contents: 
+      - sponsors/blueskeye.qmd
       - sponsors/mangold.qmd
       - sponsors/tourism_ni.qmd
       - sponsors/visit_belfast.qmd
@@ -74,8 +76,6 @@ Gain access to a **mobile-friendly and customizable program**, engage with speak
 [{{< fa download >}} Download the Program Here!](ISRE2024_program.pdf){.btn .btn-danger .button_custom .btn role="button"}
 
 ## Invited Keynotes
-
-Click [here](keynotes/index.qmd) to see the invited keynote speakers.
 
 ::: {#invited-keynotes}
 :::

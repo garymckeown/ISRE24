@@ -1,25 +1,18 @@
 ---
 title: "Phoebe Ellsworth"
+image: keynote_PE.jpg
+about:
+  template: trestles
 ---
 
-::: columns
-::: {.column width="40%"}
+## Convergence among Emotion Theories
 
-![](keynote_PE.jpg){width=80%}
-:::
+Although many scholars bemoan the lack of consensus among emotion theorists, current theories agree  on several important ideas, such as the adaptiveness of emotions and their principal components, and there is increasing convergence on divisive issues, such as discrete categories vs. continuous dimensions and the role of biology vs. culture. In the future our goal should be to distinguish real from apparent differences and to identify differences that can be resolved empirically.
 
-::: {.column width="60%"}
-
-## Bio
+### Bio
 
 Phoebe Ellsworth is noted for her work in law and psychology. More specifically, she has done research on jury behavior and decision making, public opinion and the death penalty, and eyewitness identification. Her other main research interest is in emotions. Some areas of research in this topic include facial emotions, cognition and emotion, and interpretation of emotion. As a graduate student, she worked with Paul Ekman and Wallace Friesen to develop the photographs that were used in their research comparing perceptions of emotional faces across cultures. Phoebe Ellsworth is known for her contributions to appraisal theory, emotions and culture, challenges of emotion and language, and for her writing on William James. In much of her research, Phoebe Ellsworth has intertwined an interest in cultural differences. In particular, she has taken a look at the cultural differences in perceiving facial emotions (Masuda, Ellsworth, Mesquita, Leu, Tanida, and Van de Veerdonk, 2008).
 
 Phoebe Ellsworth has received many honors in her career. She is a Frank Murphy Distinguished University Professor of Law and Psychology (2003), Fellow of the American Academy of Arts and Sciences, and Phi Beta Kappa Distinguished Lecturer (2002-2004). In addition, an annual symposium, Phoebe Ellsworth Psychology and Justice Symposium, was created in her honor to recognize her contributions to law and psychology. In 2014 she received both the Nalini Ambady Award for Mentoring Excellence and the Career Contribution Award from the Society for Personality and Social Psychology. 
 
 Source: https://en.wikipedia.org/wiki/Phoebe_C._Ellsworth
-
-## Talk: Convergence among Emotion Theories
-
-Although many scholars bemoan the lack of consensus among emotion theorists, current theories agree  on several important ideas, such as the adaptiveness of emotions and their principal components, and there is increasing convergence on divisive issues, such as discrete categories vs. continuous dimensions and the role of biology vs. culture. In the future our goal should be to distinguish real from apparent differences and to identify differences that can be resolved empirically.
-:::
-:::
