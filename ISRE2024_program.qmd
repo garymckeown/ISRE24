@@ -217,9 +217,9 @@ We are thrilled to offer an array of pre-conference events designed to enrich yo
 
 -   [Laughter and Other Non-Verbal Vocalisations Workshop](https://www.isre2024.org/preconference/list/laughter_workshop.html)
 
-#### Evening: ISRE2024 Welcome Reception for all ISRE attendees, Parliament Buildings
+#### Evening: ISRE2024 Welcome Reception, Parliament Buildings
 
-- 18:15 Buses departure from the QUB campus to the Northern Ireland Assembly 
+- 18:15 Buses departure from the QUB campus to the Parliament Buildings
 - 19:00 - 22:00 Welcome Reception 
 
 \newpage
@@ -233,20 +233,13 @@ We are thrilled to offer an array of pre-conference events designed to enrich yo
 
 \newpage
 
-### 17 July
-
-ISRE2024 Welcome Reception for all ISRE attendees, Parliament Buildings:
-
-- 18:15 Buses departure from the QUB campus to the Northern Ireland Assembly 
-- 19:00 - 22:00 Welcome Reception 
-
 ### 18 July
 
 ```{r}
 isre24_program_overview |> 
   filter(day == 18) |> 
   select(-day) |> 
-  add_row(time = "Evening", event = "ISRE2024 Early Career Event, QUB Great Hall") |> 
+  add_row(time = "19:00", event = "ISRE2024 Early Career Event, QUB Great Hall") |> 
   kbl(booktabs = T, col.names = NULL, linesep = "") |> 
   kable_styling(font_size = 10, latex_options = c("striped", "hold_position")) |> 
   column_spec(1, width = "1in") |> 
@@ -295,6 +288,8 @@ isre24_program_overview |>
 program_events(18, 1:3)
 ```
 
+####
+
 **Culture, Emotion, and Health: Dealing with Emotions in Sociocultural Contexts**
 
 People generally want to increase positive emotions and decrease negative emotions. However, the extent to which individuals engage in such emotion regulation varies across cultures, partly due to differing beliefs about emotions. In this talk, I will present research highlighting cultural differences in dialectical versus predominantly adverse valuations of emotions. These variations in emotion valuations lead to cultural differences in emotion regulation and have health implications. I will also discuss sociocultural practices that support emotion beliefs and emotion regulation. By illuminating these processes, I will underscore the active role sociocultural contexts play in shaping emotions and their health implications.
@@ -310,6 +305,8 @@ table_track("Parallel Session 1")
 ```{r results='asis'}
 program_events(18, 6:7)
 ```
+
+####
 
 The Emotion AI industry is at a very interesting junction. A small number of established start-ups exist and are looking to scale (Affectiva, BLUESKEYE AI, Hume), and the market is set to far exceed $50bn. At the same time, regulators and scientists are raising issues around privacy, evidence of effectiveness, and fairness, culminating in a partial ban of Emotion AI systems in the EU AI Act. In this salon, I will address the challenges and opportunities of creating a start-up in the area of Affective Computing.
 
@@ -359,6 +356,10 @@ program_events(18, 12:12)
 table_track("Flash Talks 1")
 ```
 
+#### Evening
+
+**19:00 ISRE2024 Early Career Event, QUB Great Hall**
+
 \newpage
 
 ## 19 July
@@ -372,7 +373,17 @@ table_track("Parallel Session 4")
 ```
 
 ```{r results='asis'}
-program_events(19, 3:8)
+program_events(19, 3:4)
+```
+
+####
+
+**Convergence among Emotion Theories**
+
+Although many scholars bemoan the lack of consensus among emotion theorists, current theories agree  on several important ideas, such as the adaptiveness of emotions and their principal components, and there is increasing convergence on divisive issues, such as discrete categories vs. continuous dimensions and the role of biology vs. culture. In the future our goal should be to distinguish real from apparent differences and to identify differences that can be resolved empirically.
+
+```{r results='asis'}
+program_events(19, 5:8)
 ```
 
 ```{r}
@@ -409,6 +420,10 @@ program_events(19, 10:11)
 table_track("Flash Talks 2")
 ```
 
+#### Evening
+
+**ISRE2024 Conference Dinner, Titanic Belfast**
+
 \newpage
 
 ## 20 July
@@ -424,6 +439,8 @@ table_track("Parallel Session 6")
 ```{r results='asis'}
 program_events(20, 3:4)
 ```
+
+####
 
 **What Judges Feel: Investigating the Emotional Elements of Judging**
 
@@ -507,15 +524,16 @@ cat(unlist(res), sep = '\n')
 \newpage
 
 ```{r, echo=FALSE, results='asis'}
-isre24_track <- isre24_program_communications |>
+isre24_program_communications |>
   filter(PSSlot == "Poster Session") |> 
-  mutate(PosterNumber = as.character(PosterNumber)) |> 
-  arrange(PosterNumber)
-
-isre24_track |>
-  mutate(Authors = if_else(Author.Names == "NA", Authors, Author.Names)) |> 
+  mutate(
+    PosterNumber = as.numeric(as.character(PosterNumber)),
+    Authors = if_else(Author.Names == "NA", Authors, Author.Names)
+  ) |> 
+  arrange(PosterNumber) |> 
   select(Title = Paper.Title, `Poster Number` = PosterNumber, Authors, Abstract) |>
   mutate(
+    `Poster Number` = as.character(`Poster Number`),
     Title = glue::glue("__{Title}__"),
     Authors = glue::glue("__{Authors}__") |> 
       str_replace_all("[*]" , ""),

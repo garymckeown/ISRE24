@@ -25,7 +25,8 @@ isre24_program_communications <-
 
 isre24_track <- isre24_program_communications |>
   filter(PSSlot == params$PSSlot) |>
-  filter(Track == params$Track)
+  filter(Track == params$Track) |> 
+  arrange(StartTime)
 ```
 
 ```{r}

@@ -55,7 +55,7 @@ website:
             text: "Laughter and Other Non-Verbal Vocalisations"
       # - safetyatQUB/index.qmd
       - text: "People"
-        href: people/people.qmd
+        href: people/index.qmd
       - text: "Location"
         menu:
           - text: "Queen's University Belfast"

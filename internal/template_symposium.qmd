@@ -4,7 +4,8 @@
 ```{r}
 isre24_track <- isre24_program_communications |>
   filter(PSSlot == .x) |>
-  filter(Track == .y)
+  filter(Track == .y) |> 
+  arrange(StartTime)
 ```
 
 ```{r}
