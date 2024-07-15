@@ -6,34 +6,51 @@ filters:
 lightbox: auto
 ---
 
-[Getting Here](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.businesseventsbelfastandni.com%2Fe%2F1032271%2Fing-to-belfast-travel-options-%2F4f6c%2F129455788%3Fh%3DJ1SNS_Ku_z--xDAXwjhK2JuGcWbS4eo8nj6CgDqw8e8&data=05%7C01%7CG.McKeown%40qub.ac.uk%7C2ef9fea4be1d4f64ed8608dbafbbb5fd%7Ceaab77eab4a549e3a1e8d6dd23a1f286%7C0%7C0%7C638296993016400078%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=eBDGasuLpUhyi2V4MmOG%2Bx%2Bu5m%2B4C2zdgWsjXp2sc%2FY%3D&reserved=0)
+::: columns
+::: {.column width="30%"}
+- [Getting Here](https://visitbelfast.com/plan/getting-to-belfast-travel-options/)
 
-[Things To See & Do](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.businesseventsbelfastandni.com%2Fe%2F1032271%2Fsee-do-%2F4f6g%2F129455788%3Fh%3DJ1SNS_Ku_z--xDAXwjhK2JuGcWbS4eo8nj6CgDqw8e8&data=05%7C01%7CG.McKeown%40qub.ac.uk%7C2ef9fea4be1d4f64ed8608dbafbbb5fd%7Ceaab77eab4a549e3a1e8d6dd23a1f286%7C0%7C0%7C638296993016400078%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=MjWwnUs%2FZUIrwbz8IB4oNRA4tNP4NLo7BnDyLRcrlE0%3D&reserved=0)
+- [Things To See & Do](https://visitbelfast.com/see-do/)
 
-[Places To Eat & Drink](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.businesseventsbelfastandni.com%2Fe%2F1032271%2Feat-drink-%2F4f6k%2F129455788%3Fh%3DJ1SNS_Ku_z--xDAXwjhK2JuGcWbS4eo8nj6CgDqw8e8&data=05%7C01%7CG.McKeown%40qub.ac.uk%7C2ef9fea4be1d4f64ed8608dbafbbb5fd%7Ceaab77eab4a549e3a1e8d6dd23a1f286%7C0%7C0%7C638296993016400078%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=XrtCsFgp59VfsLTF%2BpXU3TzY%2BJMsuRCXW559t8kBn%2Bc%3D&reserved=0)
+- [Places To Eat & Drink](https://visitbelfast.com/eat-drink/)
 
-[Ideas and Inspiration](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.businesseventsbelfastandni.com%2Fe%2F1032271%2Fideas-%2F4f6n%2F129455788%3Fh%3DJ1SNS_Ku_z--xDAXwjhK2JuGcWbS4eo8nj6CgDqw8e8&data=05%7C01%7CG.McKeown%40qub.ac.uk%7C2ef9fea4be1d4f64ed8608dbafbbb5fd%7Ceaab77eab4a549e3a1e8d6dd23a1f286%7C0%7C0%7C638296993016400078%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=22mOWEaVZnKZOEC0RmJkaxkoOQKUtdHZRx7mnmDcYwI%3D&reserved=0)
+- [Ideas and Inspiration](https://visitbelfast.com/ideas/)
 
-[Sustainable Belfast](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.businesseventsbelfastandni.com%2Fe%2F1032271%2Fplan-sustainable-belfast-%2F4f6r%2F129455788%3Fh%3DJ1SNS_Ku_z--xDAXwjhK2JuGcWbS4eo8nj6CgDqw8e8&data=05%7C01%7CG.McKeown%40qub.ac.uk%7C2ef9fea4be1d4f64ed8608dbafbbb5fd%7Ceaab77eab4a549e3a1e8d6dd23a1f286%7C0%7C0%7C638296993016400078%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=FgQLQIdFEf%2Feu5mZE70EoAbWjntkzast6LoRSGepwZI%3D&reserved=0)
+- [Sustainable Belfast](https://visitbelfast.com/plan/sustainable-belfast/)
 
-[Delegate Offers](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fbusinesseventsbelfastandni.com%2Fexclusive-delegate-offers%2F&data=05%7C01%7CG.McKeown%40qub.ac.uk%7C2ef9fea4be1d4f64ed8608dbafbbb5fd%7Ceaab77eab4a549e3a1e8d6dd23a1f286%7C0%7C0%7C638296993016400078%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=DUT0zHidY0ZOP4%2BC9Sf907mQzsKcoZAi86phO5AAiS8%3D&reserved=0) - These will update for the conference.
+- [Delegate Offers](https://businesseventsbelfastandni.com/exclusive-delegate-offers/)
 
-[What's On](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.businesseventsbelfastandni.com%2Fe%2F1032271%2Fwhats-on%2F4f6v%2F129455788%3Fh%3DJ1SNS_Ku_z--xDAXwjhK2JuGcWbS4eo8nj6CgDqw8e8&data=05%7C01%7CG.McKeown%40qub.ac.uk%7C2ef9fea4be1d4f64ed8608dbafbbb5fd%7Ceaab77eab4a549e3a1e8d6dd23a1f286%7C0%7C0%7C638296993016400078%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=tXU8yO1iom7ruUcYXI%2FXwGuPzo2LGtgk7zWqxH2QogU%3D&reserved=0)
+- [What's On](https://visitbelfast.com/whats-on/)
 
-[Essential Information](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.businesseventsbelfastandni.com%2Fe%2F1032271%2Fplan-essential-information-%2F4f6y%2F129455788%3Fh%3DJ1SNS_Ku_z--xDAXwjhK2JuGcWbS4eo8nj6CgDqw8e8&data=05%7C01%7CG.McKeown%40qub.ac.uk%7C2ef9fea4be1d4f64ed8608dbafbbb5fd%7Ceaab77eab4a549e3a1e8d6dd23a1f286%7C0%7C0%7C638296993016400078%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=SPpxFuCuQugEZ88KXfOiMyjRCts9QTbHj5PM5yWwAfY%3D&reserved=0)
+- [Essential Information](https://visitbelfast.com/plan/essential-information/)
 
-[Brochures and Downloads](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.businesseventsbelfastandni.com%2Fe%2F1032271%2Fplan-brochures-and-downloads-%2F4f72%2F129455788%3Fh%3DJ1SNS_Ku_z--xDAXwjhK2JuGcWbS4eo8nj6CgDqw8e8&data=05%7C01%7CG.McKeown%40qub.ac.uk%7C2ef9fea4be1d4f64ed8608dbafbbb5fd%7Ceaab77eab4a549e3a1e8d6dd23a1f286%7C0%7C0%7C638296993016400078%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=uYT71AEkJWj48hrxvHjsvrQsCBdGHc1UWFlQQDz2Poc%3D&reserved=0) (including City Guide and city Map)
-
-::: grid
-::: {.g-col-12 .g-col-md-4}
-![](../images/ISRE_1_reduced.jpg){fig-alt="Belfast Cranes Logo" fig-align="center" width="100%"}
+- [Brochures and Downloads](https://visitbelfast.com/plan/brochures-and-downloads/) (including City Guide and city Map)
 :::
 
-::: {.g-col-12 .g-col-md-4}
-![](../images/Belfast/QUB_230522_1153.jpg){fig-alt="A View of Belfast City Hall" fig-align="center" width="100%" group="my-gallery2"}
+::: {.column width="10%"}
 :::
 
-::: {.g-col-12 .g-col-md-4}
-![](../images/Belfast/QUB_010612_5792.jpg){fig-alt="A View of Titanic Belfast, The Banquet Venue" fig-align="center" width="100%" group="my-gallery2"}
+::: {.column width="60%"}
+
+![](../images/Belfast/QUB_230522_1153.jpg){fig-alt="A View of Belfast City Hall" fig-align="center" width="100%"}
 :::
 :::
+
+## Belfast Tours
+
+We propose optional tours of Belfast city centre in partnership with Belfast Hidden Tours (£15 delegate price, £20 normal price):
+
+- **Belfast City Centre, 16th and 18th July at 18h30**. See [CITY TOUR (ISRE) | Belfast Hidden Tours](https://www.belfasthiddentours.com/tours/experiences/city-tour-isre).
+
+- **Belfast Political Tour, 20th July at 16h00**. See [POLITICAL TOUR (ISRE) | Belfast Hidden Tours](https://www.belfasthiddentours.com/tours/hidden-tours/political-tour-isre).
+
+Please note that the tours are not included in the conference and **need to be booked separately**. 
+
+Are you interested in more tours? See below some recommendations from our sponsor Visit Belfast. 
+
+McComb's Coach Tours offer both Giant’s Causeway and Game of Thrones tours – for more info click [here](https://www.mccombscoaches.com/).
+
+[Paddywagon Tours](https://www.paddywagontours.com/) run a daily tour from Belfast to the Giants Causeway, also visiting the Carrick-A-Rede Rope Bridge! And [Game of Thrones Tours](https://gameofthronestours.com/) operate full day coach tours to Game of Thrones locations throughout Northern Ireland.
+
+For a full list of tours, see [https://visitbelfast.com/see-do/sightseeing-tours/](https://visitbelfast.com/see-do/sightseeing-tours/)
+

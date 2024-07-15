@@ -84,19 +84,23 @@ Gain access to a **mobile-friendly and customizable program**, engage with speak
 
 <br>
 
+Please note that **Shimna: PFC/02/011** is the quiet room during the main ISRE2024 conference 
+
 ## 17 July {#july-17}
 
 #### Morning & Afternoon 
 
+Registration on the 17th is in the Great Hall (and then in Whitla Hall during the main conference)
+
 Pre-conferences:
 
-- [Affective Computing with a special session on Large Language Models](../preconference/list/affective_computing.qmd)
-- [Cross-Species Emotion Research](../preconference/list/cross_species.qmd)
-- [Emotion Regulation in Online Contexts and Links to Mental Health and Wellbeing](../preconference/list/experience_regulation.qmd)
-- [Emotions in Interpersonal Relationships](../preconference/list/emotions_relationships.qmd)
-- [Engaging with Other People’s Suffering: Emotion, Empathy, Eudaimonia and Curiosity](../preconference/list/engaging_suffering.qmd)
-- [Language and Emotional Development](../preconference/list/emotional_development.qmd)
-- [Laughter and Other Non-Verbal Vocalisations](../preconference/list/laughter_workshop.qmd)
+- [Affective Computing with a special session on Large Language Models](../preconference/list/affective_computing.qmd) (Bann: PFC/0G/024)
+- [Cross-Species Emotion Research](../preconference/list/cross_species.qmd) (Moyola: PFC/02/017)
+- [Emotion Regulation in Online Contexts and Links to Mental Health and Wellbeing](../preconference/list/experience_regulation.qmd) (Shimna: PFC/02/011)
+- [Emotions in Interpersonal Relationships](../preconference/list/emotions_relationships.qmd) (Roe: PFC/02/018)
+- [Engaging with Other People’s Suffering: Emotion, Empathy, Eudaimonia and Curiosity](../preconference/list/engaging_suffering.qmd) (Farset: PFC/02/025)
+- [Language and Emotional Development](../preconference/list/emotional_development.qmd) (Lagan: PFC/02/026)
+- [Laughter and Other Non-Verbal Vocalisations](../preconference/list/laughter_workshop.qmd) (Council Chamber)
 
 #### Evening: ISRE2024 Welcome Reception for all ISRE attendees, Parliament Buildings
 
@@ -155,30 +159,30 @@ Dissertation Award judges:
 
 ```{r}
 #| include: false
-
-isre24_program_communications <-
-  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
-
-PSSlot_Track <- isre24_program_communications |> 
-  select(PSSlot, Track) |> 
-  distinct() |> 
-  filter(PSSlot != "Poster Session")
-
-walk2(PSSlot_Track$PSSlot, PSSlot_Track$Track, ~quarto::quarto_render(
-  input = here("program/tracks.qmd"),
-  execute_params = list("PSSlot" = .x, "Track" = .y),
-  output_file = glue::glue("{snakecase::to_any_case(.x)}_{.y}.html")
-))
-
-PSSlot_Track <- isre24_program_communications |> 
-  filter(PSSlot == "Poster Session") |> 
-  select(PosterSession) |> 
-  distinct()
-
-walk(PSSlot_Track$PosterSession, ~quarto::quarto_render(
-  input = here("program/poster.qmd"),
-  execute_params = list("PosterSession" = .x),
-  output_file = glue::glue("{snakecase::to_any_case(.x)}.html")
-))
+# 
+# isre24_program_communications <-
+#   read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
+# 
+# PSSlot_Track <- isre24_program_communications |> 
+#   select(PSSlot, Track) |> 
+#   distinct() |> 
+#   filter(PSSlot != "Poster Session")
+# 
+# walk2(PSSlot_Track$PSSlot, PSSlot_Track$Track, ~quarto::quarto_render(
+#   input = here("program/tracks.qmd"),
+#   execute_params = list("PSSlot" = .x, "Track" = .y),
+#   output_file = glue::glue("{snakecase::to_any_case(.x)}_{.y}.html")
+# ))
+# 
+# PSSlot_Track <- isre24_program_communications |> 
+#   filter(PSSlot == "Poster Session") |> 
+#   select(PosterSession) |> 
+#   distinct()
+# 
+# walk(PSSlot_Track$PosterSession, ~quarto::quarto_render(
+#   input = here("program/poster.qmd"),
+#   execute_params = list("PosterSession" = .x),
+#   output_file = glue::glue("{snakecase::to_any_case(.x)}.html")
+# ))
 ```
 
