@@ -85,13 +85,14 @@ program_table <- function(PSSlot_name) {
 # data -------------------------------------------------------------------------
 isre24_program_communications <-
   read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A") |>
-  mutate(
-    TrackName = if_else(
-      Discussant != "No",
-      paste0(Track, ': ', TYPE, ' - ', SessionTitle, ". Discussant: ", Discussant),
-      paste0(Track, ': ', TYPE, ' - ', SessionTitle)
-    )
-  )
+  mutate(TrackName = paste0(Track, ': ', TYPE, ' - ', SessionTitle))
+  # mutate(
+  #   TrackName = if_else(
+  #     Discussant != "No",
+  #     paste0(Track, ': ', TYPE, ' - ', SessionTitle, ". Discussant: ", Discussant),
+  #     paste0(Track, ': ', TYPE, ' - ', SessionTitle)
+  #   )
+  # )
 
 isre24_program_overview <- 
   paste0(
