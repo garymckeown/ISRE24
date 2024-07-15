@@ -53,11 +53,12 @@ table_track <- function(track) {
   mutate(
     Title = str_replace_all(Paper.Title, "[\r\n]" , ""),
     Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M"),
-    `Track Name` = if_else(
-      Discussant != "No", 
-      paste0(Track, ': ', TYPE, ' - ', SessionTitle, ". Discussant: ", Discussant, " (Room ", Room, ")"),
-      paste0(Track, ': ', TYPE, ' - ', SessionTitle, " (Room ", Room, ")")
-    )
+    `Track Name` = paste0(Track, ': ', TYPE, ' - ', SessionTitle, " (Room ", Room, ")")
+    # `Track Name` = if_else(
+    #   Discussant != "No", 
+    #   paste0(Track, ': ', TYPE, ' - ', SessionTitle, ". Discussant: ", Discussant, " (Room ", Room, ")"),
+    #   paste0(Track, ': ', TYPE, ' - ', SessionTitle, " (Room ", Room, ")")
+    # )
   ) |> 
     select(`Track Name`, Presenter = Primary.Contact.Author.Name, Title, Time) |> 
     arrange(`Track Name`, Time) |> 

@@ -48,6 +48,7 @@ isre24_track |>
   ) |> 
   mutate(` ` = "\\") |> 
   pivot_longer(everything()) |> 
+  filter(value != "Discussion") |> 
   mutate(
     name = if_else(value != "\\", paste0(name, ":"), name),
     jump = "\\"

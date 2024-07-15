@@ -65,7 +65,8 @@ track_details |>
 ```{r}
 isre24_track |>
   select(Title = Paper.Title, Time, Authors, Abstract) |>
-  pivot_longer(!Title) |>
+  pivot_longer(!Title) |> 
+  filter(value != "Discussion") |> 
   datatable(
     colnames = NULL,
     rownames = FALSE,
