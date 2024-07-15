@@ -16,7 +16,7 @@ listing:
       - sponsors/visit_belfast.qmd
       - sponsors/belfast_starburst.qmd
     type: grid
-    grid-columns: 2
+    grid-columns: 3
 ---
 
 ::: {.column-screen style="transition: all 0.3s ease-in-out; text-align: center;"}
@@ -96,11 +96,29 @@ We are thrilled to offer an array of pre-conference events designed to enrich yo
 
 Registration for pre-conference events is integrated into the [ISRE main event registration system](registration/index.qmd). Don't miss out on this opportunity to jumpstart your conference experience.
 
+## Belfast Tours
+
+We propose optional tours of Belfast city centre in partnership with Belfast Hidden Tours (£15 delegate price, £20 normal price):
+
+- **Belfast City Centre, 16th and 18th July at 18h30**. See [CITY TOUR (ISRE) | Belfast Hidden Tours](https://www.belfasthiddentours.com/tours/experiences/city-tour-isre).
+
+- **Belfast Political Tour, 20th July at 16h00**. See [POLITICAL TOUR (ISRE) | Belfast Hidden Tours](https://www.belfasthiddentours.com/tours/hidden-tours/political-tour-isre).
+
+Please note that the tours are not included in the conference and **need to be booked separately**. 
+
+Are you interested in more tours? See below some recommendations from our sponsor Visit Belfast. 
+
+McComb's Coach Tours offer both Giant’s Causeway and Game of Thrones tours – for more info click [here](https://www.mccombscoaches.com/).
+
+[Paddywagon Tours](https://www.paddywagontours.com/) run a daily tour from Belfast to the Giants Causeway, also visiting the Carrick-A-Rede Rope Bridge! And [Game of Thrones Tours](https://gameofthronestours.com/) operate full day coach tours to Game of Thrones locations throughout Northern Ireland.
+
+For a full list of tours, see [https://visitbelfast.com/see-do/sightseeing-tours/](https://visitbelfast.com/see-do/sightseeing-tours/)
+
 ## Event Sponsors
 
 Click [here](sponsorspage/index.qmd) to see the event sponsors.
 
-::: {#event-sponsors}
+::: {#event-sponsors .column-screen}
 :::
 
 ::: {.column-screen style="background-color: #D6000D;"}

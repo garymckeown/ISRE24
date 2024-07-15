@@ -10,6 +10,7 @@ execute:
   echo: false
 
 header-includes:
+  - \usepackage{array}
   - \usepackage{sectsty} \allsectionsfont{\centering}
   - \setkomafont{section}{\normalfont\Huge\bfseries}
   - \usepackage[default,scale=0.95]{opensans}
@@ -49,11 +50,15 @@ isre24_program_overview <-
 table_track <- function(track) {
   isre24_program_communications |>
     filter(PSSlot == track) |>
-    mutate(
-      Title = str_replace_all(Paper.Title, "[\r\n]" , ""),
-      Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M"),
-      `Track Name` = paste0(Track, ': ', TYPE, ' - ', SessionTitle, " (Room ", Room, ")")
-    ) |> 
+  mutate(
+    Title = str_replace_all(Paper.Title, "[\r\n]" , ""),
+    Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M"),
+    `Track Name` = if_else(
+      Discussant != "No", 
+      paste0(Track, ': ', TYPE, ' - ', SessionTitle, ". Discussant: ", Discussant, " (Room ", Room, ")"),
+      paste0(Track, ': ', TYPE, ' - ', SessionTitle, " (Room ", Room, ")")
+    )
+  ) |> 
     select(`Track Name`, Presenter = Primary.Contact.Author.Name, Title, Time) |> 
     arrange(`Track Name`, Time) |> 
     as_grouped_data(groups = "Track Name") |> 
@@ -73,9 +78,10 @@ program_events <- function(program_day, program_rows) {
       level = "####",
       jump = "<br>",
       jump2 = "<br><br>",
+      location = paste0("(",location,")")
     ) |> 
-    select(level, time, event) |> 
-    unite("line", 1:3, sep = " ") |> 
+    select(level, time, event, location) |> 
+    unite("line", 1:4, sep = " ") |> 
     unlist() |> 
     cat(sep = "\n")
 }
@@ -169,6 +175,8 @@ ISRE2024 will take place **on the main Queen's University Belfast campus**, in t
 
 Download the campus map [here](https://www.qub.ac.uk/home/Filestore/Filetoupload,1511241,en.pdf).
 
+Please note that **Shimna: PFC/02/011** is the quiet room during the main ISRE2024 conference 
+
 \newpage
 
 # Instructions for Presenters
@@ -201,21 +209,23 @@ You are strongly encouraged to set up posters in the morning before the first co
 
 # Pre-conferences (17 July)
 
+Registration is in the Great Hall (and then in Whitla Hall during the main conference)
+
 We are thrilled to offer an array of pre-conference events designed to enrich your experience and deepen your engagement with the topics at hand. Dive into specialized workshops, networking sessions, and interactive discussions led by experts in their respective fields:
 
--   [Affective Computing Pre-Conference at ISRE](https://www.isre2024.org/preconference/list/affective_computing.html)
+-   [Affective Computing Pre-Conference at ISRE](https://www.isre2024.org/preconference/list/affective_computing.html) (Bann: PFC/0G/024)
 
--   [Cross-Species Emotion Research](https://www.isre2024.org/preconference/list/cross_species.html)
+-   [Cross-Species Emotion Research](https://www.isre2024.org/preconference/list/cross_species.html) (Moyola: PFC/02/017)
 
--   [Keep Calm and Regulate On(line)?](https://www.isre2024.org/preconference/list/experience_regulation.html)
+-   [Keep Calm and Regulate On(line)?](https://www.isre2024.org/preconference/list/experience_regulation.html) (Shimna: PFC/02/011)
 
--   [Emotions in Interpersonal Relationships](https://www.isre2024.org/preconference/list/emotions_relationships.html)
+-   [Emotions in Interpersonal Relationships](https://www.isre2024.org/preconference/list/emotions_relationships.html) (Roe: PFC/02/018)
 
--   [Engaging with Other People’s Suffering: Emotion, Empathy, Eudaimonia and Curiosity](https://www.isre2024.org/preconference/list/engaging_suffering.html)
+-   [Engaging with Other People’s Suffering: Emotion, Empathy, Eudaimonia and Curiosity](https://www.isre2024.org/preconference/list/engaging_suffering.html) (Farset: PFC/02/025)
 
--   [Emotional Development](https://www.isre2024.org/preconference/list/emotional_development.html)
+-   [Emotional Development](https://www.isre2024.org/preconference/list/emotional_development.html) (Lagan: PFC/02/026)
 
--   [Laughter and Other Non-Verbal Vocalisations Workshop](https://www.isre2024.org/preconference/list/laughter_workshop.html)
+-   [Laughter and Other Non-Verbal Vocalisations Workshop](https://www.isre2024.org/preconference/list/laughter_workshop.html) (Council Chamber)
 
 #### Evening: ISRE2024 Welcome Reception, Parliament Buildings
 
@@ -239,11 +249,11 @@ We are thrilled to offer an array of pre-conference events designed to enrich yo
 isre24_program_overview |> 
   filter(day == 18) |> 
   select(-day) |> 
-  add_row(time = "19:00", event = "ISRE2024 Early Career Event, QUB Great Hall") |> 
+  add_row(time = "19:00", event = "ISRE2024 Early Career Event", location = "QUB Great Hall") |> 
   kbl(booktabs = T, col.names = NULL, linesep = "") |> 
-  kable_styling(font_size = 10, latex_options = c("striped", "hold_position")) |> 
+  kable_styling(full_width = T, font_size = 10, latex_options = c("striped", "hold_position")) |> 
   column_spec(1, width = "1in") |> 
-  column_spec(2, width = "5in")
+  column_spec(2, width = "3in")
 ```
 
 ### 19 July
@@ -252,11 +262,11 @@ isre24_program_overview |>
 isre24_program_overview |> 
   filter(day == 19) |> 
   select(-day) |> 
-  add_row(time = "Evening", event = "ISRE2024 Conference Dinner, Belfast Titanic Museum") |> 
+  add_row(time = "Evening", event = "ISRE2024 Conference Dinner", location = "Belfast Titanic Museum") |> 
   kbl(booktabs = T, col.names = NULL, linesep = "") |> 
-  kable_styling(font_size = 10, latex_options = c("striped", "hold_position")) |> 
+  kable_styling(full_width = T, font_size = 10, latex_options = c("striped", "hold_position")) |> 
   column_spec(1, width = "1in") |> 
-  column_spec(2, width = "5in")
+  column_spec(2, width = "3in")
 ```
 
 ### 20 July
@@ -266,9 +276,9 @@ isre24_program_overview |>
   filter(day == 20) |> 
   select(-day) |> 
   kbl(booktabs = T, col.names = NULL, linesep = "") |> 
-  kable_styling(font_size = 10, latex_options = c("striped", "hold_position")) |> 
+  kable_styling(full_width = T, font_size = 10, latex_options = c("striped", "hold_position")) |> 
   column_spec(1, width = "1in") |> 
-  column_spec(2, width = "5in")
+  column_spec(2, width = "3in")
 ```
 
 \newpage
@@ -383,7 +393,18 @@ program_events(19, 3:4)
 Although many scholars bemoan the lack of consensus among emotion theorists, current theories agree  on several important ideas, such as the adaptiveness of emotions and their principal components, and there is increasing convergence on divisive issues, such as discrete categories vs. continuous dimensions and the role of biology vs. culture. In the future our goal should be to distinguish real from apparent differences and to identify differences that can be resolved empirically.
 
 ```{r results='asis'}
-program_events(19, 5:8)
+program_events(19, 5:7)
+```
+
+With the presence of:
+
+- Ursula Hess
+- Elise Kalokerinos 
+- Katie Greenaway
+- Carolyn MacCann
+
+```{r results='asis'}
+program_events(19, 8:8)
 ```
 
 ```{r}
