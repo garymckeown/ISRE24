@@ -159,30 +159,30 @@ Dissertation Award judges:
 
 ```{r}
 #| include: false
-# 
-# isre24_program_communications <-
-#   read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
-# 
-# PSSlot_Track <- isre24_program_communications |> 
-#   select(PSSlot, Track) |> 
-#   distinct() |> 
-#   filter(PSSlot != "Poster Session")
-# 
-# walk2(PSSlot_Track$PSSlot, PSSlot_Track$Track, ~quarto::quarto_render(
-#   input = here("program/tracks.qmd"),
-#   execute_params = list("PSSlot" = .x, "Track" = .y),
-#   output_file = glue::glue("{snakecase::to_any_case(.x)}_{.y}.html")
-# ))
-# 
-# PSSlot_Track <- isre24_program_communications |> 
-#   filter(PSSlot == "Poster Session") |> 
-#   select(PosterSession) |> 
-#   distinct()
-# 
-# walk(PSSlot_Track$PosterSession, ~quarto::quarto_render(
-#   input = here("program/poster.qmd"),
-#   execute_params = list("PosterSession" = .x),
-#   output_file = glue::glue("{snakecase::to_any_case(.x)}.html")
-# ))
+
+isre24_program_communications <-
+  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
+
+PSSlot_Track <- isre24_program_communications |> 
+  select(PSSlot, Track) |> 
+  distinct() |> 
+  filter(PSSlot != "Poster Session")
+
+walk2(PSSlot_Track$PSSlot, PSSlot_Track$Track, ~quarto::quarto_render(
+  input = here("program/tracks.qmd"),
+  execute_params = list("PSSlot" = .x, "Track" = .y),
+  output_file = glue::glue("{snakecase::to_any_case(.x)}_{.y}.html")
+))
+
+PSSlot_Track <- isre24_program_communications |> 
+  filter(PSSlot == "Poster Session") |> 
+  select(PosterSession) |> 
+  distinct()
+
+walk(PSSlot_Track$PosterSession, ~quarto::quarto_render(
+  input = here("program/poster.qmd"),
+  execute_params = list("PosterSession" = .x),
+  output_file = glue::glue("{snakecase::to_any_case(.x)}.html")
+))
 ```
 
