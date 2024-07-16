@@ -102,10 +102,11 @@ Pre-conferences:
 - [Language and Emotional Development](../preconference/list/emotional_development.qmd) (Lagan: PFC/02/026)
 - [Laughter and Other Non-Verbal Vocalisations](../preconference/list/laughter_workshop.qmd) (Council Chamber)
 
-#### Evening: ISRE2024 Welcome Reception for all ISRE attendees, Parliament Buildings
+#### Evening: ISRE2024 Welcome Reception, Parliament Buildings
 
-- 18:15 Buses departure from the QUB campus to the Northern Ireland Assembly 
-- 19:00 - 22:00 Welcome Reception 
+- 18:15 Buses departure from the QUB campus to the Parliament Buildings 
+- 19:00 - 22:00 Welcome Reception
+- 21:00, 21:30, and 22:00 Buses to bring people back
 
 ## 18 July {#july-18}
 
