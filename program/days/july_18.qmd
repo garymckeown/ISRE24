@@ -41,7 +41,7 @@ program_table <- function(PSSlot_name) {
       Link = glue::glue("../{snakecase::to_any_case(PSSlot)}_{Track}.html"),
       Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M")
     ) |> 
-    arrange(TrackName, Time) |> 
+    arrange(Track, Time) |> 
     select(`Track Name` = TrackName, Presenter = Primary.Contact.Author.Name, Title = Paper.Title, Time, Room, Link)
 
   data_index <- unique(data_program[, c("Track Name", "Room", "Link")])
