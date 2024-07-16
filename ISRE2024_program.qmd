@@ -50,18 +50,18 @@ isre24_program_overview <-
 table_track <- function(track) {
   isre24_program_communications |>
     filter(PSSlot == track) |>
-  mutate(
-    Title = str_replace_all(Paper.Title, "[\r\n]" , ""),
-    Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M"),
-    `Track Name` = paste0(Track, ': ', TYPE, ' - ', SessionTitle, " (Room ", Room, ")")
+    mutate(
+      Title = str_replace_all(Paper.Title, "[\r\n]" , ""),
+      Time = format(strptime(str_extract(Time, "[^-]+"), format = "%H:%M"), format = "%H:%M"),
+      `Track Name` = paste0(Track, ': ', TYPE, ' - ', SessionTitle, " (Room ", Room, ")")
     # `Track Name` = if_else(
     #   Discussant != "No", 
     #   paste0(Track, ': ', TYPE, ' - ', SessionTitle, ". Discussant: ", Discussant, " (Room ", Room, ")"),
     #   paste0(Track, ': ', TYPE, ' - ', SessionTitle, " (Room ", Room, ")")
     # )
-  ) |> 
+    ) |> 
+    arrange(Track, Time) |> 
     select(`Track Name`, Presenter = Primary.Contact.Author.Name, Title, Time) |> 
-    arrange(`Track Name`, Time) |> 
     as_grouped_data(groups = "Track Name") |> 
     as_flextable(hide_grouplabel = TRUE) |> 
     width(j = 1, 1.5, unit = "in") |> 
@@ -176,7 +176,7 @@ ISRE2024 will take place **on the main Queen's University Belfast campus**, in t
 
 Download the campus map [here](https://www.qub.ac.uk/home/Filestore/Filetoupload,1511241,en.pdf).
 
-Please note that **Shimna: PFC/02/011** is the quiet room during the main ISRE2024 conference 
+Please note that **Shimna: PFC/02/011** is the quiet room during the main ISRE2024 conference.
 
 \newpage
 
