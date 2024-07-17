@@ -400,12 +400,15 @@ Although many scholars bemoan the lack of consensus among emotion theorists, cur
 program_events(19, 5:7)
 ```
 
+####
+
 With the presence of:
 
 - Ursula Hess
 - Elise Kalokerinos 
 - Katie Greenaway
 - Carolyn MacCann
+- Giovanna Colombetti
 
 ```{r results='asis'}
 program_events(19, 8:8)
