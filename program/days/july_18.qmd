@@ -166,8 +166,6 @@ program_events(18, 12:12)
 program_table("Flash Talks 1")
 ```
 
-`*` Author presenting the communication
-
 #### Evening
 
 **19:00 ISRE2024 Early Career Event, QUB Great Hall**

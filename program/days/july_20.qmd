@@ -132,5 +132,3 @@ program_table("Parallel Session 6")
 ```{r results='asis'}
 program_events(20, 3:6)
 ```
-
-`*` Author presenting the communication

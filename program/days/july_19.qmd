@@ -171,8 +171,6 @@ program_events(19, 10:11)
 program_table("Flash Talks 2")
 ```
 
-`*` Author presenting the communication
-
 #### Evening
 
 **ISRE2024 Conference Dinner, Titanic Belfast**
