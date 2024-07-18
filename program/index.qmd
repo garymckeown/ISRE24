@@ -121,9 +121,9 @@ isre24_program_overview |>
 
 See [here](days/july_18.qmd) for more details on the day.
 
-#### Evening
+#### Evening: ISRE2024 Early Career Event, QUB Great Hall
 
-**19:00 ISRE2024 Early Career Event, QUB Great Hall**
+- 19:00 Refreshments and light food
 
 ## 19 July {#july-19}
 
@@ -136,9 +136,12 @@ isre24_program_overview |>
 
 See [here](days/july_19.qmd) for more details on the day.
 
-#### Evening
+#### Evening: ISRE2024 Conference Dinner, Titanic Belfast
 
-**ISRE2024 Conference Dinner, Titanic Belfast**
+- 19:00 Meet at the university gates
+- 19:15 Buses depart
+- 19:30 Reception starts
+
 
 ## 20 July {#july-20}
 
