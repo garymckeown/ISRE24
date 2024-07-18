@@ -133,13 +133,8 @@ program_table("Parallel Session 4")
 program_events(19, 3:7)
 ```
 
-With the presence of:
+With the presence of Desmond Ong, Joost Broekens, Giovanna Colombetti, Brian Parkinson, Elise Kalokerinos, Katie Greenaway, Ursula Hess, and Carolyn MacCann.
 
-- Ursula Hess
-- Elise Kalokerinos 
-- Katie Greenaway
-- Carolyn MacCann
-- Giovanna Colombetti
 
 <br>
 
