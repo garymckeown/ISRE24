@@ -106,49 +106,44 @@ Dissertation Award judges:
 
 **Conference Chairs:**
 
-- Gary McKeown, Queens University Belfast
-- Magda Rychlowska, Queens University Belfast
+- Gary McKeown
+- Magda Rychlowska
 
 **Program Chairs:**
 
-- Arvid Kappas, Constructor University Bremen
-- Yasemin Erbas, Tilburg University
+- Arvid Kappas
+- Yasemin Erbas
 
 **Local Chairs:**
 
-- Salvador Alvidrez, Queens University Belfast
-- Bronagh Allison, Queens University Belfast
-- Anna Hollis, Queens University Belfast
+- Salvador Alvidrez
+- Bronagh Allison
+- Anna Hollis
 
 **Early Career Team:**
 
-- Kristina Šparemblek, Queens University Belfast
-- Elisabella Hohulin, Queens University Belfast
-- John Curry, Queens University Belfast
-- Sam Manson, Queens University Belfast
-- Zoi Polyzopoulou, University of Western Macedonia 
-- Ana Milošič, Queens University Belfast
+- Katie McGaughey, Kristina Šparemblek, Elisabella Hohulin, John Curry, Sam Manson, Zoi Polyzopoulou, and Ana Milošič
 
 **Publicity Chair:**
 
-- Teerawat Monnor, Université de Genève
+- Teerawat Monnor
 
 **Career Development Chair:**
 
-- Manuel Gonzalez, Queens University Belfast
+- Manuel Gonzalez
 
 **Travel Awards Chair:**
 
-- Bethany Corbett, Ulster University
-- Anna Hollis, Queens University Belfast
+- Bethany Corbett
+- Anna Hollis
 
 **Sustainability Consultation:**
 
-- Sam Drury Shore, Devizes Outdoor Celebratory Arts 
+- Sam Drury Shore
 
-**Webmaster:**
+**Webmaster & App:**
 
-- Damien Dupré, Dublin City University
+- Damien Dupré, Anoop Kadan, Ana Milošič, and Gary McKeown
 
 \newpage
 
@@ -233,8 +228,6 @@ We are thrilled to offer an array of pre-conference events designed to enrich yo
 - 18:15 Buses departure from University Road, facing the Lanyon Building Gates
 - 19:00 - 22:00 Welcome Reception 
 - 21:00, 21:30, and 22:00 Buses to bring people back
-
-**Given the limited capacity and the regulations of Parliament Buildings, we can ensure entry only to 275 people who have previously expressed interest in attending the Welcome Reception (Qualtrics Questionnaire). If you did not complete the questionnaire and are not a keynote or a member of the ISRE board, your place is NOT GUARANTEED. Please reach out to ISRE24 organizers with any questions.**
 
 \newpage
 
@@ -445,6 +438,10 @@ table_track("Flash Talks 2")
 #### Evening
 
 **ISRE2024 Conference Dinner, Titanic Belfast**
+
+- 19:00 Meet at the university gates
+- 19:15 Buses depart
+- 19:30 Reception starts
 
 \newpage
 

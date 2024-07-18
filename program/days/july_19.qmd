@@ -166,6 +166,8 @@ program_events(19, 10:11)
 program_table("Flash Talks 2")
 ```
 
-#### Evening
+#### Evening: ISRE2024 Conference Dinner, Titanic Belfast
 
-**ISRE2024 Conference Dinner, Titanic Belfast**
+- 19:00 Meet at the university gates
+- 19:15 Buses depart
+- 19:30 Reception starts
