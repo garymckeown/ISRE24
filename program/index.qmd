@@ -165,9 +165,26 @@ Dissertation Award judges:
 
 ```{r}
 #| include: false
+list_authors <- c("Alia Hussain",
+                  "Khalid El asri",
+                  "Thibaut Batal",
+                  "Lauren Edwards",
+                  "Christine A Flammia",
+                  "Martina Gnerre",
+                  "Kostas Karpouzis",
+                  "Jennifer C Lay",
+                  "Tal Moran",
+                  "Ariel J Mosley",
+                  "Vera Novković",
+                  "Oksana Quinlan",
+                  "Kaylee R Seddio",
+                  "Nutankumar S Thingujam",
+                  "Kutlu Kağan Türkarslan",
+                  "Adrianna Wielgopolan")
 
 isre24_program_communications <-
-  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
+  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A") |>
+  filter(!Primary.Contact.Author.Name %in% c(list_authors))
 
 PSSlot_Track <- isre24_program_communications |> 
   select(PSSlot, Track) |> 
