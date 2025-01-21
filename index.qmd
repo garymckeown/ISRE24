@@ -22,7 +22,7 @@ listing:
 ::: {.column-screen style="transition: all 0.3s ease-in-out; text-align: center;"}
 # 2024 Conference of the<br>International Society for Research on Emotion 
 
-![](https://cdn.ymaws.com/www.isre.org/resource/resmgr/homepage/isre24_slide.jpg){fig-alt="A view of Belfast City  at dusk with Belfast City Hall in the foreground" fig-align="center" width="100%"}
+![](images/isre2024.jpg){fig-alt="A view of Belfast City  at dusk with Belfast City Hall in the foreground" fig-align="center" width="100%"}
 :::
 
 # About the Conference

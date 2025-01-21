@@ -219,7 +219,13 @@ hr {
   background-size: 417px 625px; /* 4166 × 6246*/
   background-position: center;
 }
-   
+
+.user-container #samuelday.card_team {
+  background: url("https://github.com/garymckeown/ISRE24/blob/main/people/pictures/samuelday.jpeg?raw=true") no-repeat;
+  background-size: 400px 533px; /* 1200 × 1600*/
+  background-position: center;
+}
+
 .inline-photo3 {
   box-shadow: 1em 1em 2em .25em #004D7E;
   transform: translateY(4em); //rotateZ(-5deg);

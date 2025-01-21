@@ -40,9 +40,27 @@ library(knitr)
 library(kableExtra)
 library(officer)
 
+list_authors <- c("Alia Hussain",
+                  "Khalid El asri",
+                  "Thibaut Batal",
+                  "Lauren Edwards",
+                  "Christine A Flammia",
+                  "Martina Gnerre",
+                  "Kostas Karpouzis",
+                  "Jennifer C Lay",
+                  "Tal Moran",
+                  "Ariel J Mosley",
+                  "Vera Novković",
+                  "Oksana Quinlan",
+                  "Kaylee R Seddio",
+                  "Nutankumar S Thingujam",
+                  "Kutlu Kağan Türkarslan",
+                  "Adrianna Wielgopolan")
+
 # data -------------------------------------------------------------------------
 isre24_program_communications <-
-  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A")
+  read_sheet("https://docs.google.com/spreadsheets/d/1IXNmqqwtPi70zxuf4q6QTpIsFi4anOuSm4RZySt_m7A") |> 
+  filter(!Primary.Contact.Author.Name %in% c(list_authors))
 isre24_program_overview <- 
   read_sheet("https://docs.google.com/spreadsheets/d/1-L884Twe1mh6pdItcBO8QobBRAXgw-RkbinI5QrvEtk")
 

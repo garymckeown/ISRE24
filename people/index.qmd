@@ -135,6 +135,12 @@ Early Career Team
         <div class="hover_esp_team">Katie McGaughey</div>
         </div>
         </a>
+        <!-- Card EC Team-->
+        <a href="www.linkedin.com/in/sam-day-159303155">
+        <div id="samuelday" class="card_team inline-photo3 show-on-scroll">
+        <div class="hover_esp_team">Samuel Day</div>
+        </div>
+        </a>
     </div>
 </section>
 ```
